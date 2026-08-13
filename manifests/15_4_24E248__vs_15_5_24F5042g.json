@@ -1,0 +1,29 @@
+{
+  "device": "UniversalMac",
+  "from": {
+    "build": "24E248",
+    "input": "UniversalMac_15.4_24E248_Restore.ipsw",
+    "version": "15.4"
+  },
+  "id": "macos-15.5-24E248-24F5042g",
+  "major_version": 15,
+  "payload": {
+    "entrypoint": "diffs/15_4_24E248__vs_15_5_24F5042g/README.md",
+    "git_tree": "75de4ad3a1104de53862220b80a7acf6d14fb88d",
+    "logical_bytes": 19499337,
+    "path": "diffs/15_4_24E248__vs_15_5_24F5042g",
+    "tracked_file_count": 1350
+  },
+  "platform": "macOS",
+  "schema_version": 1,
+  "source": {
+    "commit": "d881e84676308404c6947d0218c11f347a6f3a89",
+    "path": "15_4_24E248__vs_15_5_24F5042g",
+    "repository": "https://github.com/blacktop/ipsw-diffs"
+  },
+  "to": {
+    "build": "24F5042g",
+    "input": "UniversalMac_15.5_24F5042g_Restore.ipsw",
+    "version": "15.5"
+  }
+}

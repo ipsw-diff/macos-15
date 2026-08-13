@@ -16,6 +16,7 @@ release sequence is implied.
 
 | Device | Comparison | Manifest |
 | --- | --- | --- |
+| `UniversalMac` | [15.0 (24A5279h) → 15.0 (24A5289g)](diffs/15_0_24A5279h__vs_15_0_24A5289g/TOC.md) | [provenance](manifests/15_0_24A5279h__vs_15_0_24A5289g.json) |
 | `UniversalMac` | [15.3.2 (24D81) → 15.4 (24E248)](diffs/15_3_2_24D81__vs_15_4_24E248/README.md) | [provenance](manifests/15_3_2_24D81__vs_15_4_24E248.json) |
 | `UniversalMac` | [15.4 (24E248) → 15.5 (24F5042g)](diffs/15_4_24E248__vs_15_5_24F5042g/README.md) | [provenance](manifests/15_4_24E248__vs_15_5_24F5042g.json) |
 

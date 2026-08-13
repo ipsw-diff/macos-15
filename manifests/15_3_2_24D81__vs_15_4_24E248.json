@@ -1,0 +1,29 @@
+{
+  "device": "UniversalMac",
+  "from": {
+    "build": "24D81",
+    "input": "UniversalMac_15.3.2_24D81_Restore.ipsw",
+    "version": "15.3.2"
+  },
+  "id": "macos-15.4-24D81-24E248",
+  "major_version": 15,
+  "payload": {
+    "entrypoint": "diffs/15_3_2_24D81__vs_15_4_24E248/README.md",
+    "git_tree": "7ff83e3092b48840eafda969a8c0464e8d23c6ba",
+    "logical_bytes": 218638978,
+    "path": "diffs/15_3_2_24D81__vs_15_4_24E248",
+    "tracked_file_count": 7660
+  },
+  "platform": "macOS",
+  "schema_version": 1,
+  "source": {
+    "commit": "d881e84676308404c6947d0218c11f347a6f3a89",
+    "path": "15_3_2_24D81__vs_15_4_24E248",
+    "repository": "https://github.com/blacktop/ipsw-diffs"
+  },
+  "to": {
+    "build": "24E248",
+    "input": "UniversalMac_15.4_24E248_Restore.ipsw",
+    "version": "15.4"
+  }
+}

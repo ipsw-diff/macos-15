@@ -1,0 +1,35 @@
+## com.apple.iokit.IOSCSIArchitectureModelFamily
+
+> `com.apple.iokit.IOSCSIArchitectureModelFamily`
+
+```diff
+
+-500.120.1.0.0
++500.120.2.0.0
+   __TEXT.__cstring: 0x1676
+   __TEXT.__const: 0x18
+-  __TEXT_EXEC.__text: 0x1b2e8
++  __TEXT_EXEC.__text: 0x1b378
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x468
+   __DATA.__common: 0x1f0
+Symbols:
++ __ZZN18IOSCSITargetDevice17CreateLogicalUnitEPhE21kalloc_type_view_2872
++ __ZZN18IOSCSITargetDevice17CreateLogicalUnitEPhE21kalloc_type_view_2919
++ __ZZN18IOSCSITargetDevice17PerformREPORTLUNSEvE21kalloc_type_view_1071
++ __ZZN18IOSCSITargetDevice17PerformREPORTLUNSEvE21kalloc_type_view_1120
++ __ZZN18IOSCSITargetDevice19ScanForLogicalUnitsEvE21kalloc_type_view_1030
++ __ZZN18IOSCSITargetDevice32PublishDefaultINQUIRYInformationEvE21kalloc_type_view_1900
++ __ZZN18IOSCSITargetDevice32PublishDefaultINQUIRYInformationEvE21kalloc_type_view_1948
++ __ZZN18IOSCSITargetDevice32PublishDefaultINQUIRYInformationEvE21kalloc_type_view_1960
+- __ZZN18IOSCSITargetDevice17CreateLogicalUnitEPhE21kalloc_type_view_2854
+- __ZZN18IOSCSITargetDevice17CreateLogicalUnitEPhE21kalloc_type_view_2901
+- __ZZN18IOSCSITargetDevice17PerformREPORTLUNSEvE21kalloc_type_view_1053
+- __ZZN18IOSCSITargetDevice17PerformREPORTLUNSEvE21kalloc_type_view_1102
+- __ZZN18IOSCSITargetDevice19ScanForLogicalUnitsEvE21kalloc_type_view_1012
+- __ZZN18IOSCSITargetDevice32PublishDefaultINQUIRYInformationEvE21kalloc_type_view_1882
+- __ZZN18IOSCSITargetDevice32PublishDefaultINQUIRYInformationEvE21kalloc_type_view_1930
+- __ZZN18IOSCSITargetDevice32PublishDefaultINQUIRYInformationEvE21kalloc_type_view_1942
+Functions:
+~ __ZN18IOSCSITargetDevice7messageEjP9IOServicePv : 164 -> 308
+```

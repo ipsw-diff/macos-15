@@ -1,0 +1,49 @@
+## ssh
+
+> `/usr/bin/ssh`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__objc_selrefs`
+- `__DATA.__data`
+
+```diff
+
+-346.120.1.0.0
+-  __TEXT.__text: 0x6d934
++346.120.3.0.0
++  __TEXT.__text: 0x6dab0
+   __TEXT.__auth_stubs: 0x1a30
+   __TEXT.__objc_stubs: 0x140
+   __TEXT.__const: 0x1c3b8
+-  __TEXT.__cstring: 0x14cb5
++  __TEXT.__cstring: 0x14cf6
+   __TEXT.__objc_methname: 0xcb
+   __TEXT.__unwind_info: 0xcc0
+   __TEXT.__eh_frame: 0x68
+
+   - /usr/lib/libpam.2.dylib
+   - /usr/lib/libresolv.9.dylib
+   - /usr/lib/libz.1.dylib
+-  Functions: 1058
++  Functions: 1059
+   Symbols:   478
+-  CStrings:  3034
++  CStrings:  3041
+ 
+CStrings:
++ "OpenSSH_9.9p2"
++ "exec="
++ "host="
++ "localnetwork="
++ "localuser="
++ "originalhost="
++ "tagged="
++ "user="
+- "OpenSSH_9.9p1"
+```

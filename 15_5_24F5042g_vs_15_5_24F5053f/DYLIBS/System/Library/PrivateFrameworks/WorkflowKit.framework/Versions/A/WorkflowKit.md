@@ -1,0 +1,575 @@
+## WorkflowKit
+
+> `/System/Library/PrivateFrameworks/WorkflowKit.framework/Versions/A/WorkflowKit`
+
+```diff
+
+-3603.0.3.0.0
+-  __TEXT.__text: 0x65f448
+-  __TEXT.__auth_stubs: 0x5aa0
++3605.0.0.0.0
++  __TEXT.__text: 0x65f388
++  __TEXT.__auth_stubs: 0x5ad0
+   __TEXT.__objc_methlist: 0x2ce0c
+   __TEXT.__const: 0xbef0
+   __TEXT.__dlopen_cstrs: 0xc69
+-  __TEXT.__cstring: 0x7afe0
++  __TEXT.__cstring: 0x7af21
+   __TEXT.__constg_swiftt: 0x458c
+   __TEXT.__swift5_typeref: 0x5fcb
+   __TEXT.__swift5_builtin: 0x2f8
+
+   __TEXT.__swift_as_entry: 0x620
+   __TEXT.__swift_as_ret: 0x76c
+   __TEXT.__swift5_capture: 0x131c
+-  __TEXT.__oslogstring: 0x15155
++  __TEXT.__oslogstring: 0x151a1
+   __TEXT.__swift5_protos: 0xac
+   __TEXT.__swift5_mpenum: 0x60
+   __TEXT.__gcc_except_tab: 0x5088
+   __TEXT.__ustring: 0x37ac
+-  __TEXT.__unwind_info: 0x11f18
++  __TEXT.__unwind_info: 0x11f10
+   __TEXT.__eh_frame: 0xfc88
+   __TEXT.__objc_classname: 0x76ec
+   __TEXT.__objc_methname: 0x54ef6
+   __TEXT.__objc_methtype: 0x9225
+   __TEXT.__objc_stubs: 0x34140
+-  __DATA_CONST.__got: 0x40a8
+-  __DATA_CONST.__const: 0x42e0
++  __DATA_CONST.__got: 0x40c8
++  __DATA_CONST.__const: 0x42c0
+   __DATA_CONST.__objc_classlist: 0x1f10
+   __DATA_CONST.__objc_catlist: 0x3a0
+   __DATA_CONST.__objc_protolist: 0x4d0
+
+   __DATA_CONST.__objc_protorefs: 0x1a0
+   __DATA_CONST.__objc_superrefs: 0x11f8
+   __DATA_CONST.__objc_arraydata: 0x1390
+-  __AUTH_CONST.__auth_got: 0x2d68
+-  __AUTH_CONST.__const: 0x2fc20
+-  __AUTH_CONST.__cfstring: 0x27980
++  __AUTH_CONST.__auth_got: 0x2d80
++  __AUTH_CONST.__const: 0x2fc00
++  __AUTH_CONST.__cfstring: 0x278c0
+   __AUTH_CONST.__objc_const: 0x50e98
+   __AUTH_CONST.__objc_intobj: 0xf30
+   __AUTH_CONST.__objc_arrayobj: 0x948
+
+   __AUTH.__data: 0x3638
+   __DATA.__objc_ivar: 0x268c
+   __DATA.__data: 0x8380
+-  __DATA.__bss: 0x13a98
++  __DATA.__bss: 0x13a88
+   __DATA.__common: 0x58
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 27038
+-  Symbols:   38261
+-  CStrings:  29067
++  Functions: 27036
++  Symbols:   38260
++  CStrings:  29063
+ 
+Symbols:
++ GCC_except_table10086
++ GCC_except_table10109
++ GCC_except_table10112
++ GCC_except_table10144
++ GCC_except_table10155
++ GCC_except_table10323
++ GCC_except_table10329
++ GCC_except_table10348
++ GCC_except_table10473
++ GCC_except_table10507
++ GCC_except_table10543
++ GCC_except_table10570
++ GCC_except_table10577
++ GCC_except_table10609
++ GCC_except_table10614
++ GCC_except_table10654
++ GCC_except_table10657
++ GCC_except_table10660
++ GCC_except_table10663
++ GCC_except_table10847
++ GCC_except_table10968
++ GCC_except_table11010
++ GCC_except_table11360
++ GCC_except_table11386
++ GCC_except_table11401
++ GCC_except_table11472
++ GCC_except_table11732
++ GCC_except_table11738
++ GCC_except_table11741
++ GCC_except_table11744
++ GCC_except_table11747
++ GCC_except_table11752
++ GCC_except_table11759
++ GCC_except_table11764
++ GCC_except_table11767
++ GCC_except_table11770
++ GCC_except_table11773
++ GCC_except_table11776
++ GCC_except_table11779
++ GCC_except_table11782
++ GCC_except_table11785
++ GCC_except_table11788
++ GCC_except_table11791
++ GCC_except_table11794
++ GCC_except_table11797
++ GCC_except_table11819
++ GCC_except_table11822
++ GCC_except_table11823
++ GCC_except_table11829
++ GCC_except_table11830
++ GCC_except_table11834
++ GCC_except_table11837
++ GCC_except_table11840
++ GCC_except_table11929
++ GCC_except_table12116
++ GCC_except_table12259
++ GCC_except_table12274
++ GCC_except_table12280
++ GCC_except_table12287
++ GCC_except_table12382
++ GCC_except_table12395
++ GCC_except_table12403
++ GCC_except_table12441
++ GCC_except_table12474
++ GCC_except_table12488
++ GCC_except_table12561
++ GCC_except_table12577
++ GCC_except_table12681
++ GCC_except_table12765
++ GCC_except_table12794
++ GCC_except_table12848
++ GCC_except_table12859
++ GCC_except_table12903
++ GCC_except_table13208
++ GCC_except_table13244
++ GCC_except_table13293
++ GCC_except_table13369
++ GCC_except_table13388
++ GCC_except_table13394
++ GCC_except_table13441
++ GCC_except_table13542
++ GCC_except_table13557
++ GCC_except_table13575
++ GCC_except_table13576
++ GCC_except_table13586
++ GCC_except_table13597
++ GCC_except_table13787
++ GCC_except_table13792
++ GCC_except_table13796
++ GCC_except_table13985
++ GCC_except_table14052
++ GCC_except_table14306
++ GCC_except_table14332
++ GCC_except_table14445
++ GCC_except_table14563
++ GCC_except_table14609
++ GCC_except_table14614
++ GCC_except_table14623
++ GCC_except_table14738
++ GCC_except_table14767
++ GCC_except_table14778
++ GCC_except_table14781
++ GCC_except_table15082
++ GCC_except_table15122
++ GCC_except_table15133
++ GCC_except_table15147
++ GCC_except_table15150
++ GCC_except_table15339
++ GCC_except_table15460
++ GCC_except_table2010
++ GCC_except_table2083
++ GCC_except_table2163
++ GCC_except_table2168
++ GCC_except_table2329
++ GCC_except_table2511
++ GCC_except_table2538
++ GCC_except_table2607
++ GCC_except_table2644
++ GCC_except_table2753
++ GCC_except_table2769
++ GCC_except_table2862
++ GCC_except_table2921
++ GCC_except_table2938
++ GCC_except_table2944
++ GCC_except_table3199
++ GCC_except_table3231
++ GCC_except_table3249
++ GCC_except_table3253
++ GCC_except_table3314
++ GCC_except_table3325
++ GCC_except_table3330
++ GCC_except_table3507
++ GCC_except_table3515
++ GCC_except_table3519
++ GCC_except_table3525
++ GCC_except_table3526
++ GCC_except_table3812
++ GCC_except_table3816
++ GCC_except_table4150
++ GCC_except_table4263
++ GCC_except_table4365
++ GCC_except_table4379
++ GCC_except_table4398
++ GCC_except_table4406
++ GCC_except_table4582
++ GCC_except_table4763
++ GCC_except_table4769
++ GCC_except_table4775
++ GCC_except_table4867
++ GCC_except_table4881
++ GCC_except_table4994
++ GCC_except_table5021
++ GCC_except_table5027
++ GCC_except_table5067
++ GCC_except_table5125
++ GCC_except_table5133
++ GCC_except_table5194
++ GCC_except_table5251
++ GCC_except_table5256
++ GCC_except_table5389
++ GCC_except_table5489
++ GCC_except_table5496
++ GCC_except_table5504
++ GCC_except_table5510
++ GCC_except_table5514
++ GCC_except_table5762
++ GCC_except_table5842
++ GCC_except_table5845
++ GCC_except_table5846
++ GCC_except_table5852
++ GCC_except_table5859
++ GCC_except_table5940
++ GCC_except_table6002
++ GCC_except_table6012
++ GCC_except_table6104
++ GCC_except_table6229
++ GCC_except_table6230
++ GCC_except_table6331
++ GCC_except_table6375
++ GCC_except_table6393
++ GCC_except_table6421
++ GCC_except_table6631
++ GCC_except_table6632
++ GCC_except_table6808
++ GCC_except_table6812
++ GCC_except_table6813
++ GCC_except_table6816
++ GCC_except_table6822
++ GCC_except_table6827
++ GCC_except_table6832
++ GCC_except_table6833
++ GCC_except_table6837
++ GCC_except_table6878
++ GCC_except_table6883
++ GCC_except_table6941
++ GCC_except_table7319
++ GCC_except_table7329
++ GCC_except_table7403
++ GCC_except_table7763
++ GCC_except_table7810
++ GCC_except_table7811
++ GCC_except_table7871
++ GCC_except_table7923
++ GCC_except_table7988
++ GCC_except_table8124
++ GCC_except_table8135
++ GCC_except_table8318
++ GCC_except_table8327
++ GCC_except_table8339
++ GCC_except_table8568
++ GCC_except_table8587
++ GCC_except_table8793
++ GCC_except_table8931
++ GCC_except_table8942
++ GCC_except_table8987
++ GCC_except_table9055
++ GCC_except_table9060
++ GCC_except_table9063
++ GCC_except_table9067
++ GCC_except_table9101
++ GCC_except_table9240
++ GCC_except_table9278
++ GCC_except_table9493
++ GCC_except_table9499
++ GCC_except_table9504
++ GCC_except_table9514
++ GCC_except_table9524
++ GCC_except_table9539
++ GCC_except_table9559
++ GCC_except_table9572
++ GCC_except_table9622
++ GCC_except_table9628
++ GCC_except_table9634
++ GCC_except_table9671
++ GCC_except_table9680
++ GCC_except_table9902
++ GCC_except_table9905
++ GCC_except_table9915
++ GCC_except_table9918
++ GCC_except_table9923
++ GCC_except_table9934
++ _getWFEditorLogObject
++ _nw_browse_descriptor_set_browse_scope
+- GCC_except_table10088
+- GCC_except_table10111
+- GCC_except_table10116
+- GCC_except_table10146
+- GCC_except_table10157
+- GCC_except_table10325
+- GCC_except_table10331
+- GCC_except_table10350
+- GCC_except_table10475
+- GCC_except_table10509
+- GCC_except_table10547
+- GCC_except_table10572
+- GCC_except_table10583
+- GCC_except_table10611
+- GCC_except_table10616
+- GCC_except_table10656
+- GCC_except_table10659
+- GCC_except_table10662
+- GCC_except_table10665
+- GCC_except_table10849
+- GCC_except_table10970
+- GCC_except_table11012
+- GCC_except_table11362
+- GCC_except_table11388
+- GCC_except_table11403
+- GCC_except_table11474
+- GCC_except_table11734
+- GCC_except_table11740
+- GCC_except_table11743
+- GCC_except_table11746
+- GCC_except_table11749
+- GCC_except_table11754
+- GCC_except_table11761
+- GCC_except_table11766
+- GCC_except_table11769
+- GCC_except_table11772
+- GCC_except_table11775
+- GCC_except_table11778
+- GCC_except_table11781
+- GCC_except_table11784
+- GCC_except_table11787
+- GCC_except_table11790
+- GCC_except_table11793
+- GCC_except_table11796
+- GCC_except_table11799
+- GCC_except_table11821
+- GCC_except_table11825
+- GCC_except_table11826
+- GCC_except_table11831
+- GCC_except_table11832
+- GCC_except_table11836
+- GCC_except_table11839
+- GCC_except_table11844
+- GCC_except_table11931
+- GCC_except_table12118
+- GCC_except_table12261
+- GCC_except_table12276
+- GCC_except_table12284
+- GCC_except_table12289
+- GCC_except_table12384
+- GCC_except_table12397
+- GCC_except_table12405
+- GCC_except_table12443
+- GCC_except_table12476
+- GCC_except_table12494
+- GCC_except_table12563
+- GCC_except_table12579
+- GCC_except_table12683
+- GCC_except_table12767
+- GCC_except_table12796
+- GCC_except_table12850
+- GCC_except_table12861
+- GCC_except_table12907
+- GCC_except_table13210
+- GCC_except_table13246
+- GCC_except_table13295
+- GCC_except_table13371
+- GCC_except_table13390
+- GCC_except_table13396
+- GCC_except_table13443
+- GCC_except_table13544
+- GCC_except_table13559
+- GCC_except_table13578
+- GCC_except_table13579
+- GCC_except_table13588
+- GCC_except_table13599
+- GCC_except_table13789
+- GCC_except_table13794
+- GCC_except_table13798
+- GCC_except_table13987
+- GCC_except_table14054
+- GCC_except_table14308
+- GCC_except_table14334
+- GCC_except_table14447
+- GCC_except_table14565
+- GCC_except_table14611
+- GCC_except_table14616
+- GCC_except_table14625
+- GCC_except_table14740
+- GCC_except_table14769
+- GCC_except_table14780
+- GCC_except_table14783
+- GCC_except_table15084
+- GCC_except_table15124
+- GCC_except_table15135
+- GCC_except_table15149
+- GCC_except_table15152
+- GCC_except_table15341
+- GCC_except_table15462
+- GCC_except_table2012
+- GCC_except_table2085
+- GCC_except_table2165
+- GCC_except_table2170
+- GCC_except_table2331
+- GCC_except_table2513
+- GCC_except_table2540
+- GCC_except_table2609
+- GCC_except_table2646
+- GCC_except_table2755
+- GCC_except_table2771
+- GCC_except_table2864
+- GCC_except_table2923
+- GCC_except_table2940
+- GCC_except_table2946
+- GCC_except_table3201
+- GCC_except_table3233
+- GCC_except_table3251
+- GCC_except_table3255
+- GCC_except_table3316
+- GCC_except_table3329
+- GCC_except_table3332
+- GCC_except_table3509
+- GCC_except_table3517
+- GCC_except_table3523
+- GCC_except_table3527
+- GCC_except_table3528
+- GCC_except_table3814
+- GCC_except_table3818
+- GCC_except_table4152
+- GCC_except_table4265
+- GCC_except_table4367
+- GCC_except_table4381
+- GCC_except_table4400
+- GCC_except_table4408
+- GCC_except_table4584
+- GCC_except_table4765
+- GCC_except_table4771
+- GCC_except_table4777
+- GCC_except_table4869
+- GCC_except_table4883
+- GCC_except_table4996
+- GCC_except_table5023
+- GCC_except_table5029
+- GCC_except_table5069
+- GCC_except_table5127
+- GCC_except_table5135
+- GCC_except_table5196
+- GCC_except_table5253
+- GCC_except_table5260
+- GCC_except_table5391
+- GCC_except_table5495
+- GCC_except_table5502
+- GCC_except_table5508
+- GCC_except_table5512
+- GCC_except_table5516
+- GCC_except_table5764
+- GCC_except_table5844
+- GCC_except_table5848
+- GCC_except_table5849
+- GCC_except_table5854
+- GCC_except_table5861
+- GCC_except_table5942
+- GCC_except_table6004
+- GCC_except_table6014
+- GCC_except_table6106
+- GCC_except_table6232
+- GCC_except_table6233
+- GCC_except_table6333
+- GCC_except_table6377
+- GCC_except_table6395
+- GCC_except_table6423
+- GCC_except_table6636
+- GCC_except_table6637
+- GCC_except_table6810
+- GCC_except_table6814
+- GCC_except_table6815
+- GCC_except_table6818
+- GCC_except_table6824
+- GCC_except_table6829
+- GCC_except_table6834
+- GCC_except_table6835
+- GCC_except_table6839
+- GCC_except_table6880
+- GCC_except_table6885
+- GCC_except_table6943
+- GCC_except_table7321
+- GCC_except_table7331
+- GCC_except_table7405
+- GCC_except_table7765
+- GCC_except_table7812
+- GCC_except_table7813
+- GCC_except_table7873
+- GCC_except_table7925
+- GCC_except_table7990
+- GCC_except_table8126
+- GCC_except_table8137
+- GCC_except_table8320
+- GCC_except_table8329
+- GCC_except_table8341
+- GCC_except_table8570
+- GCC_except_table8589
+- GCC_except_table8795
+- GCC_except_table8937
+- GCC_except_table8944
+- GCC_except_table8989
+- GCC_except_table9057
+- GCC_except_table9062
+- GCC_except_table9065
+- GCC_except_table9069
+- GCC_except_table9103
+- GCC_except_table9242
+- GCC_except_table9280
+- GCC_except_table9495
+- GCC_except_table9501
+- GCC_except_table9512
+- GCC_except_table9518
+- GCC_except_table9526
+- GCC_except_table9541
+- GCC_except_table9561
+- GCC_except_table9574
+- GCC_except_table9624
+- GCC_except_table9630
+- GCC_except_table9636
+- GCC_except_table9673
+- GCC_except_table9682
+- GCC_except_table9907
+- GCC_except_table9914
+- GCC_except_table9917
+- GCC_except_table9922
+- GCC_except_table9925
+- GCC_except_table9936
+- WFPossibleMobileDocumentsFileProviderDomainIDs.onceToken
+- WFPossibleMobileDocumentsFileProviderDomainIDs.possibleDomainIDs
+- ___WFPossibleMobileDocumentsFileProviderDomainIDs_block_invoke
+CStrings:
++ "%s Import Question unable to find parameter %{public}@ on action %{public}@"
++ "-[WFWorkflowImportQuestion initWithAction:parameter:question:defaultState:]"
+- "WFWorkflowImportQuestion.m"
+- "action && parameter && actionHasParameter"
+- "com.apple.CloudDocs.MobileDocumentsFileProvider"
+- "com.apple.CloudDocs.MobileDocumentsFileProviderManaged"
+- "com.apple.CloudDocs.iCloudDriveFileProvider"
+- "com.apple.CloudDocs.iCloudDriveFileProviderManaged"
+```

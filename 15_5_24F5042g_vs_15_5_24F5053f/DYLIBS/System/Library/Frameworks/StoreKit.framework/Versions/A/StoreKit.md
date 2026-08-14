@@ -1,0 +1,37 @@
+## StoreKit
+
+> `/System/Library/Frameworks/StoreKit.framework/Versions/A/StoreKit`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+- `__TEXT.__oslogstring`
+
+```diff
+
+-814.5.1.0.0
++814.5.2.0.0
+   __TEXT.__text: 0x153608
+   __TEXT.__auth_stubs: 0x2a20
+   __TEXT.__objc_methlist: 0x2574
+-  __TEXT.__const: 0xaf60
++  __TEXT.__const: 0xaf70
+   __TEXT.__gcc_except_tab: 0x8d4
+   __TEXT.__cstring: 0x555c
+   __TEXT.__oslogstring: 0x1a6a
+CStrings:
++ "00:49:13"
++ "Apr  4 2025"
++ "Error enumerating %{public}s current transactions: %{private}@"
++ "Error enumerating %{public}s transactions: %{private}@"
++ "Error enumerating unfinished transactions for first transaction listener: %{private}@"
++ "Error enumerating unfinished transactions: %{private}@"
++ "Error finishing transaction %{private}llu: %{private}@"
+- "07:00:11"
+- "Error enumerating %{public}s current transactions: %{public}@"
+- "Error enumerating %{public}s transactions: %{public}@"
+- "Error enumerating unfinished transactions for first transaction listener: %{public}@"
+- "Error enumerating unfinished transactions: %{public}@"
+- "Error finishing transaction %{private}llu: %{public}@"
+- "Mar 18 2025"
+```

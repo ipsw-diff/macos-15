@@ -1,0 +1,92 @@
+## com.apple.iokit.IO80211Family
+
+> `com.apple.iokit.IO80211Family`
+
+```diff
+
+-1475.38.0.0.0
++1475.39.0.0.0
+   __TEXT.__const: 0x12ee0
+   __TEXT.__os_log: 0x9251
+-  __TEXT.__cstring: 0x8be52
+-  __TEXT_EXEC.__text: 0x255c90
++  __TEXT.__cstring: 0x8beb4
++  __TEXT_EXEC.__text: 0x25614c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x5100
+   __DATA.__common: 0x23e0
+
+   __DATA_CONST.__mod_init_func: 0x530
+   __DATA_CONST.__mod_term_func: 0x530
+   __DATA_CONST.__const: 0x37658
+-  __DATA_CONST.__kalloc_type: 0x9b00
++  __DATA_CONST.__kalloc_type: 0x9c00
+   __DATA_CONST.__kalloc_var: 0x7d0
+-  Functions: 12191
+-  Symbols:   16041
+-  CStrings:  13745
++  Functions: 12193
++  Symbols:   16047
++  CStrings:  13747
+ 
+Symbols:
++ __ZN21IO80211RangingManager10_freePeersEb
++ __ZN21IO80211RangingManager13_freeRequestsEb
++ __ZN21IO80211RangingManager16_releasePeerNodeEP25io80211_ranging_peer_node
++ __ZN21IO80211RangingManager19_releaseRequestNodeEP28io80211_ranging_request_node
++ __ZN21IO80211RangingManager19freePeerNodeTimeoutEP8OSObjectP18IO80211TimerSource
++ __ZZL14_allocPeerNodeP25apple80211_ranging_peer_tjbE20kalloc_type_view_113
++ __ZZL17_allocRequestNodeP34apple80211_ranging_start_request_tE19kalloc_type_view_77
++ __ZZN21IO80211RangingManager10_freePeersEbE20kalloc_type_view_251
++ __ZZN21IO80211RangingManager10_freePeersEbE20kalloc_type_view_260
++ __ZZN21IO80211RangingManager13_freeRequestsEbE20kalloc_type_view_234
++ __ZZN21IO80211RangingManager13_freeRequestsEbE20kalloc_type_view_236
++ __ZZN21IO80211RangingManager13rangingResultEP25apple80211_ranging_peer_tE21kalloc_type_view_1581
++ __ZZN21IO80211RangingManager18initWithControllerEP17IO80211ControllerE20kalloc_type_view_158
++ __ZZN21IO80211RangingManager19freePeerNodeTimeoutEP8OSObjectP18IO80211TimerSourceE21kalloc_type_view_1364
++ __ZZN21IO80211RangingManager19freePeerNodeTimeoutEP8OSObjectP18IO80211TimerSourceE21kalloc_type_view_1371
++ __ZZN21IO80211RangingManager19freePeerNodeTimeoutEP8OSObjectP18IO80211TimerSourceE21kalloc_type_view_1374
++ __ZZN21IO80211RangingManager4freeEvE20kalloc_type_view_289
++ __ZZN22IO80211AWDLPeerManager10growAFRingEvE22kalloc_type_view_18737
++ __ZZN22IO80211AWDLPeerManager10growAFRingEvE22kalloc_type_view_18749
++ __ZZN22IO80211AWDLPeerManager12shrinkAFRingEvE22kalloc_type_view_18773
++ __ZZN22IO80211AWDLPeerManager12shrinkAFRingEvE22kalloc_type_view_18785
++ __ZZN22IO80211AWDLPeerManager22initAWDLStateTrackInfoEvE22kalloc_type_view_24145
++ __ZZN22IO80211AWDLPeerManager28freeAwdlPacketDescriptorPoolEvE22kalloc_type_view_38204
++ __ZZN22IO80211AWDLPeerManager28initAwdlPacketDescriptorPoolEjE22kalloc_type_view_38188
++ __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29622
++ __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29645
+- __ZL19_releaseRequestNodeP28io80211_ranging_request_node
+- __ZN21IO80211RangingManager10_freePeersEv
+- __ZN21IO80211RangingManager13_freeRequestsEv
+- __ZZL14_allocPeerNodeP25apple80211_ranging_peer_tjbE20kalloc_type_view_116
+- __ZZL16_releasePeerNodeP25io80211_ranging_peer_nodeE20kalloc_type_view_134
+- __ZZL17_allocRequestNodeP34apple80211_ranging_start_request_tE19kalloc_type_view_70
+- __ZZL19_releaseRequestNodeP28io80211_ranging_request_nodeE19kalloc_type_view_95
+- __ZZL19_releaseRequestNodeP28io80211_ranging_request_nodeE19kalloc_type_view_98
+- __ZZN21IO80211RangingManager13rangingResultEP25apple80211_ranging_peer_tE21kalloc_type_view_1518
+- __ZZN21IO80211RangingManager18initWithControllerEP17IO80211ControllerE20kalloc_type_view_149
+- __ZZN21IO80211RangingManager4freeEvE20kalloc_type_view_255
+- __ZZN22IO80211AWDLPeerManager10growAFRingEvE22kalloc_type_view_18744
+- __ZZN22IO80211AWDLPeerManager10growAFRingEvE22kalloc_type_view_18756
+- __ZZN22IO80211AWDLPeerManager12shrinkAFRingEvE22kalloc_type_view_18780
+- __ZZN22IO80211AWDLPeerManager12shrinkAFRingEvE22kalloc_type_view_18792
+- __ZZN22IO80211AWDLPeerManager22initAWDLStateTrackInfoEvE22kalloc_type_view_24152
+- __ZZN22IO80211AWDLPeerManager28freeAwdlPacketDescriptorPoolEvE22kalloc_type_view_38211
+- __ZZN22IO80211AWDLPeerManager28initAwdlPacketDescriptorPoolEjE22kalloc_type_view_38195
+- __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29629
+- __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29652
+CStrings:
++ "\"IO80211_kexts-1475.39\""
++ "%s: Request=%d, Peers Node=%d. Done\n\n"
++ "%s[%d] : DeviceCannotRoamDuringAWDL %d RoamChanSeqInEffect %d\n"
++ "%s[%d] ERROR: Pref Channel TLV parsing (TlvLen %d RemainingBytes %lu)\n"
++ "111122221112111"
++ "Apr 15 2025 21:29:23"
++ "IO80211_kexts-1475.39"
+- "\"IO80211_kexts-1475.38\""
+- "%s[%d] : DeviceCannotRoamDuringAWDL %d RoamChanSeqInEffect %d RoamStatus %d\n"
+- "111122221112"
+- "Apr 10 2025 20:14:25"
+- "IO80211_kexts-1475.38"
+```

@@ -1,0 +1,239 @@
+## com.apple.filesystems.smbfs
+
+> `com.apple.filesystems.smbfs`
+
+```diff
+
+-494.100.17.0.0
++494.120.2.0.0
+   __TEXT.__const: 0xbf5
+-  __TEXT.__cstring: 0x4622
+-  __TEXT.__os_log: 0x15b44
+-  __TEXT_EXEC.__text: 0x7d8fc
++  __TEXT.__cstring: 0x4623
++  __TEXT.__os_log: 0x15b91
++  __TEXT_EXEC.__text: 0x7d97c
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0xdf8
+   __DATA.__bss: 0x106c
+
+   __DATA_CONST.__got: 0x40
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__const: 0x78
+-  __DATA_CONST.__kalloc_type: 0x4d40
++  __DATA_CONST.__kalloc_type: 0x4d80
+   __DATA_CONST.__kalloc_var: 0x460
+-  Functions: 750
+-  Symbols:   2086
+-  CStrings:  2457
++  Functions: 751
++  Symbols:   2088
++  CStrings:  2458
+ 
+Symbols:
++ _smb2fs_smb_free_fctx_query_tail
++ smb2fs_smb_change_notify.kalloc_type_view_6907
++ smb2fs_smb_change_notify.kalloc_type_view_6946
++ smb2fs_smb_check_dur_handle_v2.kalloc_type_view_7008
++ smb2fs_smb_check_dur_handle_v2.kalloc_type_view_7105
++ smb2fs_smb_cmpd_query_dir.kalloc_type_view_4462
++ smb2fs_smb_cmpd_query_dir.kalloc_type_view_4624
++ smb2fs_smb_cmpd_query_dir_one.kalloc_type_view_4736
++ smb2fs_smb_cmpd_query_dir_one.kalloc_type_view_4901
++ smb2fs_smb_cmpd_query_dir_one.kalloc_type_view_4903
++ smb2fs_smb_cmpd_query_dir_one.kalloc_type_view_5120
++ smb2fs_smb_cmpd_query_dir_one.kalloc_type_view_5123
++ smb2fs_smb_cmpd_query_dir_one.kalloc_type_view_5126
++ smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5179
++ smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5186
++ smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5294
++ smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5296
++ smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5472
++ smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5479
++ smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5482
++ smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5486
++ smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5571
++ smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5579
++ smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5735
++ smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5737
++ smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5988
++ smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5991
++ smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5994
++ smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5997
++ smb2fs_smb_cmpd_resolve_id.kalloc_type_view_6039
++ smb2fs_smb_cmpd_resolve_id.kalloc_type_view_6122
++ smb2fs_smb_cmpd_resolve_id.kalloc_type_view_6124
++ smb2fs_smb_cmpd_resolve_id.kalloc_type_view_6222
++ smb2fs_smb_cmpd_resolve_id.kalloc_type_view_6225
++ smb2fs_smb_cmpd_resolve_id.kalloc_type_view_6229
++ smb2fs_smb_cmpd_set_get_security.kalloc_type_view_6712
++ smb2fs_smb_cmpd_set_get_security.kalloc_type_view_6743
++ smb2fs_smb_cmpd_set_get_security.kalloc_type_view_6890
++ smb2fs_smb_cmpd_set_info.kalloc_type_view_6302
++ smb2fs_smb_cmpd_set_info.kalloc_type_view_6309
++ smb2fs_smb_cmpd_set_info.kalloc_type_view_6457
++ smb2fs_smb_cmpd_set_info.kalloc_type_view_6459
++ smb2fs_smb_cmpd_set_info.kalloc_type_view_6659
++ smb2fs_smb_cmpd_set_info.kalloc_type_view_6662
++ smb2fs_smb_cmpd_set_info.kalloc_type_view_6665
++ smb2fs_smb_cmpd_set_info.kalloc_type_view_6669
++ smb2fs_smb_copychunks.kalloc_type_view_7308
++ smb2fs_smb_copychunks.kalloc_type_view_7468
++ smb2fs_smb_copyfile.kalloc_type_view_7503
++ smb2fs_smb_copyfile.kalloc_type_view_7510
++ smb2fs_smb_copyfile.kalloc_type_view_7766
++ smb2fs_smb_copyfile.kalloc_type_view_7770
++ smb2fs_smb_copyfile_mac.kalloc_type_view_7800
++ smb2fs_smb_copyfile_mac.kalloc_type_view_7807
++ smb2fs_smb_copyfile_mac.kalloc_type_view_7901
++ smb2fs_smb_copyfile_mac.kalloc_type_view_7905
++ smb2fs_smb_findnext.kalloc_type_view_8131
++ smb2fs_smb_findnext.kalloc_type_view_8351
++ smb2fs_smb_free_fctx_query_tail.kalloc_type_view_4254
++ smb2fs_smb_lease_upgrade.kalloc_type_view_8587
++ smb2fs_smb_lease_upgrade.kalloc_type_view_8705
++ smb2fs_smb_markfordelete.kalloc_type_view_8846
++ smb2fs_smb_markfordelete.kalloc_type_view_8873
++ smb2fs_smb_ntcreatex.kalloc_type_view_8940
++ smb2fs_smb_ntcreatex.kalloc_type_view_9057
++ smb2fs_smb_qpathinfo.kalloc_type_view_9576
++ smb2fs_smb_qpathinfo.kalloc_type_view_9618
++ smb2fs_smb_qstreaminfo.kalloc_type_view_9701
++ smb2fs_smb_qstreaminfo.kalloc_type_view_9772
++ smb2fs_smb_query_network_interface_info.kalloc_type_view_11008
++ smb2fs_smb_query_network_interface_info.kalloc_type_view_11059
++ smb2fs_smb_rename.kalloc_type_view_9910
++ smb2fs_smb_rename.kalloc_type_view_9951
++ smb2fs_smb_request_resume_key.kalloc_type_view_10007
++ smb2fs_smb_request_resume_key.kalloc_type_view_10040
++ smb2fs_smb_security_set.kalloc_type_view_10134
++ smb2fs_smb_security_set.kalloc_type_view_10165
++ smb2fs_smb_set_allocation.kalloc_type_view_10258
++ smb2fs_smb_set_allocation.kalloc_type_view_10285
++ smb2fs_smb_set_eof.kalloc_type_view_10320
++ smb2fs_smb_set_eof.kalloc_type_view_10350
++ smb2fs_smb_set_file_basic_info.kalloc_type_view_10385
++ smb2fs_smb_setfattrNT.kalloc_type_view_10439
++ smb2fs_smb_setfattrNT.kalloc_type_view_10469
++ smb2fs_smb_setfattrNT.kalloc_type_view_10473
++ smb2fs_smb_setpattrNT.kalloc_type_view_10569
++ smb2fs_smb_validate_neg_info.kalloc_type_view_10772
++ smb2fs_smb_validate_neg_info.kalloc_type_view_10974
++ smb_dir_cache_remove.kalloc_type_view_854
++ smb_dir_cache_remove_one.kalloc_type_view_932
++ smb_global_dir_cache_add_entry.kalloc_type_view_971
++ smb_global_dir_cache_remove.kalloc_type_view_1266
++ smb_global_dir_cache_remove.kalloc_type_view_1300
++ smb_global_dir_cache_remove_one.kalloc_type_view_1368
++ smbfs_smb_findclose.kalloc_type_view_8086
++ smbfs_smb_query_info.kalloc_type_view_9841
++ smbfs_smb_query_info.kalloc_type_view_9888
+- smb2fs_smb_change_notify.kalloc_type_view_6882
+- smb2fs_smb_change_notify.kalloc_type_view_6921
+- smb2fs_smb_check_dur_handle_v2.kalloc_type_view_6983
+- smb2fs_smb_check_dur_handle_v2.kalloc_type_view_7080
+- smb2fs_smb_cmpd_query_dir.kalloc_type_view_4437
+- smb2fs_smb_cmpd_query_dir.kalloc_type_view_4599
+- smb2fs_smb_cmpd_query_dir_one.kalloc_type_view_4711
+- smb2fs_smb_cmpd_query_dir_one.kalloc_type_view_4876
+- smb2fs_smb_cmpd_query_dir_one.kalloc_type_view_4878
+- smb2fs_smb_cmpd_query_dir_one.kalloc_type_view_5095
+- smb2fs_smb_cmpd_query_dir_one.kalloc_type_view_5098
+- smb2fs_smb_cmpd_query_dir_one.kalloc_type_view_5101
+- smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5154
+- smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5161
+- smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5269
+- smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5271
+- smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5447
+- smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5454
+- smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5457
+- smb2fs_smb_cmpd_reparse_point_get.kalloc_type_view_5461
+- smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5546
+- smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5554
+- smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5710
+- smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5712
+- smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5963
+- smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5966
+- smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5969
+- smb2fs_smb_cmpd_reparse_point_set.kalloc_type_view_5972
+- smb2fs_smb_cmpd_resolve_id.kalloc_type_view_6014
+- smb2fs_smb_cmpd_resolve_id.kalloc_type_view_6097
+- smb2fs_smb_cmpd_resolve_id.kalloc_type_view_6099
+- smb2fs_smb_cmpd_resolve_id.kalloc_type_view_6197
+- smb2fs_smb_cmpd_resolve_id.kalloc_type_view_6200
+- smb2fs_smb_cmpd_resolve_id.kalloc_type_view_6204
+- smb2fs_smb_cmpd_set_get_security.kalloc_type_view_6687
+- smb2fs_smb_cmpd_set_get_security.kalloc_type_view_6718
+- smb2fs_smb_cmpd_set_get_security.kalloc_type_view_6865
+- smb2fs_smb_cmpd_set_info.kalloc_type_view_6277
+- smb2fs_smb_cmpd_set_info.kalloc_type_view_6284
+- smb2fs_smb_cmpd_set_info.kalloc_type_view_6432
+- smb2fs_smb_cmpd_set_info.kalloc_type_view_6434
+- smb2fs_smb_cmpd_set_info.kalloc_type_view_6634
+- smb2fs_smb_cmpd_set_info.kalloc_type_view_6637
+- smb2fs_smb_cmpd_set_info.kalloc_type_view_6640
+- smb2fs_smb_cmpd_set_info.kalloc_type_view_6644
+- smb2fs_smb_copychunks.kalloc_type_view_7283
+- smb2fs_smb_copychunks.kalloc_type_view_7443
+- smb2fs_smb_copyfile.kalloc_type_view_7478
+- smb2fs_smb_copyfile.kalloc_type_view_7485
+- smb2fs_smb_copyfile.kalloc_type_view_7741
+- smb2fs_smb_copyfile.kalloc_type_view_7745
+- smb2fs_smb_copyfile_mac.kalloc_type_view_7775
+- smb2fs_smb_copyfile_mac.kalloc_type_view_7782
+- smb2fs_smb_copyfile_mac.kalloc_type_view_7876
+- smb2fs_smb_copyfile_mac.kalloc_type_view_7880
+- smb2fs_smb_findnext.kalloc_type_view_8107
+- smb2fs_smb_findnext.kalloc_type_view_8328
+- smb2fs_smb_lease_upgrade.kalloc_type_view_8564
+- smb2fs_smb_lease_upgrade.kalloc_type_view_8682
+- smb2fs_smb_markfordelete.kalloc_type_view_8823
+- smb2fs_smb_markfordelete.kalloc_type_view_8850
+- smb2fs_smb_ntcreatex.kalloc_type_view_8917
+- smb2fs_smb_ntcreatex.kalloc_type_view_9034
+- smb2fs_smb_qpathinfo.kalloc_type_view_9553
+- smb2fs_smb_qpathinfo.kalloc_type_view_9595
+- smb2fs_smb_qstreaminfo.kalloc_type_view_9678
+- smb2fs_smb_qstreaminfo.kalloc_type_view_9749
+- smb2fs_smb_query_network_interface_info.kalloc_type_view_10985
+- smb2fs_smb_query_network_interface_info.kalloc_type_view_11036
+- smb2fs_smb_rename.kalloc_type_view_9887
+- smb2fs_smb_rename.kalloc_type_view_9928
+- smb2fs_smb_request_resume_key.kalloc_type_view_10017
+- smb2fs_smb_request_resume_key.kalloc_type_view_9984
+- smb2fs_smb_security_set.kalloc_type_view_10111
+- smb2fs_smb_security_set.kalloc_type_view_10142
+- smb2fs_smb_set_allocation.kalloc_type_view_10235
+- smb2fs_smb_set_allocation.kalloc_type_view_10262
+- smb2fs_smb_set_eof.kalloc_type_view_10297
+- smb2fs_smb_set_eof.kalloc_type_view_10327
+- smb2fs_smb_set_file_basic_info.kalloc_type_view_10362
+- smb2fs_smb_setfattrNT.kalloc_type_view_10416
+- smb2fs_smb_setfattrNT.kalloc_type_view_10446
+- smb2fs_smb_setfattrNT.kalloc_type_view_10450
+- smb2fs_smb_setpattrNT.kalloc_type_view_10546
+- smb2fs_smb_validate_neg_info.kalloc_type_view_10749
+- smb2fs_smb_validate_neg_info.kalloc_type_view_10951
+- smb_dir_cache_remove.kalloc_type_view_852
+- smb_dir_cache_remove_one.kalloc_type_view_929
+- smb_global_dir_cache_add_entry.kalloc_type_view_968
+- smb_global_dir_cache_remove.kalloc_type_view_1263
+- smb_global_dir_cache_remove.kalloc_type_view_1297
+- smb_global_dir_cache_remove_one.kalloc_type_view_1365
+- smbfs_smb_findclose.kalloc_type_view_8061
+- smbfs_smb_query_info.kalloc_type_view_9818
+- smbfs_smb_query_info.kalloc_type_view_9865
+Functions:
+~ _smbfs_smb_findopen : 380 -> 388
+~ _smbfs_enum_dir : 6948 -> 6824
+~ _smbfs_fetch_new_entries : 2380 -> 2332
+~ _smbfs_fetch_new_entries_eof : 552 -> 544
+~ _smb2fs_smb_add_fctx_query : 180 -> 188
+~ _smb2fs_smb_free_fctx_query_head : 136 -> 140
++ _smb2fs_smb_free_fctx_query_tail
+~ _smb_dir_cache_remove : 724 -> 812
+CStrings:
++ "%s: Partial cache remove for <%s> cachep->start_offset:<%lld> offset:<%lld>\n"
++ "222222222222222222222222222222212212222111122222122112222"
+- "22222222222222222222222222222221221222211112222212212222"
+```

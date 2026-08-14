@@ -1,0 +1,24 @@
+## libcryptex_trampoline.dylib
+
+> `/usr/lib/libcryptex_trampoline.dylib`
+
+```diff
+
+-493.120.2.0.0
++493.120.3.0.0
+   __TEXT.__text: 0x6a4
+   __TEXT.__auth_stubs: 0x110
+   __TEXT.__const: 0x78
+-  __TEXT.__cstring: 0x226
++  __TEXT.__cstring: 0x228
+   __TEXT.__oslogstring: 0x104
+   __TEXT.__unwind_info: 0x88
+   __DATA_CONST.__got: 0x10
+CStrings:
++ "493.120.3"
++ "@(#)VERSION:Monitor Cryptex Upgrades Version 2.0.0: Fri Apr  4 00:16:58 PDT 2025; root:libcryptex-493.120.3~170/libcryptex_trampoline/RELEASE_ARM64E"
++ "Monitor Cryptex Upgrades Version 2.0.0: Fri Apr  4 00:16:58 PDT 2025; root:libcryptex-493.120.3~170/libcryptex_trampoline/RELEASE_ARM64E"
+- "493.120.2"
+- "@(#)VERSION:Monitor Cryptex Upgrades Version 2.0.0: Wed Mar 19 23:24:06 PDT 2025; root:libcryptex-493.120.2~25/libcryptex_trampoline/RELEASE_ARM64E"
+- "Monitor Cryptex Upgrades Version 2.0.0: Wed Mar 19 23:24:06 PDT 2025; root:libcryptex-493.120.2~25/libcryptex_trampoline/RELEASE_ARM64E"
+```

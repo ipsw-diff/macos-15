@@ -1,0 +1,185 @@
+## SiriKitRuntime
+
+> `/System/Library/PrivateFrameworks/SiriKitRuntime.framework/Versions/A/SiriKitRuntime`
+
+```diff
+
+-3405.20.2.0.0
+-  __TEXT.__text: 0x41a4e8
+-  __TEXT.__auth_stubs: 0x8b50
++3405.25.1.0.0
++  __TEXT.__text: 0x41c854
++  __TEXT.__auth_stubs: 0x8b80
+   __TEXT.__objc_methlist: 0x15a4
+-  __TEXT.__const: 0xf894
+-  __TEXT.__cstring: 0x13736
+-  __TEXT.__swift5_typeref: 0x6825
++  __TEXT.__const: 0xf7c4
++  __TEXT.__cstring: 0x137c6
++  __TEXT.__swift5_typeref: 0x6839
+   __TEXT.__swift5_capture: 0x3320
+-  __TEXT.__constg_swiftt: 0x8c48
+-  __TEXT.__swift5_fieldmd: 0x7434
++  __TEXT.__constg_swiftt: 0x8c2c
++  __TEXT.__swift5_fieldmd: 0x7424
+   __TEXT.__swift5_builtin: 0x1b8
+-  __TEXT.__swift5_reflstr: 0x80b7
++  __TEXT.__swift5_reflstr: 0x80c7
+   __TEXT.__swift5_assocty: 0x928
+-  __TEXT.__oslogstring: 0x218ad
+-  __TEXT.__swift5_proto: 0x944
+-  __TEXT.__swift5_types: 0x768
++  __TEXT.__oslogstring: 0x219cd
++  __TEXT.__swift5_proto: 0x938
++  __TEXT.__swift5_types: 0x764
+   __TEXT.__swift_as_entry: 0x8ac
+   __TEXT.__swift_as_ret: 0x918
+   __TEXT.__swift5_protos: 0x100
+   __TEXT.__swift5_mpenum: 0x60
+-  __TEXT.__unwind_info: 0xb0a0
+-  __TEXT.__eh_frame: 0x17108
++  __TEXT.__unwind_info: 0xb088
++  __TEXT.__eh_frame: 0x17140
+   __TEXT.__objc_classname: 0x201
+-  __TEXT.__objc_methname: 0x425c
++  __TEXT.__objc_methname: 0x4250
+   __TEXT.__objc_methtype: 0xb0d
+   __DATA_CONST.__got: 0x20e8
+   __DATA_CONST.__const: 0x6f20
+   __DATA_CONST.__objc_classlist: 0x5a8
+   __DATA_CONST.__objc_protolist: 0x1c0
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x1788
++  __DATA_CONST.__objc_selrefs: 0x1780
+   __DATA_CONST.__objc_protorefs: 0xf0
+   __DATA_CONST.__objc_superrefs: 0x8
+-  __AUTH_CONST.__auth_got: 0x45a8
+-  __AUTH_CONST.__const: 0x13e78
++  __AUTH_CONST.__auth_got: 0x45c0
++  __AUTH_CONST.__const: 0x13e00
+   __AUTH_CONST.__cfstring: 0x1500
+   __AUTH_CONST.__objc_const: 0xdfd0
+   __AUTH.__objc_data: 0x2810
+   __AUTH.__data: 0xb730
+   __DATA.__objc_ivar: 0x8
+   __DATA.__data: 0x6d48
+-  __DATA.__bss: 0xed80
++  __DATA.__bss: 0xec00
+   __DATA.__common: 0xcd8
+   - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+   - /System/Library/Frameworks/Contacts.framework/Versions/A/Contacts
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 15986
+-  Symbols:   34538
+-  CStrings:  4807
++  Functions: 15979
++  Symbols:   34508
++  CStrings:  4814
+ 
+Symbols:
++ $s14SiriKitRuntime19ConversationServiceC16markNotBusyAsync33_2B191581A1CA6ED5569AAF2397C12908LLyyFyyYacfU_TA.290TQ0_
++ $s14SiriKitRuntime19ConversationServiceC16markNotBusyAsync33_2B191581A1CA6ED5569AAF2397C12908LLyyFyyYacfU_TA.290Tu
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.295TQ0_
++ $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.295Tu
++ _$s11SiriKitFlow5InputV_10Foundation4DataVSgtMD
++ _$s11SiriKitFlow5InputV_10Foundation4DataVSgtSgMD
++ _$s12SiriOntology21UsoEntity_common_DateC10dayOfMonthAA0cd1_E8_IntegerCSgvgTj
++ _$s12SiriOntology21UsoEntity_common_DateC4yearAA0cd1_E8_IntegerCSgvgTj
++ _$s12SiriOntology21UsoEntity_common_DateC9dayOfWeekAA0cd1_e4_DayhI0CSgvgTj
++ _$s12SiriOntology28UsoEntity_common_MeasurementCMa
++ _$s12SiriOntology30UsoEntity_common_PlaybackStateC13DefinedValuesOAESQAAWl
++ _$s12SiriOntology32UsoTask_skipForward_uso_NoEntityCMa
++ _$s14SiriKitRuntime0aB16ExecutorRunUtilsO13makeNLv3Parse33_B2947C61C679396E986D016BC1EC7C27LL5parse0A8Ontology8NLIntentVSgSo013SAIntentGroupI0C_tFZ
++ _$s14SiriKitRuntime0aB16ExecutorRunUtilsO17getInputAndRRData4from18requestContextData0aB4Flow0H0V_10Foundation0N0VSgtSgSo013SAIntentGroupeabD0C_AA07RequestmN0CtFZ
++ _$s14SiriKitRuntime0aB16ExecutorRunUtilsO9makeParse03aceH08peerInfo08endpointK017confirmationState0I17ParameterMetadata012appSelectionN00aB4Flow0H0OSgSo013SAIntentGroupH0C_AK04PeerK9Providing_pAK08EndpointkW0_pAK0ab12ConfirmationN0OSgSaySo0tuaboP0CGSgSo0tuab3ApprN0CSgtFZ
++ _$s14SiriKitRuntime0aB16ExecutorRunUtilsO9makeParse03aceH08peerInfo08endpointK017confirmationState0I17ParameterMetadata012appSelectionN00aB4Flow0H0OSgSo013SAIntentGroupH0C_AK04PeerK9Providing_pAK08EndpointkW0_pAK0ab12ConfirmationN0OSgSaySo0tuaboP0CGSgSo0tuab3ApprN0CSgtFZSDySSypGSg10Foundation4DataVXEfU_
++ _$s14SiriKitRuntime0aB16ExecutorRunUtilsO9makeParse03aceH08peerInfo08endpointK017confirmationState0I17ParameterMetadata012appSelectionN00aB4Flow0H0OSgSo013SAIntentGroupH0C_AK04PeerK9Providing_pAK08EndpointkW0_pAK0ab12ConfirmationN0OSgSaySo0tuaboP0CGSgSo0tuab3ApprN0CSgtFZfA2_
++ _$s14SiriKitRuntime25CAMRootFlowAffinityScorerV016taskInterruptionF05input11environmentAA0F0O0abE05InputV_0A9Utilities0A11EnvironmentCtF
++ _$s14SiriKitRuntime25CAMRootFlowAffinityScorerV016taskInterruptionF05input11environmentAA0F0O0abE05InputV_0A9Utilities0A11EnvironmentCtFTf4ndd_n
++ _$s14SiriKitRuntime25CarCommandsAffinityScorerV29isAmbiguousTemperatureRequest33_62490FE03E7AB891D874A741A997DD8CLL4taskSb0A8Ontology7UsoTaskC_tFTf4nd_n
++ _$s14SiriKitRuntime25RemoteConversationServiceC10flowPlugin8pluginId0gH6Bundle04siribC016turnDataProvider14snippetManager16overrideRRClientAC0aB4Flow0tH0_p_SSAK0thK0_pAA0abC5StateCAA0e4TurnN3XPCCSgSSYbAA0E5ActorCYccAK07SnippetQ0CAK33ReferenceResolutionClientProtocol_pSgtcfCTfq4enennnnn_nTf4gnggggnn_n
++ _$s14SiriKitRuntime25RemoteConversationServiceC10flowPlugin8pluginId0gH6Bundle04siribC016turnDataProvider14snippetManager16overrideRRClientAC0aB4Flow0tH0_p_SSAK0thK0_pAA0abC5StateCAA0e4TurnN3XPCCSgSSYbAA0E5ActorCYccAK07SnippetQ0CAK33ReferenceResolutionClientProtocol_pSgtcfcTf4enennnnn_nTf4nnngggnn_n
++ _$s14SiriKitRuntime30PlaybackControlsAffinityScorerV14isMediaPlaying33_1E16A9ED6FE7DE7A90929D87CCD94D06LL4withSbSay0A28ReferenceResolutionDataModel11RRCandidateVG_tFSbAIXEfU0_
++ _$s14SiriKitRuntime30PlaybackControlsAffinityScorerV14isMediaPlaying33_1E16A9ED6FE7DE7A90929D87CCD94D06LL4withSbSay0A28ReferenceResolutionDataModel11RRCandidateVG_tFTf4nd_n
++ _$s14SiriKitRuntime30PlaybackControlsAffinityScorerV28controlsShouldTakeAFirstPass33_1E16A9ED6FE7DE7A90929D87CCD94D06LL2at4withSb0A8Ontology7UsoTaskC_0A9Utilities0A11EnvironmentCtFTf4nnd_n
++ _$s14SiriKitRuntime30PlaybackControlsAffinityScorerV5score5input11environmentAA0F0O0aB4Flow5InputV_0A9Utilities0A11EnvironmentCtFTf4nnd_n
++ _symbolic ___________Sgt 11SiriKitFlow5InputV 10Foundation4DataV
++ _symbolic ___________SgtSg 11SiriKitFlow5InputV 10Foundation4DataV
+- $s14SiriKitRuntime19ConversationServiceC16markNotBusyAsync33_2B191581A1CA6ED5569AAF2397C12908LLyyFyyYacfU_TA.281TQ0_
+- $s14SiriKitRuntime19ConversationServiceC16markNotBusyAsync33_2B191581A1CA6ED5569AAF2397C12908LLyyFyyYacfU_TA.281Tu
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.286TQ0_
+- $sxIeAgHr_xs5Error_pIegHrzo_s8SendableRzs5NeverORs_r0_lTRyt_Tg5TA.286Tu
+- _$s10Foundation6LocaleV7currentACvgZ
+- _$s14SiriKitRuntime0aB16ExecutorRunUtilsO13makeNLv3Parse33_B2947C61C679396E986D016BC1EC7C27LL5parse0A8Ontology8NLIntentVSo013SAIntentGroupI0C_tFZ
+- _$s14SiriKitRuntime0aB16ExecutorRunUtilsO17getInputAndRRData4from18requestContextData0aB4Flow0H0V_10Foundation0N0VSgtSo013SAIntentGroupeabD0C_AA07RequestmN0CtFZ
+- _$s14SiriKitRuntime0aB16ExecutorRunUtilsO9makeParse03aceH08peerInfo08endpointK017confirmationState0I17ParameterMetadata012appSelectionN00aB4Flow0H0OSo013SAIntentGroupH0C_AK04PeerK9Providing_pAK08EndpointkW0_pAK0ab12ConfirmationN0OSgSaySo0tuaboP0CGSgSo0tuab3ApprN0CSgtFZ
+- _$s14SiriKitRuntime0aB16ExecutorRunUtilsO9makeParse03aceH08peerInfo08endpointK017confirmationState0I17ParameterMetadata012appSelectionN00aB4Flow0H0OSo013SAIntentGroupH0C_AK04PeerK9Providing_pAK08EndpointkW0_pAK0ab12ConfirmationN0OSgSaySo0tuaboP0CGSgSo0tuab3ApprN0CSgtFZSDySSypGSg10Foundation4DataVXEfU_
+- _$s14SiriKitRuntime0aB16ExecutorRunUtilsO9makeParse03aceH08peerInfo08endpointK017confirmationState0I17ParameterMetadata012appSelectionN00aB4Flow0H0OSo013SAIntentGroupH0C_AK04PeerK9Providing_pAK08EndpointkW0_pAK0ab12ConfirmationN0OSgSaySo0tuaboP0CGSgSo0tuab3ApprN0CSgtFZfA2_
+- _$s14SiriKitRuntime17EncoreFeatureFlagO0E5Flags0eG3KeyAAMc
+- _$s14SiriKitRuntime17EncoreFeatureFlagO0E5Flags0eG3KeyAAMcMK
+- _$s14SiriKitRuntime17EncoreFeatureFlagO0E5Flags0eG3KeyAadEP6domains12StaticStringVvgTW
+- _$s14SiriKitRuntime17EncoreFeatureFlagO0E5Flags0eG3KeyAadEP7features12StaticStringVvgTW
+- _$s14SiriKitRuntime17EncoreFeatureFlagO2eeoiySbAC_ACtFZ
+- _$s14SiriKitRuntime17EncoreFeatureFlagO4hash4intoys6HasherVz_tF
+- _$s14SiriKitRuntime17EncoreFeatureFlagO6domains12StaticStringVvg
+- _$s14SiriKitRuntime17EncoreFeatureFlagO6domains12StaticStringVvpMV
+- _$s14SiriKitRuntime17EncoreFeatureFlagO6encoreyA2CmFWC
+- _$s14SiriKitRuntime17EncoreFeatureFlagO7features12StaticStringVvg
+- _$s14SiriKitRuntime17EncoreFeatureFlagO7features12StaticStringVvpMV
+- _$s14SiriKitRuntime17EncoreFeatureFlagO9hashValueSivg
+- _$s14SiriKitRuntime17EncoreFeatureFlagO9hashValueSivpMV
+- _$s14SiriKitRuntime17EncoreFeatureFlagO9isEnabledSbvg
+- _$s14SiriKitRuntime17EncoreFeatureFlagO9isEnabledSbvpMV
+- _$s14SiriKitRuntime17EncoreFeatureFlagOAC0E5Flags0eG3KeyAAWL
+- _$s14SiriKitRuntime17EncoreFeatureFlagOAC0E5Flags0eG3KeyAAWl
+- _$s14SiriKitRuntime17EncoreFeatureFlagOACSQAAWL
+- _$s14SiriKitRuntime17EncoreFeatureFlagOACSQAAWl
+- _$s14SiriKitRuntime17EncoreFeatureFlagOMF
+- _$s14SiriKitRuntime17EncoreFeatureFlagOMa
+- _$s14SiriKitRuntime17EncoreFeatureFlagOMf
+- _$s14SiriKitRuntime17EncoreFeatureFlagOMn
+- _$s14SiriKitRuntime17EncoreFeatureFlagON
+- _$s14SiriKitRuntime17EncoreFeatureFlagOSHAAMc
+- _$s14SiriKitRuntime17EncoreFeatureFlagOSHAAMcMK
+- _$s14SiriKitRuntime17EncoreFeatureFlagOSHAASH13_rawHashValue4seedS2i_tFTW
+- _$s14SiriKitRuntime17EncoreFeatureFlagOSHAASH4hash4intoys6HasherVz_tFTW
+- _$s14SiriKitRuntime17EncoreFeatureFlagOSHAASH9hashValueSivgTW
+- _$s14SiriKitRuntime17EncoreFeatureFlagOSHAASQWb
+- _$s14SiriKitRuntime17EncoreFeatureFlagOSQAAMc
+- _$s14SiriKitRuntime17EncoreFeatureFlagOSQAAMcMK
+- _$s14SiriKitRuntime17EncoreFeatureFlagOSQAASQ2eeoiySbx_xtFZTW
+- _$s14SiriKitRuntime17EncoreFeatureFlagOWV
+- _$s14SiriKitRuntime17EncoreFeatureFlagOwet
+- _$s14SiriKitRuntime17EncoreFeatureFlagOwst
+- _$s14SiriKitRuntime17EncoreFeatureFlagOwug
+- _$s14SiriKitRuntime17EncoreFeatureFlagOwui
+- _$s14SiriKitRuntime17EncoreFeatureFlagOwup
+- _$s14SiriKitRuntime25CAMRootFlowAffinityScorerV016taskInterruptionF05input11environemntAA0F0O0abE05InputV_0A9Utilities0A11EnvironmentCtF
+- _$s14SiriKitRuntime25CAMRootFlowAffinityScorerV016taskInterruptionF05input11environemntAA0F0O0abE05InputV_0A9Utilities0A11EnvironmentCtFTf4ndd_n
+- _$s14SiriKitRuntime25RemoteConversationServiceC10flowPlugin8pluginId0gH6Bundle04siribC016turnDataProvider14snippetManager16overrideRRClientAC0aB4Flow0tH0_p_SSAK0thK0_pAA0abC5StateCAA0e4TurnN3XPCCSgSSYbAA0E5ActorCYccAK07SnippetQ0CAK33ReferenceResolutionClientProtocol_pSgtcfCTfq4enennnnn_nTf4gngnnnnn_n
+- _$s14SiriKitRuntime25RemoteConversationServiceC10flowPlugin8pluginId0gH6Bundle04siribC016turnDataProvider14snippetManager16overrideRRClientAC0aB4Flow0tH0_p_SSAK0thK0_pAA0abC5StateCAA0e4TurnN3XPCCSgSSYbAA0E5ActorCYccAK07SnippetQ0CAK33ReferenceResolutionClientProtocol_pSgtcfcTf4enennnnn_n
+- _$s14SiriKitRuntime30PlaybackControlsAffinityScorerV28controlsShouldTakeAFirstPass33_1E16A9ED6FE7DE7A90929D87CCD94D06LL2atSb0A8Ontology7UsoTaskC_tFTf4nd_n
+- _$s14SiriKitRuntime30PlaybackControlsAffinityScorerV5score5input11environmentAA0F0O0aB4Flow5InputV_0A9Utilities0A11EnvironmentCtFTf4ndd_n
+- _AFIsHorseman
+- _associated conformance 14SiriKitRuntime17EncoreFeatureFlagOSHAASQ
+- _symbolic _____ 14SiriKitRuntime17EncoreFeatureFlagO
+CStrings:
++ "Failed to create NLIntent from nlv3 parse"
++ "Failed to get input and RR data"
++ "Failed to get nlv3 parse"
++ "Failed to make NLv3Parse, returning nil"
++ "Failed to make parse from RunSiriKitExecutor command"
++ "PlaybackControlsAffinityScorer UsoTask is .skipForward/.skipBackward::uso_NoEntity and media is playing on device, returning .high"
++ "ambiguous_temperature"
++ "decreaseByMeasurement"
++ "increaseByMeasurement"
++ "requestDateTimeTask %s"
++ "showMonth"
+- "Cannot parse intent from protobuf: "
+- "No NLv3 parse data is available"
+- "debugString"
+- "encore"
+```

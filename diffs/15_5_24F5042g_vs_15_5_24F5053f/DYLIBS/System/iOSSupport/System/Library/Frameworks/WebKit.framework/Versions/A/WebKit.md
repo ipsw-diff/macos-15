@@ -1,0 +1,914 @@
+## WebKit
+
+> `/System/iOSSupport/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit`
+
+```diff
+
+-621.2.1.11.5
+-  __TEXT.__text: 0xcc9764
+-  __TEXT.__auth_stubs: 0x15d70
+-  __TEXT.__objc_methlist: 0x16f84
++621.2.3.11.1
++  __TEXT.__text: 0xccbb60
++  __TEXT.__auth_stubs: 0x15d90
++  __TEXT.__objc_methlist: 0x16fac
+   __TEXT.__const: 0x3330
+   __TEXT.__swift5_typeref: 0x12e
+   __TEXT.__swift5_capture: 0xd0
+   __TEXT.__constg_swiftt: 0x28
+   __TEXT.__swift5_fieldmd: 0x10
+   __TEXT.__swift5_types: 0x4
+-  __TEXT.__cstring: 0x29a031
++  __TEXT.__cstring: 0x299d66
+   __TEXT.__swift_as_entry: 0x18
+   __TEXT.__swift_as_ret: 0x10
+-  __TEXT.__gcc_except_tab: 0x547dc
+-  __TEXT.__oslogstring: 0x3e76c
++  __TEXT.__gcc_except_tab: 0x54990
++  __TEXT.__oslogstring: 0x3e7dc
+   __TEXT.__ustring: 0xb60
+-  __TEXT.__unwind_info: 0x229a8
++  __TEXT.__unwind_info: 0x22a00
+   __TEXT.__eh_frame: 0x3c8
+   __TEXT.__objc_classname: 0x2a86
+-  __TEXT.__objc_methname: 0x3fec5
+-  __TEXT.__objc_methtype: 0x2fa35
++  __TEXT.__objc_methname: 0x3fee0
++  __TEXT.__objc_methtype: 0x2fa49
+   __TEXT.__objc_stubs: 0x23640
+   __DATA_CONST.__got: 0x18a0
+-  __DATA_CONST.__const: 0x1c308
++  __DATA_CONST.__const: 0x1c320
+   __DATA_CONST.__objc_classlist: 0xa88
+   __DATA_CONST.__objc_catlist: 0x48
+   __DATA_CONST.__objc_protolist: 0x308
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xe378
++  __DATA_CONST.__objc_selrefs: 0xe380
+   __DATA_CONST.__objc_protorefs: 0x78
+   __DATA_CONST.__objc_superrefs: 0x888
+   __DATA_CONST.__objc_arraydata: 0x648
+-  __AUTH_CONST.__auth_got: 0xaed0
+-  __AUTH_CONST.__const: 0x53548
+-  __AUTH_CONST.__cfstring: 0x11a80
+-  __AUTH_CONST.__objc_const: 0x229c0
++  __AUTH_CONST.__auth_got: 0xaee0
++  __AUTH_CONST.__const: 0x535e0
++  __AUTH_CONST.__cfstring: 0x11aa0
++  __AUTH_CONST.__objc_const: 0x229d0
+   __AUTH_CONST.__objc_intobj: 0x5d0
+   __AUTH_CONST.__objc_arrayobj: 0x108
+   __AUTH_CONST.__objc_dictobj: 0x190
+
+   __AUTH.__objc_data: 0x3f20
+   __AUTH.__data: 0xb8
+   __DATA.__objc_ivar: 0xd30
+-  __DATA.__data: 0x65b8
++  __DATA.__data: 0x65c0
+   __DATA.__bss: 0x950
+   __DATA.__common: 0x25f8
+   __DATA_DIRTY.__objc_ivar: 0x48c
+   __DATA_DIRTY.__objc_data: 0x2a30
+   __DATA_DIRTY.__data: 0xa38
+-  __DATA_DIRTY.__bss: 0x1068
++  __DATA_DIRTY.__bss: 0x1060
+   __DATA_DIRTY.__common: 0x1200
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+   - /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 56552
+-  Symbols:   84767
+-  CStrings:  25376
++  Functions: 56604
++  Symbols:   84826
++  CStrings:  25386
+ 
+Symbols:
++ -[WKNavigationResponse(WKPrivate) _navigationInitiatingFrame]
++ -[WKVideoView .cxx_construct]
++ -[WKVideoView .cxx_destruct]
++ GCC_except_table1009
++ GCC_except_table1043
++ GCC_except_table1049
++ GCC_except_table1056
++ GCC_except_table1062
++ GCC_except_table1075
++ GCC_except_table1085
++ GCC_except_table1092
++ GCC_except_table1095
++ GCC_except_table1107
++ GCC_except_table1151
++ GCC_except_table1154
++ GCC_except_table1163
++ GCC_except_table1168
++ GCC_except_table1171
++ GCC_except_table1177
++ GCC_except_table1184
++ GCC_except_table1196
++ GCC_except_table1218
++ GCC_except_table1221
++ GCC_except_table1246
++ GCC_except_table1261
++ GCC_except_table1264
++ GCC_except_table1267
++ GCC_except_table1269
++ GCC_except_table1315
++ GCC_except_table1324
++ GCC_except_table1330
++ GCC_except_table1333
++ GCC_except_table1337
++ GCC_except_table1490
++ GCC_except_table1496
++ GCC_except_table1502
++ GCC_except_table1526
++ GCC_except_table1557
++ GCC_except_table1560
++ GCC_except_table1562
++ GCC_except_table1583
++ GCC_except_table1599
++ GCC_except_table1608
++ GCC_except_table1611
++ GCC_except_table1627
++ GCC_except_table1649
++ GCC_except_table1655
++ GCC_except_table1664
++ GCC_except_table2400
++ GCC_except_table2406
++ GCC_except_table338
++ GCC_except_table3673
++ GCC_except_table3674
++ GCC_except_table3685
++ GCC_except_table3694
++ GCC_except_table3709
++ GCC_except_table3710
++ GCC_except_table3713
++ GCC_except_table3729
++ GCC_except_table3743
++ GCC_except_table3750
++ GCC_except_table3758
++ GCC_except_table3774
++ GCC_except_table3775
++ GCC_except_table3778
++ GCC_except_table3788
++ GCC_except_table3797
++ GCC_except_table3800
++ GCC_except_table3833
++ GCC_except_table3850
++ GCC_except_table3859
++ GCC_except_table3872
++ GCC_except_table3873
++ GCC_except_table3882
++ GCC_except_table3883
++ GCC_except_table3892
++ GCC_except_table3893
++ GCC_except_table3896
++ GCC_except_table3901
++ GCC_except_table3902
++ GCC_except_table3916
++ GCC_except_table3917
++ GCC_except_table3934
++ GCC_except_table3935
++ GCC_except_table3938
++ GCC_except_table3954
++ GCC_except_table3955
++ GCC_except_table3969
++ GCC_except_table3970
++ GCC_except_table4000
++ GCC_except_table4010
++ GCC_except_table4034
++ GCC_except_table4042
++ GCC_except_table4052
++ GCC_except_table4053
++ GCC_except_table4056
++ GCC_except_table4072
++ GCC_except_table4080
++ GCC_except_table4081
++ GCC_except_table4091
++ GCC_except_table4098
++ GCC_except_table4105
++ GCC_except_table4120
++ GCC_except_table4121
++ GCC_except_table4135
++ GCC_except_table4141
++ GCC_except_table4151
++ GCC_except_table4152
++ GCC_except_table4162
++ GCC_except_table4163
++ GCC_except_table4175
++ GCC_except_table4176
++ GCC_except_table4180
++ GCC_except_table4186
++ GCC_except_table4205
++ GCC_except_table4212
++ GCC_except_table4215
++ GCC_except_table4219
++ GCC_except_table4245
++ GCC_except_table4253
++ GCC_except_table426
++ GCC_except_table4271
++ GCC_except_table4280
++ GCC_except_table4301
++ GCC_except_table4307
++ GCC_except_table4308
++ GCC_except_table4313
++ GCC_except_table4333
++ GCC_except_table4352
++ GCC_except_table4363
++ GCC_except_table4375
++ GCC_except_table4395
++ GCC_except_table4403
++ GCC_except_table4404
++ GCC_except_table4427
++ GCC_except_table4428
++ GCC_except_table4436
++ GCC_except_table4440
++ GCC_except_table4446
++ GCC_except_table4449
++ GCC_except_table4450
++ GCC_except_table4467
++ GCC_except_table4479
++ GCC_except_table4483
++ GCC_except_table4496
++ GCC_except_table4497
++ GCC_except_table4508
++ GCC_except_table4524
++ GCC_except_table453
++ GCC_except_table4533
++ GCC_except_table4534
++ GCC_except_table4537
++ GCC_except_table4542
++ GCC_except_table4547
++ GCC_except_table4548
++ GCC_except_table4551
++ GCC_except_table4561
++ GCC_except_table4572
++ GCC_except_table458
++ GCC_except_table4581
++ GCC_except_table4595
++ GCC_except_table4596
++ GCC_except_table4622
++ GCC_except_table4631
++ GCC_except_table4634
++ GCC_except_table4642
++ GCC_except_table4654
++ GCC_except_table4661
++ GCC_except_table4669
++ GCC_except_table4683
++ GCC_except_table4690
++ GCC_except_table4699
++ GCC_except_table4709
++ GCC_except_table4716
++ GCC_except_table4717
++ GCC_except_table4720
++ GCC_except_table4721
++ GCC_except_table4730
++ GCC_except_table4736
++ GCC_except_table4737
++ GCC_except_table4746
++ GCC_except_table4765
++ GCC_except_table4780
++ GCC_except_table4799
++ GCC_except_table4809
++ GCC_except_table481
++ GCC_except_table4835
++ GCC_except_table4836
++ GCC_except_table4855
++ GCC_except_table4857
++ GCC_except_table4864
++ GCC_except_table4876
++ GCC_except_table4892
++ GCC_except_table4896
++ GCC_except_table490
++ GCC_except_table4908
++ GCC_except_table4910
++ GCC_except_table4916
++ GCC_except_table4926
++ GCC_except_table4932
++ GCC_except_table4933
++ GCC_except_table4937
++ GCC_except_table4947
++ GCC_except_table4964
++ GCC_except_table4992
++ GCC_except_table5000
++ GCC_except_table5016
++ GCC_except_table5049
++ GCC_except_table5067
++ GCC_except_table5089
++ GCC_except_table509
++ GCC_except_table5104
++ GCC_except_table5129
++ GCC_except_table5131
++ GCC_except_table5152
++ GCC_except_table5179
++ GCC_except_table5225
++ GCC_except_table5226
++ GCC_except_table5240
++ GCC_except_table5259
++ GCC_except_table537
++ GCC_except_table544
++ GCC_except_table574
++ GCC_except_table576
++ GCC_except_table582
++ GCC_except_table586
++ GCC_except_table589
++ GCC_except_table593
++ GCC_except_table597
++ GCC_except_table599
++ GCC_except_table608
++ GCC_except_table610
++ GCC_except_table628
++ GCC_except_table643
++ GCC_except_table659
++ GCC_except_table661
++ GCC_except_table685
++ GCC_except_table687
++ GCC_except_table694
++ GCC_except_table696
++ GCC_except_table719
++ GCC_except_table750
++ GCC_except_table769
++ GCC_except_table792
++ GCC_except_table797
++ GCC_except_table821
++ GCC_except_table825
++ GCC_except_table830
++ GCC_except_table832
++ GCC_except_table835
++ GCC_except_table850
++ GCC_except_table855
++ GCC_except_table867
++ GCC_except_table876
++ GCC_except_table929
++ GCC_except_table943
++ GCC_except_table955
++ GCC_except_table958
++ GCC_except_table960
++ GCC_except_table979
++ __ZN3API18NavigationResponse25navigationInitiatingFrameEv
++ __ZN3API18NavigationResponseC2ERNS_9FrameInfoERKN7WebCore15ResourceRequestERKNS3_16ResourceResponseEbRKN3WTF6StringEPNS_10NavigationE
++ __ZN3API18NavigationResponseD2Ev
++ __ZN3IPC13ArgumentCoderIN6WebKit35WebExtensionMessageTargetParametersEvE6encodeERNS_7EncoderERKS2_
++ __ZN3IPC13ArgumentCoderINSt3__15tupleIJRKN7WebCore16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS3_19ScrollingNodeIDTypeENS5_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEERKNS1_8optionalIjEESH_EEEvE6encodeINS_7EncoderESI_JLm0ELm1ELm2EEEEvRT_OT0_NS1_16integer_sequenceImJXspT1_EEEE
++ __ZN3IPC13ArgumentCoderINSt3__18optionalIN6WebKit13FrameInfoDataEEEvE6encodeINS_7EncoderES5_EEvRT_OT0_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy11SetHasVideoENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEbEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy13SetInlineRectENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEERKNS9_9FloatRectEbEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy18SetVideoDimensionsENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEERKNS9_9FloatSizeEEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy19SetPlayerIdentifierENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENSt3__18optionalINS8_INS9_25MediaPlayerIdentifierTypeESC_yEEEEEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy21SetDocumentVisibilityENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEbEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy21SetupFullscreenWithIDENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEjRKNS9_9FloatRectERKNS9_9FloatSizeESJ_fjbbbEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy22SetVideoFullscreenModeENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEjEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy23SetHasVideoContentLayerENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEbEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy24ClearVideoFullscreenModeENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEjEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy24PreparedToReturnToInlineENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEbNS9_9FloatRectEEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy27AudioSessionCategoryChangedENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS9_20AudioSessionCategoryENS9_16AudioSessionModeENS9_18RouteSharingPolicyEEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy29TextTrackRepresentationUpdateENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEONS9_21ShareableBitmapHandleEEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy32TextTrackRepresentationSetHiddenENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEbEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy36ExitFullscreenWithoutAnimationToModeENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEjEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC13handleMessageIN8Messages29VideoPresentationManagerProxy39TextTrackRepresentationSetContentsScaleENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEfEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC18handleMessageAsyncIN8Messages29VideoPresentationManagerProxy14ExitFullscreenENS_10ConnectionEN6WebKit29VideoPresentationManagerProxyES6_FvN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS7_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS9_9FloatRectEONS7_17CompletionHandlerIFvbEEEEEEvRT0_RNS_7DecoderEPT1_MT2_T3_
++ __ZN3IPC7Decoder6decodeIN7WebCore16AudioSessionModeEEENSt3__18optionalIT_EEv
++ __ZN3IPC7Decoder6decodeIN7WebCore20AudioSessionCategoryEEENSt3__18optionalIT_EEv
++ __ZN3IPC7Decoder6decodeINSt3__18optionalIN6WebKit13FrameInfoDataEEEEENS3_IT_EEv
++ __ZN3WTF6Detail15CallableWrapperIZN6WebKit29VideoPresentationModelContext27audioSessionCategoryChangedEN7WebCore20AudioSessionCategoryENS4_16AudioSessionModeENS4_18RouteSharingPolicyEE3$_0vJRNS4_28VideoPresentationModelClientEEE4callESA_
++ __ZN3WTF6Detail15CallableWrapperIZN6WebKit29VideoPresentationModelContext27audioSessionCategoryChangedEN7WebCore20AudioSessionCategoryENS4_16AudioSessionModeENS4_18RouteSharingPolicyEE3$_0vJRNS4_28VideoPresentationModelClientEEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZN6WebKit29VideoPresentationModelContext27audioSessionCategoryChangedEN7WebCore20AudioSessionCategoryENS4_16AudioSessionModeENS4_18RouteSharingPolicyEE3$_0vJRNS4_28VideoPresentationModelClientEEED1Ev
++ __ZN3WTF6Detail15CallableWrapperIZZN6WebKit20NetworkDataTaskCocoa17setH2PingCallbackERKNS_3URLEONS_17CompletionHandlerIFvONSt12experimental15fundamentals_v38expectedINS_7SecondsEN7WebCore13ResourceErrorEEEEEEENK3$_1clERNS_8FunctionISG_EEEUlvE_vJEE4callEv
++ __ZN3WTF6Detail15CallableWrapperIZZN6WebKit20NetworkDataTaskCocoa17setH2PingCallbackERKNS_3URLEONS_17CompletionHandlerIFvONSt12experimental15fundamentals_v38expectedINS_7SecondsEN7WebCore13ResourceErrorEEEEEEENK3$_1clERNS_8FunctionISG_EEEUlvE_vJEED0Ev
++ __ZN3WTF6Detail15CallableWrapperIZZN6WebKit20NetworkDataTaskCocoa17setH2PingCallbackERKNS_3URLEONS_17CompletionHandlerIFvONSt12experimental15fundamentals_v38expectedINS_7SecondsEN7WebCore13ResourceErrorEEEEEEENK3$_1clERNS_8FunctionISG_EEEUlvE_vJEED1Ev
++ __ZN6WebKit12WebPageProxy23downloadOriginatingPageEPKN3API10NavigationE
++ __ZN6WebKit12WebPageProxy25navigationOriginatingPageERKNS_13FrameInfoDataE
++ __ZN6WebKit17WebLoaderStrategy12preconnectToERN7WebCore11FrameLoaderEONS1_15ResourceRequestENS1_23StoredCredentialsPolicyENS1_14LoaderStrategy28ShouldPreconnectAsFirstPartyEON3WTF8FunctionIFvRKNS1_13ResourceErrorEEEE
++ __ZN6WebKit19WebExtensionAPITest18runWithUserGestureERNS_8WebFrameEP7JSValue
++ __ZN6WebKit21AuxiliaryProcessProxy4sendIN8Messages26RemoteScrollingCoordinator27AnimatedScrollDidEndForNodeEEEbOT_yN3WTF9OptionSetIN3IPC10SendOptionEEE
++ __ZN6WebKit21AuxiliaryProcessProxy4sendIN8Messages26RemoteScrollingCoordinator28ReceivedWheelEventWithPhasesEEEbOT_yN3WTF9OptionSetIN3IPC10SendOptionEEE
++ __ZN6WebKit21AuxiliaryProcessProxy4sendIN8Messages26RemoteScrollingCoordinator37CurrentSnapPointIndicesChangedForNodeEEEbOT_yN3WTF9OptionSetIN3IPC10SendOptionEEE
++ __ZN6WebKit21AuxiliaryProcessProxy4sendIN8Messages26RemoteScrollingCoordinator43StopDeferringScrollingTestCompletionForNodeEEEbOT_yN3WTF9OptionSetIN3IPC10SendOptionEEE
++ __ZN6WebKit21AuxiliaryProcessProxy4sendIN8Messages26RemoteScrollingCoordinator44StartDeferringScrollingTestCompletionForNodeEEEbOT_yN3WTF9OptionSetIN3IPC10SendOptionEEE
++ __ZN6WebKit21JSWebExtensionAPITest18runWithUserGestureEPK15OpaqueJSContextP13OpaqueJSValueS5_mPKPKS4_PS7_
++ __ZN6WebKit21JSWebExtensionAPITest23isProcessingUserGestureEPK15OpaqueJSContextP13OpaqueJSValueS5_mPKPKS4_PS7_
++ __ZN6WebKit22RemoteScrollingTreeIOSC2ERNS_31RemoteScrollingCoordinatorProxyE
++ __ZN6WebKit29VideoPresentationManagerProxy27audioSessionCategoryChangedEN3WTF23ObjectIdentifierGenericIN7WebCore31MediaPlayerClientIdentifierTypeENS1_38ObjectIdentifierMainThreadAccessTraitsIyEEyEENS3_20AudioSessionCategoryENS3_16AudioSessionModeENS3_18RouteSharingPolicyE
++ __ZN6WebKit30WebExtensionStorageSQLiteStore10getAllKeysEON3WTF17CompletionHandlerIFvNS1_6VectorINS1_6StringELm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEERKS4_EEE
++ __ZN6WebKit30WebExtensionStorageSQLiteStore12setKeyedDataEN3WTF7HashMapINS1_6StringES3_NS1_11DefaultHashIS3_EENS1_10HashTraitsIS3_EES7_NS1_15HashTableTraitsELNS1_17ShouldValidateKeyE1EEEONS1_17CompletionHandlerIFvNS1_6VectorIS3_Lm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEERKS3_EEE
++ __ZN6WebKit30WebExtensionStorageSQLiteStore19deleteValuesForKeysEN3WTF6VectorINS1_6StringELm0ENS1_15CrashOnOverflowELm16ENS1_10FastMallocEEEONS1_17CompletionHandlerIFvRKS3_EEE
++ __ZN6WebKit30WebExtensionStorageSQLiteStore24getStorageSizeForAllKeysEN3WTF7HashMapINS1_6StringES3_NS1_11DefaultHashIS3_EENS1_10HashTraitsIS3_EES7_NS1_15HashTableTraitsELNS1_17ShouldValidateKeyE1EEEONS1_17CompletionHandlerIFvmiSA_RKS3_EEE
++ __ZN6WebKit31RemoteScrollingCoordinatorProxy28receivedWheelEventWithPhasesEN7WebCore23PlatformWheelEventPhaseES2_
++ __ZN6WebKit31RemoteScrollingCoordinatorProxy32currentSnapPointIndicesDidChangeEN7WebCore16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS1_19ScrollingNodeIDTypeENS3_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEENSt3__18optionalIjEESC_
++ __ZN6WebKit31RemoteScrollingCoordinatorProxy38deferWheelEventTestCompletionForReasonENSt3__18optionalIN7WebCore16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS3_19ScrollingNodeIDTypeENS5_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEEENS3_32WheelEventTestMonitorDeferReasonE
++ __ZN6WebKit31RemoteScrollingCoordinatorProxy38scrollingTreeNodeDidStopAnimatedScrollEN7WebCore16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS1_19ScrollingNodeIDTypeENS3_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEE
++ __ZN6WebKit31RemoteScrollingCoordinatorProxy40reportSynchronousScrollingReasonsChangedEN3WTF13MonotonicTimeENS1_9OptionSetIN7WebCore26SynchronousScrollingReasonEEE
++ __ZN6WebKit31RemoteScrollingCoordinatorProxy47removeWheelEventTestCompletionDeferralForReasonENSt3__18optionalIN7WebCore16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS3_19ScrollingNodeIDTypeENS5_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEEENS3_32WheelEventTestMonitorDeferReasonE
++ __ZN6WebKit33VideoPresentationInterfaceContext27audioSessionCategoryChangedEN7WebCore20AudioSessionCategoryENS1_16AudioSessionModeENS1_18RouteSharingPolicyE
++ __ZN7WebCore10IDBKeyData12isValidValueERKNSt3__17variantIJDnNS0_7InvalidEN3WTF6VectorIS0_Lm0ENS4_15CrashOnOverflowELm16ENS4_10FastMallocEEENS4_6StringEdNS0_4DateENS_20ThreadSafeDataBufferENS0_3MinENS0_3MaxEEEE
++ __ZN7WebCore11FontCascadeD2Ev
++ __ZN7WebCore11FrameLoader19prefetchDNSIfNeededERKN3WTF3URLE
++ __ZN7WebCore22SWRegistrationDatabase14deleteAllFilesEv
++ __ZNKSt3__114default_deleteIN6WebKit13FrameInfoDataEEclB8sn190102EPS2_
++ __ZNSt3__123__optional_storage_baseIN6WebKit13FrameInfoDataELb0EE13__assign_fromB8sn190102INS_27__optional_move_assign_baseIS2_Lb0EEEEEvOT_
++ __ZTVN3WTF6Detail15CallableWrapperIZN6WebKit29VideoPresentationModelContext27audioSessionCategoryChangedEN7WebCore20AudioSessionCategoryENS4_16AudioSessionModeENS4_18RouteSharingPolicyEE3$_0vJRNS4_28VideoPresentationModelClientEEEE
++ __ZTVN3WTF6Detail15CallableWrapperIZZN6WebKit20NetworkDataTaskCocoa17setH2PingCallbackERKNS_3URLEONS_17CompletionHandlerIFvONSt12experimental15fundamentals_v38expectedINS_7SecondsEN7WebCore13ResourceErrorEEEEEEENK3$_1clERNS_8FunctionISG_EEEUlvE_vJEEE
++ __ZZ39-[WKContactPicker dismissWithContacts:]EN4$_34D1Ev
++ __ZZZN6WebKit20NetworkDataTaskCocoa17setH2PingCallbackERKN3WTF3URLEONS1_17CompletionHandlerIFvONSt12experimental15fundamentals_v38expectedINS1_7SecondsEN7WebCore13ResourceErrorEEEEEEENK3$_1clERNS1_8FunctionISE_EEENUlvE_D1Ev
++ ___61-[WKWebView closeAllMediaPresentationsWithCompletionHandler:]_block_invoke
++ ___block_descriptor_40_e8_32c74_ZTSKZ60-[WKContactPicker presentWithRequestData:completionHandler:]E4$_33_e5_v8?0l
++ ___block_descriptor_56_e8_32c53_ZTSKZ39-[WKContactPicker dismissWithContacts:]E4$_34_e5_v8?0l
++ ___copy_helper_block_e8_32c53_ZTSKZ39-[WKContactPicker dismissWithContacts:]E4$_34
++ ___copy_helper_block_e8_32c74_ZTSKZ60-[WKContactPicker presentWithRequestData:completionHandler:]E4$_33
++ ___destroy_helper_block_e8_32c53_ZTSKZ39-[WKContactPicker dismissWithContacts:]E4$_34
++ ___destroy_helper_block_e8_32c74_ZTSKZ60-[WKContactPicker presentWithRequestData:completionHandler:]E4$_33
+- GCC_except_table1008
+- GCC_except_table1046
+- GCC_except_table1048
+- GCC_except_table1055
+- GCC_except_table1061
+- GCC_except_table1073
+- GCC_except_table1081
+- GCC_except_table1094
+- GCC_except_table1108
+- GCC_except_table1150
+- GCC_except_table1153
+- GCC_except_table1156
+- GCC_except_table1176
+- GCC_except_table1183
+- GCC_except_table1189
+- GCC_except_table1195
+- GCC_except_table1198
+- GCC_except_table1229
+- GCC_except_table1234
+- GCC_except_table1268
+- GCC_except_table1281
+- GCC_except_table1317
+- GCC_except_table1326
+- GCC_except_table1329
+- GCC_except_table1335
+- GCC_except_table1403
+- GCC_except_table1414
+- GCC_except_table1423
+- GCC_except_table1489
+- GCC_except_table1495
+- GCC_except_table1501
+- GCC_except_table1551
+- GCC_except_table1561
+- GCC_except_table1566
+- GCC_except_table1571
+- GCC_except_table1582
+- GCC_except_table1607
+- GCC_except_table1610
+- GCC_except_table1622
+- GCC_except_table1625
+- GCC_except_table1648
+- GCC_except_table1654
+- GCC_except_table1663
+- GCC_except_table2404
+- GCC_except_table2408
+- GCC_except_table323
+- GCC_except_table337
+- GCC_except_table3671
+- GCC_except_table3672
+- GCC_except_table3683
+- GCC_except_table3692
+- GCC_except_table3707
+- GCC_except_table3708
+- GCC_except_table3711
+- GCC_except_table3727
+- GCC_except_table3748
+- GCC_except_table3756
+- GCC_except_table3771
+- GCC_except_table3772
+- GCC_except_table3776
+- GCC_except_table3786
+- GCC_except_table3795
+- GCC_except_table3798
+- GCC_except_table3831
+- GCC_except_table3848
+- GCC_except_table3857
+- GCC_except_table3870
+- GCC_except_table3871
+- GCC_except_table3880
+- GCC_except_table3881
+- GCC_except_table3889
+- GCC_except_table3890
+- GCC_except_table3894
+- GCC_except_table3899
+- GCC_except_table3900
+- GCC_except_table3914
+- GCC_except_table3915
+- GCC_except_table3932
+- GCC_except_table3933
+- GCC_except_table3936
+- GCC_except_table3952
+- GCC_except_table3953
+- GCC_except_table3967
+- GCC_except_table3968
+- GCC_except_table4002
+- GCC_except_table4012
+- GCC_except_table4036
+- GCC_except_table4044
+- GCC_except_table4054
+- GCC_except_table4055
+- GCC_except_table4058
+- GCC_except_table4074
+- GCC_except_table4082
+- GCC_except_table4083
+- GCC_except_table4093
+- GCC_except_table4100
+- GCC_except_table4107
+- GCC_except_table4122
+- GCC_except_table4123
+- GCC_except_table4137
+- GCC_except_table4143
+- GCC_except_table4153
+- GCC_except_table4154
+- GCC_except_table4164
+- GCC_except_table4165
+- GCC_except_table4178
+- GCC_except_table4179
+- GCC_except_table4182
+- GCC_except_table4188
+- GCC_except_table4211
+- GCC_except_table4217
+- GCC_except_table4218
+- GCC_except_table4221
+- GCC_except_table4247
+- GCC_except_table4255
+- GCC_except_table4273
+- GCC_except_table4282
+- GCC_except_table4303
+- GCC_except_table4309
+- GCC_except_table4310
+- GCC_except_table4315
+- GCC_except_table4335
+- GCC_except_table4354
+- GCC_except_table4365
+- GCC_except_table4377
+- GCC_except_table4397
+- GCC_except_table4406
+- GCC_except_table4407
+- GCC_except_table4429
+- GCC_except_table4430
+- GCC_except_table4438
+- GCC_except_table4442
+- GCC_except_table4448
+- GCC_except_table4451
+- GCC_except_table4452
+- GCC_except_table4469
+- GCC_except_table4481
+- GCC_except_table4485
+- GCC_except_table4498
+- GCC_except_table4499
+- GCC_except_table4510
+- GCC_except_table4526
+- GCC_except_table4535
+- GCC_except_table4536
+- GCC_except_table4539
+- GCC_except_table4544
+- GCC_except_table4549
+- GCC_except_table4550
+- GCC_except_table4553
+- GCC_except_table4563
+- GCC_except_table4574
+- GCC_except_table4583
+- GCC_except_table4598
+- GCC_except_table4599
+- GCC_except_table4626
+- GCC_except_table4633
+- GCC_except_table4636
+- GCC_except_table4644
+- GCC_except_table4656
+- GCC_except_table4663
+- GCC_except_table4671
+- GCC_except_table4685
+- GCC_except_table4694
+- GCC_except_table4701
+- GCC_except_table4711
+- GCC_except_table4718
+- GCC_except_table4719
+- GCC_except_table4722
+- GCC_except_table4725
+- GCC_except_table4732
+- GCC_except_table4742
+- GCC_except_table4743
+- GCC_except_table4748
+- GCC_except_table4767
+- GCC_except_table4782
+- GCC_except_table4801
+- GCC_except_table4811
+- GCC_except_table4828
+- GCC_except_table4841
+- GCC_except_table4842
+- GCC_except_table4858
+- GCC_except_table4860
+- GCC_except_table4867
+- GCC_except_table4879
+- GCC_except_table4895
+- GCC_except_table4899
+- GCC_except_table4913
+- GCC_except_table4914
+- GCC_except_table4919
+- GCC_except_table4929
+- GCC_except_table4935
+- GCC_except_table4939
+- GCC_except_table4940
+- GCC_except_table4950
+- GCC_except_table4967
+- GCC_except_table4995
+- GCC_except_table5003
+- GCC_except_table5019
+- GCC_except_table5052
+- GCC_except_table5070
+- GCC_except_table5092
+- GCC_except_table5107
+- GCC_except_table5132
+- GCC_except_table5134
+- GCC_except_table5155
+- GCC_except_table5182
+- GCC_except_table5229
+- GCC_except_table5231
+- GCC_except_table5243
+- GCC_except_table5262
+- GCC_except_table534
+- GCC_except_table536
+- GCC_except_table542
+- GCC_except_table569
+- GCC_except_table573
+- GCC_except_table575
+- GCC_except_table581
+- GCC_except_table585
+- GCC_except_table588
+- GCC_except_table592
+- GCC_except_table598
+- GCC_except_table601
+- GCC_except_table609
+- GCC_except_table618
+- GCC_except_table624
+- GCC_except_table627
+- GCC_except_table631
+- GCC_except_table638
+- GCC_except_table641
+- GCC_except_table658
+- GCC_except_table660
+- GCC_except_table695
+- GCC_except_table717
+- GCC_except_table721
+- GCC_except_table724
+- GCC_except_table767
+- GCC_except_table791
+- GCC_except_table822
+- GCC_except_table829
+- GCC_except_table831
+- GCC_except_table854
+- GCC_except_table874
+- GCC_except_table893
+- GCC_except_table902
+- GCC_except_table918
+- GCC_except_table921
+- GCC_except_table933
+- GCC_except_table945
+- GCC_except_table954
+- GCC_except_table956
+- GCC_except_table962
+- GCC_except_table970
+- GCC_except_table978
+- __ZN3IPC13ArgumentCoderINSt3__17variantIJDnN7WebCore10IDBKeyData7InvalidEN3WTF6VectorIS4_Lm0ENS6_15CrashOnOverflowELm16ENS6_10FastMallocEEENS6_6StringEdNS4_4DateENS3_20ThreadSafeDataBufferENS4_3MinENS4_3MaxEEEEvE6decodeINS_7DecoderEEENS1_8optionalISG_EERT_
+- __ZN3IPC13ArgumentCoderINSt3__17variantIJDnN7WebCore10IDBKeyData7InvalidEN3WTF6VectorIS4_Lm0ENS6_15CrashOnOverflowELm16ENS6_10FastMallocEEENS6_6StringEdNS4_4DateENS3_20ThreadSafeDataBufferENS4_3MinENS4_3MaxEEEEvE6decodeINS_7DecoderEJLm0EEEENS1_8optionalISG_EERT_NS1_16integer_sequenceImJXspT0_EEEEm
+- __ZN3IPC13ArgumentCoderINSt3__17variantIJDnN7WebCore10IDBKeyData7InvalidEN3WTF6VectorIS4_Lm0ENS6_15CrashOnOverflowELm16ENS6_10FastMallocEEENS6_6StringEdNS4_4DateENS3_20ThreadSafeDataBufferENS4_3MinENS4_3MaxEEEEvE6decodeINS_7DecoderEJLm0ELm1EEEENS1_8optionalISG_EERT_NS1_16integer_sequenceImJXspT0_EEEEm
+- __ZN3IPC7Decoder6decodeINSt3__17variantIJDnN7WebCore10IDBKeyData7InvalidEN3WTF6VectorIS5_Lm0ENS7_15CrashOnOverflowELm16ENS7_10FastMallocEEENS7_6StringEdNS5_4DateENS4_20ThreadSafeDataBufferENS5_3MinENS5_3MaxEEEEEENS2_8optionalIT_EEv
+- __ZN6WebKit17WebLoaderStrategy12preconnectToERN7WebCore11FrameLoaderERKN3WTF3URLENS1_23StoredCredentialsPolicyENS1_14LoaderStrategy28ShouldPreconnectAsFirstPartyEONS4_8FunctionIFvRKNS1_13ResourceErrorEEEE
+- __ZN6WebKit19RemoteScrollingTree6createERNS_31RemoteScrollingCoordinatorProxyE
+- __ZN6WebKit21AuxiliaryProcessProxy18sendWithAsyncReplyIN8Messages14NetworkProcess32RemovePushSubscriptionsForOriginEN3WTF17CompletionHandlerIFvjEEEEENSt3__18optionalINS5_23ObjectIdentifierGenericIN3IPC16AsyncReplyIDTypeENS5_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEOT_OT0_yNS5_9OptionSetINSC_10SendOptionEEENS0_35ShouldStartProcessThrottlerActivityE
+- __ZN6WebKit21AuxiliaryProcessProxy18sendWithAsyncReplyIN8Messages14NetworkProcess39SetPushAndNotificationsEnabledForOriginEN3WTF17CompletionHandlerIFvvEEEEENSt3__18optionalINS5_23ObjectIdentifierGenericIN3IPC16AsyncReplyIDTypeENS5_38ObjectIdentifierThreadSafeAccessTraitsIyEEyEEEEOT_OT0_yNS5_9OptionSetINSC_10SendOptionEEENS0_35ShouldStartProcessThrottlerActivityE
+- __ZN6WebKit32LegacyCustomProtocolManagerProxyC2ERNS_19NetworkProcessProxyE
+- __ZN7WebCore14PopupMenuStyleD2Ev
+- __ZN7WebCore22SWRegistrationDatabase21clearAllRegistrationsEv
+- __ZNK6WebKit24WebExtensionMatchPattern18hostIsPublicSuffixEv
+- __ZZ39-[WKContactPicker dismissWithContacts:]EN4$_33D1Ev
+- ___block_descriptor_40_e8_32c74_ZTSKZ60-[WKContactPicker presentWithRequestData:completionHandler:]E4$_32_e5_v8?0l
+- ___block_descriptor_56_e8_32c53_ZTSKZ39-[WKContactPicker dismissWithContacts:]E4$_33_e5_v8?0l
+- ___copy_helper_block_e8_32c53_ZTSKZ39-[WKContactPicker dismissWithContacts:]E4$_33
+- ___copy_helper_block_e8_32c74_ZTSKZ60-[WKContactPicker presentWithRequestData:completionHandler:]E4$_32
+- ___destroy_helper_block_e8_32c53_ZTSKZ39-[WKContactPicker dismissWithContacts:]E4$_33
+- ___destroy_helper_block_e8_32c74_ZTSKZ60-[WKContactPicker presentWithRequestData:completionHandler:]E4$_32
+- __const._ZNSt3__116__variant_detail12__visitation6__base11__visit_altB8sn190102IZNS0_6__dtorINS0_8__traitsIJDnN7WebCore10IDBKeyData7InvalidEN3WTF6VectorIS7_Lm0ENS9_15CrashOnOverflowELm16ENS9_10FastMallocEEENS9_6StringEdNS7_4DateENS6_20ThreadSafeDataBufferENS7_3MinENS7_3MaxEEEELNS0_6_TraitE1EE9__destroyB8sn190102EvEUlRT_E_JRSL_EEEDcOSM_DpOT0_.__fmatrix
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/storage/SQLiteStorageArea.cpp"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/Cocoa/VideoPresentationManagerProxy.mm 1002: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/Cocoa/VideoPresentationManagerProxy.mm 1137: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/Cocoa/VideoPresentationManagerProxy.mm 1151: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/Cocoa/VideoPresentationManagerProxy.mm 1158: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10355: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10363: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10455: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10458: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10484: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10487: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10520: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10566: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10684: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10700: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10716: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10732: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10760: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10776: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 11832: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13044: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13908: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13910: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13917: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13919: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13926: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13928: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13989: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13998: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14084: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14085: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14102: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14103: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14111: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14127: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14128: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14129: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14158: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14161: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14221: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14222: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 15389: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 2674: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 2680: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 4114: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 5930: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 5944: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 5957: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 5963: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6385: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6512: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6535: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6584: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6617: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6618: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6619: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6651: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6729: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6730: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6797: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6798: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6799: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6831: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6832: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6834: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 7355: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 7397: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 7711: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8027: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8075: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8106: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8117: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8118: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8209: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8212: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8236: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8237: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8257: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8258: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8259: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8260: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8287: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8288: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8291: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8306: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8307: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8339: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8860: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8861: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8862: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8869: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9143: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9435: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9440: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9479: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9491: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9492: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9572: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9612: Invalid message dispatched %{public}s"
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9839: Invalid message dispatched %{public}s"
++ "20621.2.3.11.1"
++ "Called function test.isProcessingUserGesture() (%{public}lu %{public}s) in %{public}s world"
++ "Called function test.runWithUserGesture() (%{public}lu %{public}s) in %{public}s world"
++ "SQLiteStorageArea::allItems cache deleted during read from cache"
++ "SQLiteStorageArea::allItems failed during read from cache (%hhu){public}s"
++ "VideoPresentationManagerProxy_AudioSessionCategoryChanged"
++ "_navigationInitiatingFrame"
++ "isProcessingUserGesture"
++ "runWithUserGesture"
++ "test.runWithUserGesture()"
++ "virtual HashMap<String, String> WebKit::SQLiteStorageArea::allItems()"
++ "{ObjectStorage<API::NavigationResponse>=\"data\"{type=\"__lx\"[512C]}}"
++ "{ObjectStorage<WebKit::WebPage>=\"data\"{type=\"__lx\"[2152C]}}"
++ "{RetainPtr<WebAVPlayerLayerView>=\"m_ptr\"^v}"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/Cocoa/VideoPresentationManagerProxy.mm 1125: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/Cocoa/VideoPresentationManagerProxy.mm 1139: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/Cocoa/VideoPresentationManagerProxy.mm 1146: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/Cocoa/VideoPresentationManagerProxy.mm 995: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10340: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10348: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10440: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10443: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10469: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10472: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10505: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10551: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10669: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10685: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10701: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10717: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10745: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 10761: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 11817: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13029: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13893: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13895: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13902: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13904: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13911: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13913: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13974: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 13983: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14054: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14055: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14087: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14088: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14096: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14112: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14113: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14114: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14143: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14146: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14191: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 14192: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 15374: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 2673: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 2679: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 4113: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 5910: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 5924: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 5937: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 5943: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6365: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6492: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6515: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6564: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6597: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6598: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6599: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6631: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6709: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6710: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6777: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6778: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6779: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6811: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6812: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 6814: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 7335: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 7377: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 7692: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8010: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8058: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8089: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8100: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8101: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8192: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8195: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8219: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8220: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8240: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8241: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8242: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8243: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8270: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8271: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8273: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8274: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8289: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8323: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8324: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8845: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8846: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8847: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 8854: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9128: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9420: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9425: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9464: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9476: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9477: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9557: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9597: Invalid message dispatched %{public}s"
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Library/Caches/com.apple.xbs/Sources/WebKit_iosmac/Source/WebKit/UIProcess/WebPageProxy.cpp 9824: Invalid message dispatched %{public}s"
+- "20621.2.1.11.5"
+- "@\"WebAVPlayerLayerView\""
+- "{ObjectStorage<API::NavigationResponse>=\"data\"{type=\"__lx\"[496C]}}"
+- "{ObjectStorage<WebKit::WebPage>=\"data\"{type=\"__lx\"[2144C]}}"
+```

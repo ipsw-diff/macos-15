@@ -1,0 +1,119 @@
+## NotesEditor
+
+> `/System/Library/PrivateFrameworks/NotesEditor.framework/Versions/A/NotesEditor`
+
+```diff
+
+-2998.52.0.0.0
+-  __TEXT.__text: 0x24549c
++2998.55.0.0.0
++  __TEXT.__text: 0x2462c0
+   __TEXT.__auth_stubs: 0x5510
+   __TEXT.__objc_methlist: 0x12000
+-  __TEXT.__const: 0x5990
++  __TEXT.__const: 0x5a40
+   __TEXT.__gcc_except_tab: 0x1bb0
+-  __TEXT.__cstring: 0xd921
+-  __TEXT.__oslogstring: 0x4a3d
++  __TEXT.__cstring: 0xd981
++  __TEXT.__oslogstring: 0x4afd
+   __TEXT.__ustring: 0x476
+   __TEXT.__dlopen_cstrs: 0x4e
+-  __TEXT.__swift5_typeref: 0x22010
+-  __TEXT.__swift5_capture: 0x1e88
+-  __TEXT.__constg_swiftt: 0x3428
+-  __TEXT.__swift5_reflstr: 0x3036
+-  __TEXT.__swift5_fieldmd: 0x2134
++  __TEXT.__swift5_typeref: 0x220ca
++  __TEXT.__swift5_capture: 0x1eb0
++  __TEXT.__constg_swiftt: 0x34c8
++  __TEXT.__swift5_reflstr: 0x3086
++  __TEXT.__swift5_fieldmd: 0x2158
+   __TEXT.__swift5_builtin: 0x1f4
+   __TEXT.__swift5_assocty: 0x558
+   __TEXT.__swift5_proto: 0x210
+   __TEXT.__swift5_types: 0x1d4
+   __TEXT.__swift_as_entry: 0x1a0
+-  __TEXT.__swift_as_ret: 0x1a4
++  __TEXT.__swift_as_ret: 0x1a0
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift5_mpenum: 0x10
+-  __TEXT.__unwind_info: 0x77b8
++  __TEXT.__unwind_info: 0x77e8
+   __TEXT.__eh_frame: 0x65bc
+   __TEXT.__objc_classname: 0x1b89
+-  __TEXT.__objc_methname: 0x35234
++  __TEXT.__objc_methname: 0x35294
+   __TEXT.__objc_methtype: 0x6fde
+-  __TEXT.__objc_stubs: 0x22fc0
+-  __DATA_CONST.__got: 0x2480
+-  __DATA_CONST.__const: 0xbb0
++  __TEXT.__objc_stubs: 0x23040
++  __DATA_CONST.__got: 0x2490
++  __DATA_CONST.__const: 0xbd0
+   __DATA_CONST.__objc_classlist: 0x5c0
+   __DATA_CONST.__objc_catlist: 0x158
+   __DATA_CONST.__objc_protolist: 0x410
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0xc510
++  __DATA_CONST.__objc_selrefs: 0xc528
+   __DATA_CONST.__objc_protorefs: 0x110
+   __DATA_CONST.__objc_superrefs: 0x368
+   __DATA_CONST.__objc_arraydata: 0x30
+   __AUTH_CONST.__auth_got: 0x2a98
+-  __AUTH_CONST.__const: 0x9058
++  __AUTH_CONST.__const: 0x90a8
+   __AUTH_CONST.__cfstring: 0x44c0
+-  __AUTH_CONST.__objc_const: 0x19618
++  __AUTH_CONST.__objc_const: 0x19678
+   __AUTH_CONST.__objc_intobj: 0xc0
+   __AUTH_CONST.__objc_arrayobj: 0x30
+   __AUTH_CONST.__objc_dictobj: 0x28
+   __AUTH_CONST.__objc_doubleobj: 0x70
+   __AUTH.__objc_data: 0x6278
+-  __AUTH.__data: 0x2178
++  __AUTH.__data: 0x2238
+   __DATA.__objc_ivar: 0xda8
+-  __DATA.__data: 0x6e78
+-  __DATA.__bss: 0x4790
++  __DATA.__data: 0x6e88
++  __DATA.__bss: 0x47a0
+   __DATA.__common: 0x198
+   - /System/Library/Frameworks/AVFAudio.framework/Versions/A/AVFAudio
+   - /System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 11155
+-  Symbols:   15320
+-  CStrings:  10822
++  Functions: 11200
++  Symbols:   15326
++  CStrings:  10830
+ 
+Symbols:
++ _NSURLIsDirectoryKey
++ _objc_msgSend$containerURL
++ _objc_msgSend$enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:
++ _objc_msgSend$generationManager
++ _objc_msgSend$hasFile
++ _symbolic ScTyyt______pGSg s5ErrorP
++ _symbolic _____y_____y_____y_____yAAyAAyAAy_____yAAy_____y_____yAAyAAy__________G_____y_____GG______tGG_____GGAFGAFGAFG_____ySbGG______Qo_______Qo__SbQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAdeF_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAA7BindingVySbG_AA017PopoverAttachmentL0OAA0N0OSgqd__yctAaBRd__lFQO AA15ModifiedContentV AA6ButtonV AA6HStackV AA05TupleC0V AA5ImageV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV A1_5ScaleO AA4TextV AA010_FlexFrameZ0V AA32_EnvironmentKeyTransformModifierV 11NotesEditor07SummaryqC0V A14_07SummaryC5ModelC16SummaryAlertTypeO
++ _symbolic _____y_____y_____y_____y_____yAAyAAyAAy_____yAAy_____y_____yAAyAAy__________G_____y_____GG______tGG_____GGAFGAFGAFG_____ySbGG______Qo_______Qo__SbQo__Qo_ 7SwiftUI4ViewP8FeedbackE06inlineD010controller10completionQrAA7BindingVyAD23FBKEvaluationControllerCG_ys6ResultOy0D7Service14FBKSEvaluationCs5Error_pGcSgtFQO AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAEAuvW_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAIySbG_AA017PopoverAttachmentW0OAA0Y0OSgqd__yctAaBRd__lFQO AA15ModifiedContentV AA6ButtonV AA6HStackV AA05TupleC0V AA5ImageV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV A16_5ScaleO AA4TextV AA16_FlexFrameLayoutV AA32_EnvironmentKeyTransformModifierV 11NotesEditor014SummaryPopoverC0V A29_07SummaryC5ModelC16SummaryAlertTypeO
++ _symbolic _____y_____y_____y_____y_____y_____yAByAByABy_____yABy_____y_____yAByABy__________G_____y_____GG______tGG_____GGAGGAGGAGG_____ySbGG______Qo_______Qo__SbQo__Qo_G 7SwiftUI5GroupV AA4ViewP8FeedbackE06inlineE010controller10completionQrAA7BindingVyAF23FBKEvaluationControllerCG_ys6ResultOy0E7Service14FBKSEvaluationCs5Error_pGcSgtFQO AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAEAwxY_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAKySbG_AA017PopoverAttachmentX0OAA0Z0OSgqd__yctAaDRd__lFQO AA15ModifiedContentV AA6ButtonV AA6HStackV AA05TupleD0V AA5ImageV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV A18_5ScaleO AA4TextV AA16_FlexFrameLayoutV AA32_EnvironmentKeyTransformModifierV 11NotesEditor014SummaryPopoverD0V A31_07SummaryD5ModelC16SummaryAlertTypeO
++ get_witness_table 7SwiftUI5GroupVyAA4ViewP8FeedbackE06inlineE010controller10completionQrAA7BindingVyAF23FBKEvaluationControllerCG_ys6ResultOy0E7Service14FBKSEvaluationCs5Error_pGcSgtFQOyAeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAeAEAwxY_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAeAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAKySbG_AA017PopoverAttachmentX0OAA0Z0OSgqd__yctAaDRd__lFQOyAA15ModifiedContentVyA10_yA10_yA10_yAA6ButtonVyA10_yAA6HStackVyAA05TupleD0VyA10_yA10_yAA5ImageVAA14_PaddingLayoutVGAA30_EnvironmentKeyWritingModifierVyA18_5ScaleOGG_AA4TextVtGGAA16_FlexFrameLayoutVGGA20_GA20_GA20_GAA32_EnvironmentKeyTransformModifierVySbGG_11NotesEditor014SummaryPopoverD0VQo__A43_07SummaryD5ModelC16SummaryAlertTypeOQo__SbQo__Qo_GAaDHPqd__AaDHD2_A53_HO_HC
+- _symbolic _____y_____y_____y_____yAAyAAyAAy_____yAAy_____y_____yAAyAAy__________G_____y_____GG______tGG_____GGAFGAFGAFG_____ySbGG______Qo_______Qo__Qo_ 7SwiftUI4ViewP8FeedbackE06inlineD010controller10completionQrAA7BindingVyAD23FBKEvaluationControllerCG_ys6ResultOy0D7Service14FBKSEvaluationCs5Error_pGcSgtFQO AcAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AcAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAIySbG_AA017PopoverAttachmentW0OAA0Y0OSgqd__yctAaBRd__lFQO AA15ModifiedContentV AA6ButtonV AA6HStackV AA05TupleC0V AA5ImageV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV A16_5ScaleO AA4TextV AA16_FlexFrameLayoutV AA32_EnvironmentKeyTransformModifierV 11NotesEditor014SummaryPopoverC0V A29_07SummaryC5ModelC16SummaryAlertTypeO
+- _symbolic _____y_____y_____y_____y_____yAByAByABy_____yABy_____y_____yAByABy__________G_____y_____GG______tGG_____GGAGGAGGAGG_____ySbGG______Qo_______Qo__Qo_G 7SwiftUI5GroupV AA4ViewP8FeedbackE06inlineE010controller10completionQrAA7BindingVyAF23FBKEvaluationControllerCG_ys6ResultOy0E7Service14FBKSEvaluationCs5Error_pGcSgtFQO AeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQO AeAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAKySbG_AA017PopoverAttachmentX0OAA0Z0OSgqd__yctAaDRd__lFQO AA15ModifiedContentV AA6ButtonV AA6HStackV AA05TupleD0V AA5ImageV AA14_PaddingLayoutV AA30_EnvironmentKeyWritingModifierV A18_5ScaleO AA4TextV AA16_FlexFrameLayoutV AA32_EnvironmentKeyTransformModifierV 11NotesEditor014SummaryPopoverD0V A31_07SummaryD5ModelC16SummaryAlertTypeO
+- get_witness_table 7SwiftUI5GroupVyAA4ViewP8FeedbackE06inlineE010controller10completionQrAA7BindingVyAF23FBKEvaluationControllerCG_ys6ResultOy0E7Service14FBKSEvaluationCs5Error_pGcSgtFQOyAeAE8onChange2of7initial_Qrqd___Sbyqd___qd__tctSQRd__lFQOyAeAE7popover11isPresented16attachmentAnchor9arrowEdge7contentQrAKySbG_AA017PopoverAttachmentX0OAA0Z0OSgqd__yctAaDRd__lFQOyAA15ModifiedContentVyA10_yA10_yA10_yAA6ButtonVyA10_yAA6HStackVyAA05TupleD0VyA10_yA10_yAA5ImageVAA14_PaddingLayoutVGAA30_EnvironmentKeyWritingModifierVyA18_5ScaleOGG_AA4TextVtGGAA16_FlexFrameLayoutVGGA20_GA20_GA20_GAA32_EnvironmentKeyTransformModifierVySbGG_11NotesEditor014SummaryPopoverD0VQo__A43_07SummaryD5ModelC16SummaryAlertTypeOQo__Qo_GAaDHPqd__AaDHD2_A52_HO_HC
+- objectdestroy.36Tm
+CStrings:
++ "ICImageAttachmentView - media %@ claims not to have file, but found orphaned resource in container: %@"
++ "ICImageAttachmentView failed to load image for attachment: %@ --- media:\n%@"
++ "_isAwaitingMontaraSignIn"
++ "_isSummarizingExternally"
++ "_summarizationTask"
++ "containerURL"
++ "enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:"
++ "generationManager"
+```

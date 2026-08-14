@@ -1,0 +1,336 @@
+## IsolatedCoreAudioClient
+
+> `/System/Library/PrivateFrameworks/IsolatedCoreAudioClient.framework/Versions/A/IsolatedCoreAudioClient`
+
+```diff
+
+-5.602.0.0.0
+-  __TEXT.__text: 0x273e4
+-  __TEXT.__auth_stubs: 0xa00
++5.605.0.0.0
++  __TEXT.__text: 0x276cc
++  __TEXT.__auth_stubs: 0xa20
+   __TEXT.__objc_methlist: 0x884
+-  __TEXT.__const: 0x300b
+-  __TEXT.__gcc_except_tab: 0x2364
+-  __TEXT.__cstring: 0x93f
++  __TEXT.__const: 0x3023
++  __TEXT.__gcc_except_tab: 0x237c
++  __TEXT.__cstring: 0xa1b
+   __TEXT.__oslogstring: 0x2bc8
+-  __TEXT.__unwind_info: 0x1300
++  __TEXT.__unwind_info: 0x1318
+   __TEXT.__objc_classname: 0x213
+   __TEXT.__objc_methname: 0x10f6
+   __TEXT.__objc_methtype: 0xc66
+
+   __DATA_CONST.__objc_selrefs: 0x490
+   __DATA_CONST.__objc_protorefs: 0x28
+   __DATA_CONST.__objc_superrefs: 0x48
+-  __AUTH_CONST.__auth_got: 0x510
+-  __AUTH_CONST.__const: 0x30d0
+-  __AUTH_CONST.__cfstring: 0x160
++  __AUTH_CONST.__auth_got: 0x520
++  __AUTH_CONST.__const: 0x3168
++  __AUTH_CONST.__cfstring: 0x1c0
+   __AUTH_CONST.__objc_const: 0xda8
+   __AUTH.__objc_data: 0x2d0
+   __DATA.__objc_ivar: 0x64
+-  __DATA.__data: 0x368
+-  __DATA.__bss: 0x250
++  __DATA.__data: 0x360
++  __DATA.__bss: 0x258
+   - /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+   - /usr/lib/libbsm.0.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 1116
+-  Symbols:   2326
+-  CStrings:  529
++  Functions: 1127
++  Symbols:   2344
++  CStrings:  534
+ 
+Symbols:
++ GCC_except_table1075
++ GCC_except_table1081
++ GCC_except_table1085
++ GCC_except_table1087
++ GCC_except_table1124
++ GCC_except_table1125
++ GCC_except_table1129
++ GCC_except_table1137
++ GCC_except_table1139
++ GCC_except_table1142
++ GCC_except_table1143
++ GCC_except_table279
++ GCC_except_table292
++ GCC_except_table305
++ GCC_except_table308
++ GCC_except_table310
++ GCC_except_table312
++ GCC_except_table316
++ GCC_except_table325
++ GCC_except_table338
++ GCC_except_table343
++ GCC_except_table349
++ GCC_except_table361
++ GCC_except_table363
++ GCC_except_table366
++ GCC_except_table369
++ GCC_except_table373
++ GCC_except_table375
++ GCC_except_table386
++ GCC_except_table390
++ GCC_except_table398
++ GCC_except_table403
++ GCC_except_table414
++ GCC_except_table416
++ GCC_except_table418
++ GCC_except_table420
++ GCC_except_table423
++ GCC_except_table430
++ GCC_except_table434
++ GCC_except_table444
++ GCC_except_table446
++ GCC_except_table455
++ GCC_except_table459
++ GCC_except_table463
++ GCC_except_table475
++ GCC_except_table478
++ GCC_except_table487
++ GCC_except_table510
++ GCC_except_table513
++ GCC_except_table515
++ GCC_except_table524
++ GCC_except_table533
++ GCC_except_table552
++ GCC_except_table558
++ GCC_except_table563
++ GCC_except_table568
++ GCC_except_table582
++ GCC_except_table583
++ GCC_except_table586
++ GCC_except_table601
++ GCC_except_table622
++ GCC_except_table625
++ GCC_except_table626
++ GCC_except_table635
++ GCC_except_table641
++ GCC_except_table642
++ GCC_except_table658
++ GCC_except_table661
++ GCC_except_table710
++ GCC_except_table711
++ GCC_except_table715
++ GCC_except_table718
++ GCC_except_table721
++ GCC_except_table724
++ GCC_except_table731
++ GCC_except_table736
++ GCC_except_table737
++ GCC_except_table768
++ GCC_except_table776
++ GCC_except_table782
++ GCC_except_table808
++ GCC_except_table832
++ GCC_except_table876
++ GCC_except_table877
++ GCC_except_table881
++ GCC_except_table891
++ GCC_except_table900
++ GCC_except_table912
++ GCC_except_table913
++ GCC_except_table916
++ GCC_except_table927
++ GCC_except_table928
++ GCC_except_table937
++ GCC_except_table945
++ GCC_except_table948
++ GCC_except_table951
++ GCC_except_table971
++ GCC_except_table972
++ GCC_except_table984
++ GCC_except_table995
++ _InstallCallbackForOrchestratorLapseHandling
++ __ZL32OrchestratorClientIOLapseHandleriPv
++ __ZN12IOThreadWorkD1Ev
++ __ZN29OrchestrationAudioSwitchboard11handleLapseEi
++ __ZN29OrchestrationAudioSwitchboardD2Ev
++ __ZN34ConnectionToStravinskyOrchestrator24tellOrchestratorToStopIOEv
++ __ZN34ConnectionToStravinskyOrchestrator25tellOrchestratorToStartIOEv
++ __ZN34ConnectionToStravinskyOrchestrator26createOrchestratorCallbackEP22OrchestratorIOCallback
++ __ZN34ConnectionToStravinskyOrchestrator27destroyOrchestratorCallbackEv
++ __ZN34ConnectionToStravinskyOrchestrator30createOrchestratorLapseHandlerEP26OrchestratorIOLapseHandler
++ __ZN34ConnectionToStravinskyOrchestrator31tellOrchestratorToStartIOAtTimeEy
++ __ZN34ConnectionToStravinskyOrchestratorD0Ev
++ __ZN34ConnectionToStravinskyOrchestratorD1Ev
++ __ZN8IOThreadC1ERK12IOThreadWorkRKNSt3__112basic_stringIcNS3_11char_traitsIcEENS3_9allocatorIcEEEE
++ __ZNKSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv10LapseChainEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv10LapseChainEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv10LapseChainEE7__cloneEPNS0_6__baseIS7_EE
++ __ZNKSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv10LapseChainEE7__cloneEv
++ __ZNKSt3__18functionIFv10LapseChainEEclES1_
++ __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv10LapseChainEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv10LapseChainEE7destroyEv
++ __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv10LapseChainEED0Ev
++ __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv10LapseChainEED1Ev
++ __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv10LapseChainEEclEOS6_
++ __ZNSt3__120__shared_ptr_emplaceI34ConnectionToStravinskyOrchestratorNS_9allocatorIS1_EEE16__on_zero_sharedEv
++ __ZNSt3__120__shared_ptr_emplaceI34ConnectionToStravinskyOrchestratorNS_9allocatorIS1_EEE21__on_zero_shared_weakEv
++ __ZNSt3__120__shared_ptr_emplaceI34ConnectionToStravinskyOrchestratorNS_9allocatorIS1_EEED0Ev
++ __ZNSt3__120__shared_ptr_emplaceI34ConnectionToStravinskyOrchestratorNS_9allocatorIS1_EEED1Ev
++ __ZTI24ConnectionToOrchestrator
++ __ZTI26OrchestratorIOLapseHandler
++ __ZTI34ConnectionToStravinskyOrchestrator
++ __ZTINSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv10LapseChainEEE
++ __ZTINSt3__120__shared_ptr_emplaceI34ConnectionToStravinskyOrchestratorNS_9allocatorIS1_EEEE
++ __ZTS24ConnectionToOrchestrator
++ __ZTS26OrchestratorIOLapseHandler
++ __ZTS34ConnectionToStravinskyOrchestrator
++ __ZTSNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv10LapseChainEEE
++ __ZTSNSt3__120__shared_ptr_emplaceI34ConnectionToStravinskyOrchestratorNS_9allocatorIS1_EEEE
++ __ZTV34ConnectionToStravinskyOrchestrator
++ __ZTVNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv10LapseChainEEE
++ __ZTVNSt3__120__shared_ptr_emplaceI34ConnectionToStravinskyOrchestratorNS_9allocatorIS1_EEEE
++ __ZThn16_N29OrchestrationAudioSwitchboard11handleLapseEi
++ __ZThn16_N29OrchestrationAudioSwitchboardD0Ev
++ __ZThn16_N29OrchestrationAudioSwitchboardD1Ev
++ _pthread_setname_np
+- GCC_except_table1033
+- GCC_except_table1039
+- GCC_except_table1043
+- GCC_except_table1045
+- GCC_except_table1113
+- GCC_except_table1114
+- GCC_except_table1118
+- GCC_except_table1126
+- GCC_except_table1128
+- GCC_except_table1131
+- GCC_except_table1132
+- GCC_except_table277
+- GCC_except_table291
+- GCC_except_table304
+- GCC_except_table307
+- GCC_except_table309
+- GCC_except_table311
+- GCC_except_table315
+- GCC_except_table324
+- GCC_except_table333
+- GCC_except_table342
+- GCC_except_table348
+- GCC_except_table360
+- GCC_except_table362
+- GCC_except_table365
+- GCC_except_table367
+- GCC_except_table371
+- GCC_except_table374
+- GCC_except_table385
+- GCC_except_table388
+- GCC_except_table397
+- GCC_except_table402
+- GCC_except_table413
+- GCC_except_table415
+- GCC_except_table417
+- GCC_except_table419
+- GCC_except_table422
+- GCC_except_table429
+- GCC_except_table432
+- GCC_except_table443
+- GCC_except_table445
+- GCC_except_table454
+- GCC_except_table458
+- GCC_except_table461
+- GCC_except_table472
+- GCC_except_table476
+- GCC_except_table479
+- GCC_except_table509
+- GCC_except_table512
+- GCC_except_table514
+- GCC_except_table522
+- GCC_except_table531
+- GCC_except_table550
+- GCC_except_table556
+- GCC_except_table559
+- GCC_except_table564
+- GCC_except_table573
+- GCC_except_table576
+- GCC_except_table584
+- GCC_except_table599
+- GCC_except_table620
+- GCC_except_table623
+- GCC_except_table624
+- GCC_except_table633
+- GCC_except_table637
+- GCC_except_table638
+- GCC_except_table656
+- GCC_except_table659
+- GCC_except_table703
+- GCC_except_table706
+- GCC_except_table713
+- GCC_except_table714
+- GCC_except_table719
+- GCC_except_table722
+- GCC_except_table729
+- GCC_except_table734
+- GCC_except_table735
+- GCC_except_table766
+- GCC_except_table772
+- GCC_except_table778
+- GCC_except_table806
+- GCC_except_table830
+- GCC_except_table874
+- GCC_except_table875
+- GCC_except_table879
+- GCC_except_table889
+- GCC_except_table896
+- GCC_except_table908
+- GCC_except_table909
+- GCC_except_table914
+- GCC_except_table924
+- GCC_except_table925
+- GCC_except_table935
+- GCC_except_table942
+- GCC_except_table943
+- GCC_except_table947
+- GCC_except_table969
+- GCC_except_table970
+- GCC_except_table982
+- GCC_except_table993
+- __ZN8IOThreadC1ERK12IOThreadWork
+- __ZNKSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv18CoreAudioTimestampEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv18CoreAudioTimestampEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv18CoreAudioTimestampEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv18CoreAudioTimestampEE7__cloneEv
+- __ZNKSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_1NS_9allocatorIS3_EEFv10LapseChainEE11target_typeEv
+- __ZNKSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_1NS_9allocatorIS3_EEFv10LapseChainEE6targetERKSt9type_info
+- __ZNKSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_1NS_9allocatorIS3_EEFv10LapseChainEE7__cloneEPNS0_6__baseIS7_EE
+- __ZNKSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_1NS_9allocatorIS3_EEFv10LapseChainEE7__cloneEv
+- __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv18CoreAudioTimestampEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv18CoreAudioTimestampEE7destroyEv
+- __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv18CoreAudioTimestampEED0Ev
+- __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv18CoreAudioTimestampEED1Ev
+- __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv18CoreAudioTimestampEEclEOS6_
+- __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_1NS_9allocatorIS3_EEFv10LapseChainEE18destroy_deallocateEv
+- __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_1NS_9allocatorIS3_EEFv10LapseChainEE7destroyEv
+- __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_1NS_9allocatorIS3_EEFv10LapseChainEED0Ev
+- __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_1NS_9allocatorIS3_EEFv10LapseChainEED1Ev
+- __ZNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_1NS_9allocatorIS3_EEFv10LapseChainEEclEOS6_
+- __ZTINSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv18CoreAudioTimestampEEE
+- __ZTINSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_1NS_9allocatorIS3_EEFv10LapseChainEEE
+- __ZTIZN29OrchestrationAudioSwitchboardC1EvE3$_1
+- __ZTSNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv18CoreAudioTimestampEEE
+- __ZTSNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_1NS_9allocatorIS3_EEFv10LapseChainEEE
+- __ZTSZN29OrchestrationAudioSwitchboardC1EvE3$_1
+- __ZTVNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_0NS_9allocatorIS3_EEFv18CoreAudioTimestampEEE
+- __ZTVNSt3__110__function6__funcIZN29OrchestrationAudioSwitchboardC1EvE3$_1NS_9allocatorIS3_EEFv10LapseChainEEE
+CStrings:
++ "Client Side IO Thread"
++ "No-Op Client IO Thread"
++ "com.apple.private.isolated.audio.coreaudioclient"
++ "com.apple.private.isolated.audio.coreaudioclient.historicalaudio"
++ "com.apple.private.isolated.audio.coreaudioclient.micactivity"
+```

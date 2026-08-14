@@ -1,0 +1,255 @@
+## CoreAudioOrchestration
+
+> `/System/Library/PrivateFrameworks/CoreAudioOrchestration.framework/Versions/A/CoreAudioOrchestration`
+
+```diff
+
+-31.0.0.0.0
+-  __TEXT.__text: 0x4544c
+-  __TEXT.__auth_stubs: 0x1140
+-  __TEXT.__init_offsets: 0x4
++34.0.0.0.0
++  __TEXT.__text: 0x53754
++  __TEXT.__auth_stubs: 0x1250
+   __TEXT.__objc_methlist: 0x4b4
+-  __TEXT.__const: 0x6f38
+-  __TEXT.__gcc_except_tab: 0x2d4
+-  __TEXT.__cstring: 0x1c10
+-  __TEXT.__oslogstring: 0xd9d
+-  __TEXT.__constg_swiftt: 0x25b4
+-  __TEXT.__swift5_typeref: 0x17c9
+-  __TEXT.__swift5_reflstr: 0xa30
+-  __TEXT.__swift5_fieldmd: 0x184c
+-  __TEXT.__swift5_builtin: 0x50
+-  __TEXT.__swift5_assocty: 0x118
+-  __TEXT.__swift5_proto: 0x700
+-  __TEXT.__swift5_types: 0x288
+-  __TEXT.__swift5_protos: 0x18
+-  __TEXT.__swift5_mpenum: 0x20
+-  __TEXT.__swift5_capture: 0xa0
+-  __TEXT.__unwind_info: 0x1768
+-  __TEXT.__eh_frame: 0x2070
++  __TEXT.__const: 0x7d78
++  __TEXT.__gcc_except_tab: 0x2f0
++  __TEXT.__cstring: 0x1d03
++  __TEXT.__oslogstring: 0xebd
++  __TEXT.__constg_swiftt: 0x2910
++  __TEXT.__swift5_typeref: 0x1b80
++  __TEXT.__swift5_reflstr: 0xba0
++  __TEXT.__swift5_fieldmd: 0x1c20
++  __TEXT.__swift5_builtin: 0x78
++  __TEXT.__swift5_assocty: 0x158
++  __TEXT.__swift5_proto: 0x824
++  __TEXT.__swift5_types: 0x2d4
++  __TEXT.__swift5_protos: 0x1c
++  __TEXT.__swift5_mpenum: 0x40
++  __TEXT.__swift5_capture: 0x100
++  __TEXT.__unwind_info: 0x1b88
++  __TEXT.__eh_frame: 0x26a0
+   __TEXT.__objc_classname: 0xdd
+   __TEXT.__objc_methname: 0x6d4
+   __TEXT.__objc_methtype: 0xefc
+   __TEXT.__objc_stubs: 0x260
+-  __DATA_CONST.__got: 0x1e0
++  __DATA_CONST.__got: 0x208
+   __DATA_CONST.__const: 0x90
+   __DATA_CONST.__objc_classlist: 0x188
+   __DATA_CONST.__objc_protolist: 0x38
+
+   __DATA_CONST.__objc_selrefs: 0x250
+   __DATA_CONST.__objc_protorefs: 0x18
+   __DATA_CONST.__objc_superrefs: 0x20
+-  __AUTH_CONST.__auth_got: 0x8b0
+-  __AUTH_CONST.__const: 0x3bf0
++  __AUTH_CONST.__auth_got: 0x938
++  __AUTH_CONST.__const: 0x4858
+   __AUTH_CONST.__cfstring: 0x60
+-  __AUTH_CONST.__objc_const: 0x2b40
++  __AUTH_CONST.__objc_const: 0x2be0
+   __AUTH.__objc_data: 0x2a0
+-  __AUTH.__data: 0x2ba0
++  __AUTH.__data: 0x2d60
+   __DATA.__objc_ivar: 0x30
+-  __DATA.__data: 0x1750
+-  __DATA.__bss: 0xde40
++  __DATA.__data: 0x1a70
++  __DATA.__bss: 0x10220
+   __DATA.__common: 0x30
+   - /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 1961
+-  Symbols:   1188
+-  CStrings:  417
++  Functions: 2320
++  Symbols:   1287
++  CStrings:  434
+ 
+Symbols:
++ GCC_except_table13
++ GCC_except_table17
++ GCC_except_table3
++ GCC_except_table7
++ __Z11LapseEventsv
++ __Z12ADMContextIDv
++ ___swift_assign_boxed_opaque_existential_1
++ ___swift_memcpy32_8
++ ___swift_memcpy44_8
++ ___swift_memcpy64_8
++ ___swift_memcpy73_8
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11GetPropertyV10CodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLOSHAASQ
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11GetPropertyV10CodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11GetPropertyV10CodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11GetPropertyVAA0abdF0C18XPCRequestProtocolAA7RequestAgHP_SE
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11GetPropertyVAA0abdF0C18XPCRequestProtocolAA7RequestAgHP_Se
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11GetPropertyVAA0abdF0C18XPCRequestProtocolAA8ResponseAgHP_SE
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11GetPropertyVAA0abdF0C18XPCRequestProtocolAA8ResponseAgHP_Se
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11SetPropertyV10CodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLOSHAASQ
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11SetPropertyV10CodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLOs0I3KeyAAs23CustomStringConvertible
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11SetPropertyV10CodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLOs0I3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11SetPropertyVAA0abdF0C18XPCRequestProtocolAA7RequestAgHP_SE
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11SetPropertyVAA0abdF0C18XPCRequestProtocolAA7RequestAgHP_Se
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11SetPropertyVAA0abdF0C18XPCRequestProtocolAA8ResponseAgHP_SE
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11SetPropertyVAA0abdF0C18XPCRequestProtocolAA8ResponseAgHP_Se
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC7RequestO21GetPropertyCodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLOSHAASQ
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC7RequestO21GetPropertyCodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC7RequestO21GetPropertyCodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC7RequestO21SetPropertyCodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLOSHAASQ
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC7RequestO21SetPropertyCodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLOs0J3KeyAAs23CustomStringConvertible
++ _associated conformance 22CoreAudioOrchestration0aB21OrchestratorClientXPCC7RequestO21SetPropertyCodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLOs0J3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22CoreAudioOrchestration10IntPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOSHAASQ
++ _associated conformance 22CoreAudioOrchestration10IntPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22CoreAudioOrchestration10IntPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22CoreAudioOrchestration11DataPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOSHAASQ
++ _associated conformance 22CoreAudioOrchestration11DataPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOs0F3KeyAAs23CustomStringConvertible
++ _associated conformance 22CoreAudioOrchestration11DataPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOs0F3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22CoreAudioOrchestration13StringPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOSHAASQ
++ _associated conformance 22CoreAudioOrchestration13StringPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOs0F3KeyAAs011CustomDebugD11Convertible
++ _associated conformance 22CoreAudioOrchestration13StringPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOs0F3KeyAAs06CustomD11Convertible
++ _associated conformance 22CoreAudioOrchestration17GetPropertyHeaderV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOSHAASQ
++ _associated conformance 22CoreAudioOrchestration17GetPropertyHeaderV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22CoreAudioOrchestration17GetPropertyHeaderV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22CoreAudioOrchestration17SetPropertyHeaderV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOSHAASQ
++ _associated conformance 22CoreAudioOrchestration17SetPropertyHeaderV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22CoreAudioOrchestration17SetPropertyHeaderV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLOs0G3KeyAAs28CustomDebugStringConvertible
++ _associated conformance 22CoreAudioOrchestration25DevicePropertyDescriptionV10CodingKeys33_D53B61DFE5C6D160C5EF12CD1DE9170DLLOSHAASQ
++ _associated conformance 22CoreAudioOrchestration25DevicePropertyDescriptionV10CodingKeys33_D53B61DFE5C6D160C5EF12CD1DE9170DLLOs0G3KeyAAs23CustomStringConvertible
++ _associated conformance 22CoreAudioOrchestration25DevicePropertyDescriptionV10CodingKeys33_D53B61DFE5C6D160C5EF12CD1DE9170DLLOs0G3KeyAAs28CustomDebugStringConvertible
++ _free
++ _malloc
++ _objectdestroyTm
++ _symbolic $s22CoreAudioOrchestration28OrchestratedPropertyProtocolP
++ _symbolic SDySSShySiGG
++ _symbolic SDySiSgShySiGG
++ _symbolic SDySi_____G 22CoreAudioOrchestration12SubscriptionV
++ _symbolic SDy_____SgShySiGG s6UInt32V
++ _symbolic _____ 10Foundation4DataV
++ _symbolic _____ 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11GetPropertyV
++ _symbolic _____ 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11GetPropertyV10CodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLO
++ _symbolic _____ 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11SetPropertyV
++ _symbolic _____ 22CoreAudioOrchestration0aB21OrchestratorClientXPCC11SetPropertyV10CodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLO
++ _symbolic _____ 22CoreAudioOrchestration0aB21OrchestratorClientXPCC7RequestO21GetPropertyCodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLO
++ _symbolic _____ 22CoreAudioOrchestration0aB21OrchestratorClientXPCC7RequestO21SetPropertyCodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLO
++ _symbolic _____ 22CoreAudioOrchestration10IntPayloadV
++ _symbolic _____ 22CoreAudioOrchestration10IntPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____ 22CoreAudioOrchestration11DataPayloadV
++ _symbolic _____ 22CoreAudioOrchestration11DataPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____ 22CoreAudioOrchestration12SubscriptionV
++ _symbolic _____ 22CoreAudioOrchestration13PropertyErrorO
++ _symbolic _____ 22CoreAudioOrchestration13StringPayloadV
++ _symbolic _____ 22CoreAudioOrchestration13StringPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____ 22CoreAudioOrchestration17GetPropertyHeaderV
++ _symbolic _____ 22CoreAudioOrchestration17GetPropertyHeaderV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____ 22CoreAudioOrchestration17SetPropertyHeaderV
++ _symbolic _____ 22CoreAudioOrchestration17SetPropertyHeaderV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____ 22CoreAudioOrchestration25DevicePropertyDescriptionV
++ _symbolic _____ 22CoreAudioOrchestration25DevicePropertyDescriptionV10CodingKeys33_D53B61DFE5C6D160C5EF12CD1DE9170DLLO
++ _symbolic _____Sg 10Foundation4DataV
++ _symbolic _____Sg 22CoreAudioOrchestration12SubscriptionV
++ _symbolic _____m 22CoreAudioOrchestration10IntPayloadV
++ _symbolic _____m 22CoreAudioOrchestration11DataPayloadV
++ _symbolic _____m 22CoreAudioOrchestration13StringPayloadV
++ _symbolic _____m 22CoreAudioOrchestration17GetPropertyHeaderV
++ _symbolic _____m 22CoreAudioOrchestration17SetPropertyHeaderV
++ _symbolic _____m 22CoreAudioOrchestration25DevicePropertyDescriptionV
++ _symbolic _____ySSShySiGG s18_DictionaryStorageC
++ _symbolic _____ySiG s11_SetStorageC
++ _symbolic _____ySiSgShySiGG s18_DictionaryStorageC
++ _symbolic _____ySi_____G s18_DictionaryStorageC 22CoreAudioOrchestration12SubscriptionV
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22CoreAudioOrchestration0dE21OrchestratorClientXPCC11GetPropertyV10CodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22CoreAudioOrchestration0dE21OrchestratorClientXPCC11SetPropertyV10CodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22CoreAudioOrchestration0dE21OrchestratorClientXPCC7RequestO21GetPropertyCodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22CoreAudioOrchestration0dE21OrchestratorClientXPCC7RequestO21SetPropertyCodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22CoreAudioOrchestration10IntPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22CoreAudioOrchestration11DataPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22CoreAudioOrchestration13StringPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22CoreAudioOrchestration17GetPropertyHeaderV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22CoreAudioOrchestration17SetPropertyHeaderV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____y_____G s22KeyedDecodingContainerV 22CoreAudioOrchestration25DevicePropertyDescriptionV10CodingKeys33_D53B61DFE5C6D160C5EF12CD1DE9170DLLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22CoreAudioOrchestration0dE21OrchestratorClientXPCC11GetPropertyV10CodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22CoreAudioOrchestration0dE21OrchestratorClientXPCC11SetPropertyV10CodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22CoreAudioOrchestration0dE21OrchestratorClientXPCC7RequestO21GetPropertyCodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22CoreAudioOrchestration0dE21OrchestratorClientXPCC7RequestO21SetPropertyCodingKeys33_C9E338F9CCB802A30991B793EA6C3175LLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22CoreAudioOrchestration10IntPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22CoreAudioOrchestration11DataPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22CoreAudioOrchestration13StringPayloadV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22CoreAudioOrchestration17GetPropertyHeaderV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22CoreAudioOrchestration17SetPropertyHeaderV10CodingKeys33_6F4531C893BD5814AC9E03CE6767CBEELLO
++ _symbolic _____y_____G s22KeyedEncodingContainerV 22CoreAudioOrchestration25DevicePropertyDescriptionV10CodingKeys33_D53B61DFE5C6D160C5EF12CD1DE9170DLLO
++ _symbolic _____y_____SgShySiGG s18_DictionaryStorageC s6UInt32V
++ _symbolic _____y______G Sh5IndexV 22CoreAudioOrchestration0C10DeviceInfoC
++ _symbolic _____y______SgG 22CoreAudioOrchestration0aB15OrchestratorXPCC8ResponseO 10Foundation4DataV
++ _symbolic yt
+- GCC_except_table12
+- GCC_except_table16
+- GCC_except_table24
+- _GLOBAL__sub_I_HALEventListener.cpp
+- __ZL12kLapseEvents
+- __ZL15kIsAliveAddress
+- __ZL17kIsRunningAddress
+- __ZL25kStoppedAbnormallyAddress
+- __ZNSt3__16vectorINS_4pairI26AudioObjectPropertyAddressPFijjPKS2_PvEEENS_9allocatorIS8_EEED1B8ne190102Ev
+- ___cxa_atexit
+- _associated conformance 22CoreAudioOrchestration0abC12FeatureFlagsOSHAASQ
+- _symbolic SDySi______pG 22CoreAudioOrchestration12MessageFieldP
+- _symbolic Si_______pt 22CoreAudioOrchestration12MessageFieldP
+- _symbolic _____ 22CoreAudioOrchestration0abC12FeatureFlagsO
+- _symbolic _____ySi______pG s18_DictionaryStorageC 22CoreAudioOrchestration12MessageFieldP
+CStrings:
++ "AudioHALClientHardware - getProperty failed!"
++ "AudioHALClientHardware - getProperty failed! %s"
++ "AudioHALClientHardware - setProperty failed!"
++ "AudioHardwareError"
++ "Failed to get property: "
++ "Failed to parse message to GetProperty"
++ "Failed to parse message to SetProperty"
++ "Failed to set property: "
++ "Invalid property type: "
++ "audioObjectPropertyElement"
++ "audioObjectPropertyScope"
++ "audioObjectPropertySelector"
++ "configurationMap"
++ "data source type in"
++ "data source type out"
++ "enableMediaExperienceControl - failed!"
++ "eventMap"
++ "inputDataSource"
++ "outputDataSource"
++ "return createConfiguration:%s"
++ "return destroyConfiguration:%s"
++ "start createConfiguration:%s"
++ "start destroyConfiguration:%s"
++ "tokenGenerator"
++ "useCaseMap"
+- "%s: %u"
+- "AudioHAL"
+- "CoreAudioOrchestration_UseDefaultIODevices"
+- "CoreAudioOrchestration_UseSharedDSPUseCaseID"
+- "Failed to create a configuration for the given useCaseID"
+- "Implementation stubbed"
+- "getADMConfigurationUsingDefaultIO"
+- "subscriptionTokens"
+```

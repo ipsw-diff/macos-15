@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "id": "macos-15",
+  "platform": "macOS",
+  "appledb_platform": "macOS",
+  "device": "Mac16,1",
+  "major_version": 15,
+  "anchor": {
+    "version": "15.5 beta",
+    "build": "24F5042g",
+    "released": "2025-04-02T00:00:00Z",
+    "beta": true,
+    "rc": false
+  }
+}

@@ -2,7 +2,7 @@ name: Discover macOS 15 firmware
 
 on:
   schedule:
-    - cron: "15 1-23/6 * * *"
+    - cron: "15 * * * *"
   pull_request:
     paths:
       - .github/workflows/discover.yml

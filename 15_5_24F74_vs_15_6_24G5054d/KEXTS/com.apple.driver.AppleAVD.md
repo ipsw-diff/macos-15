@@ -1,0 +1,196 @@
+## com.apple.driver.AppleAVD
+
+> `com.apple.driver.AppleAVD`
+
+```diff
+
+-863.1.0.0.0
+-  __TEXT.__os_log: 0x15cae
+-  __TEXT.__cstring: 0x5473
+-  __TEXT.__const: 0xc8c38
+-  __TEXT_EXEC.__text: 0x59ab8
++865.0.0.0.0
++  __TEXT.__os_log: 0x14fa6
++  __TEXT.__cstring: 0x5402
++  __TEXT.__const: 0xb61f8
++  __TEXT_EXEC.__text: 0x55aa0
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x12dc
+   __DATA.__common: 0x78
+
+   __DATA_CONST.__auth_ptr: 0x8
+   __DATA_CONST.__mod_init_func: 0x10
+   __DATA_CONST.__mod_term_func: 0x10
+-  __DATA_CONST.__const: 0x42d8
+-  __DATA_CONST.__kalloc_type: 0x2cc0
+-  __DATA_CONST.__kalloc_var: 0xf00
+-  Functions: 1764
+-  Symbols:   4023
+-  CStrings:  1571
++  __DATA_CONST.__const: 0x3fe8
++  __DATA_CONST.__kalloc_type: 0x2ac0
++  __DATA_CONST.__kalloc_var: 0xeb0
++  Functions: 1681
++  Symbols:   3874
++  CStrings:  1565
+ 
+Symbols:
++ __ZZN8AppleAVD13avdOutbox0ISREjE21kalloc_type_view_8207
+- __ZN13CAvdMcpuThyme10receiveCmdEPj
+- __ZN13CAvdMcpuThyme12apLogMemBaseEv
+- __ZN13CAvdMcpuThyme12apLogMemSizeEv
+- __ZN13CAvdMcpuThyme13IsMailboxFullEj
+- __ZN13CAvdMcpuThyme16clearRXInterruptEj
+- __ZN13CAvdMcpuThyme16clearTXInterruptEj
+- __ZN13CAvdMcpuThyme17enableRXInterruptEj
+- __ZN13CAvdMcpuThyme17enableTXInterruptEj
+- __ZN13CAvdMcpuThyme18disableRXInterruptEj
+- __ZN13CAvdMcpuThyme18disableTXInterruptEj
+- __ZN13CAvdMcpuThyme23EnableMailboxInterruptsEv
+- __ZN13CAvdMcpuThyme5readyEv
+- __ZN13CAvdMcpuThyme7sendCmdEjj
+- __ZN13CAvdMcpuThymeC1EjP14CAvdRegisterIO
+- __ZN13CAvdMcpuThymeC1Ev
+- __ZN13CAvdMcpuThymeC2EjP14CAvdRegisterIO
+- __ZN13CAvdMcpuThymeC2Ev
+- __ZN13CAvdMcpuThymeD0Ev
+- __ZN13CAvdMcpuThymeD1Ev
+- __ZN13CAvdMcpuThymeD2Ev
+- __ZN15CAvdApCommThyme10sendAvdCmdEP10uCAvdCmd20j
+- __ZN15CAvdApCommThyme11_m3CmdQueueEj
+- __ZN15CAvdApCommThyme11initAvdWrapEv
+- __ZN15CAvdApCommThyme12ConfigureDMAEv
+- __ZN15CAvdApCommThyme12DMAConfigureEii
+- __ZN15CAvdApCommThyme12loadTunablesEb
+- __ZN15CAvdApCommThyme12sendAbortCmdEP10uCAvdCmd20
+- __ZN15CAvdApCommThyme14receiveMessageERjj
+- __ZN15CAvdApCommThyme15mcpuSaveContextEv
+- __ZN15CAvdApCommThyme17validateAvcFieldsEPh
+- __ZN15CAvdApCommThyme17validateAvxFieldsEPh
+- __ZN15CAvdApCommThyme17validateLghFieldsEPh
+- __ZN15CAvdApCommThyme18ConfigurePioHdrAvcEv
+- __ZN15CAvdApCommThyme18ConfigurePioHdrAvxEv
+- __ZN15CAvdApCommThyme18ConfigurePioHdrLghEv
+- __ZN15CAvdApCommThyme18mcpuRestoreContextEv
+- __ZN15CAvdApCommThyme18validateHevcFieldsEPh
+- __ZN15CAvdApCommThyme18waitValidADSStatusEv
+- __ZN15CAvdApCommThyme19ConfigurePioHdrHevcEv
+- __ZN15CAvdApCommThyme25PrepareM3DecodeCommandAvcEv
+- __ZN15CAvdApCommThyme25PrepareM3DecodeCommandAvxEv
+- __ZN15CAvdApCommThyme25PrepareM3DecodeCommandLghEv
+- __ZN15CAvdApCommThyme25allocateAPCommFrameParamsEv
+- __ZN15CAvdApCommThyme25getVPInstrFifoRequirementEPyS0_Pj
+- __ZN15CAvdApCommThyme26PrepareM3DecodeCommandHevcEv
+- __ZN15CAvdApCommThyme26waitValidADSStatusWithMaskEj
+- __ZN15CAvdApCommThymeC1EPvP14CAvdRegisterIO
+- __ZN15CAvdApCommThymeC2EPvP14CAvdRegisterIO
+- __ZN15CAvdApCommThymeD0Ev
+- __ZN15CAvdApCommThymeD1Ev
+- __ZN15CAvdApCommThymeD2Ev
+- __ZN17CAvdWrapCtrlThyme10DeviceInitEPv
+- __ZN17CAvdWrapCtrlThyme11DevicePwrOnEPv
+- __ZN17CAvdWrapCtrlThyme11triggerDKeyEv
+- __ZN17CAvdWrapCtrlThyme12DevicePwrOffEPv
+- __ZN17CAvdWrapCtrlThyme12getAdsStatusEPjS0_S0_S0_
+- __ZN17CAvdWrapCtrlThyme13StatusLoggingEi
+- __ZN17CAvdWrapCtrlThyme14ReadRegister32Ej
+- __ZN17CAvdWrapCtrlThyme15CheckDartStatusEb
+- __ZN17CAvdWrapCtrlThyme15CheckMctlStatusEv
+- __ZN17CAvdWrapCtrlThyme15WriteRegister32Ejj
+- __ZN17CAvdWrapCtrlThyme15getAdsDeviceIdsEPyPtPj
+- __ZN17CAvdWrapCtrlThyme16enableMCDataStrmEj
+- __ZN17CAvdWrapCtrlThyme17disableMCDataStrmEv
+- __ZN17CAvdWrapCtrlThyme32waitForOutstandingAXITransactionEv
+- __ZN17CAvdWrapCtrlThyme4IdleEb
+- __ZN17CAvdWrapCtrlThyme6HResetEv
+- __ZN17CAvdWrapCtrlThyme7getDSIDEv
+- __ZN17CAvdWrapCtrlThyme8PwmResetEv
+- __ZN17CAvdWrapCtrlThyme9getPmuGTBEPjS0_
+- __ZN17CAvdWrapCtrlThyme9getPmuRTCEPjS0_
+- __ZN17CAvdWrapCtrlThymeC1EPjP9IOServiceP7AVDDartjy
+- __ZN17CAvdWrapCtrlThymeC2EPjP9IOServiceP7AVDDartjy
+- __ZN17CAvdWrapCtrlThymeD0Ev
+- __ZN17CAvdWrapCtrlThymeD1Ev
+- __ZN17CAvdWrapCtrlThymeD2Ev
+- __ZN19CPriorityQueueThyme18createApCommObjectEPvP14CAvdRegisterIO
+- __ZN19CPriorityQueueThyme25isVPAvailableForDecodeCmdEPhjj
+- __ZN19CPriorityQueueThymeC1EPvP14CAvdRegisterIO
+- __ZN19CPriorityQueueThymeC2EPvP14CAvdRegisterIO
+- __ZN19CPriorityQueueThymeD0Ev
+- __ZN19CPriorityQueueThymeD1Ev
+- __ZTV13CAvdMcpuThyme
+- __ZTV15CAvdApCommThyme
+- __ZTV17CAvdWrapCtrlThyme
+- __ZTV19CPriorityQueueThyme
+- __ZZN13CAvdMcpuThymeC1EvE11_os_log_fmt
+- __ZZN13CAvdMcpuThymedlEPvmE20kalloc_type_view_522
+- __ZZN13CAvdMcpuThymenwEmE20kalloc_type_view_522
+- __ZZN15CAvdApCommThyme10sendAvdCmdEP10uCAvdCmd20jE11_os_log_fmt
+- __ZZN15CAvdApCommThyme11initAvdWrapEvE11_os_log_fmt
+- __ZZN15CAvdApCommThyme15mcpuSaveContextEvE11_os_log_fmt
+- __ZZN15CAvdApCommThyme17validateAvcFieldsEPhE11_os_log_fmt
+- __ZZN15CAvdApCommThyme17validateAvcFieldsEPhE11_os_log_fmt_0
+- __ZZN15CAvdApCommThyme17validateAvcFieldsEPhE11_os_log_fmt_1
+- __ZZN15CAvdApCommThyme17validateAvxFieldsEPhE11_os_log_fmt
+- __ZZN15CAvdApCommThyme17validateAvxFieldsEPhE11_os_log_fmt_0
+- __ZZN15CAvdApCommThyme17validateAvxFieldsEPhE11_os_log_fmt_1
+- __ZZN15CAvdApCommThyme17validateAvxFieldsEPhE11_os_log_fmt_2
+- __ZZN15CAvdApCommThyme17validateLghFieldsEPhE11_os_log_fmt
+- __ZZN15CAvdApCommThyme17validateLghFieldsEPhE11_os_log_fmt_0
+- __ZZN15CAvdApCommThyme17validateLghFieldsEPhE11_os_log_fmt_1
+- __ZZN15CAvdApCommThyme18ConfigurePioHdrAvxEvE11_os_log_fmt
+- __ZZN15CAvdApCommThyme18validateHevcFieldsEPhE11_os_log_fmt
+- __ZZN15CAvdApCommThyme18validateHevcFieldsEPhE11_os_log_fmt_0
+- __ZZN15CAvdApCommThyme18validateHevcFieldsEPhE11_os_log_fmt_1
+- __ZZN15CAvdApCommThyme18validateHevcFieldsEPhE11_os_log_fmt_2
+- __ZZN15CAvdApCommThyme18validateHevcFieldsEPhE11_os_log_fmt_3
+- __ZZN15CAvdApCommThyme18validateHevcFieldsEPhE11_os_log_fmt_4
+- __ZZN15CAvdApCommThyme19ConfigurePioHdrHevcEvE11_os_log_fmt
+- __ZZN15CAvdApCommThyme25PrepareM3DecodeCommandAvxEvE11_os_log_fmt
+- __ZZN15CAvdApCommThyme25allocateAPCommFrameParamsEvE11_os_log_fmt
+- __ZZN15CAvdApCommThyme26PrepareM3DecodeCommandHevcEvE11_os_log_fmt
+- __ZZN15CAvdApCommThyme26waitValidADSStatusWithMaskEjE11_os_log_fmt
+- __ZZN15CAvdApCommThyme26waitValidADSStatusWithMaskEjE11_os_log_fmt_0
+- __ZZN15CAvdApCommThyme26waitValidADSStatusWithMaskEjE11_os_log_fmt_1
+- __ZZN15CAvdApCommThyme26waitValidADSStatusWithMaskEjE11_os_log_fmt_2
+- __ZZN15CAvdApCommThyme26waitValidADSStatusWithMaskEjE11_os_log_fmt_3
+- __ZZN15CAvdApCommThymeC1EPvP14CAvdRegisterIOE11_os_log_fmt
+- __ZZN15CAvdApCommThymeC1EPvP14CAvdRegisterIOE11_os_log_fmt_0
+- __ZZN15CAvdApCommThymeC1EPvP14CAvdRegisterIOE11_os_log_fmt_1
+- __ZZN15CAvdApCommThymeC1EPvP14CAvdRegisterIOE19kalloc_type_view_78
+- __ZZN15CAvdApCommThymedlEPvmE21kalloc_type_view_1336
+- __ZZN15CAvdApCommThymenwEmE21kalloc_type_view_1336
+- __ZZN17CAvdWrapCtrlThyme13StatusLoggingEiE11_os_log_fmt
+- __ZZN17CAvdWrapCtrlThyme13StatusLoggingEiE11_os_log_fmt_0
+- __ZZN17CAvdWrapCtrlThyme13StatusLoggingEiE11_os_log_fmt_1
+- __ZZN17CAvdWrapCtrlThyme13StatusLoggingEiE11_os_log_fmt_2
+- __ZZN17CAvdWrapCtrlThyme13StatusLoggingEiE11_os_log_fmt_3
+- __ZZN17CAvdWrapCtrlThyme15CheckMctlStatusEvE11_os_log_fmt
+- __ZZN17CAvdWrapCtrlThyme15getAdsDeviceIdsEPyPtPjE11_os_log_fmt
+- __ZZN17CAvdWrapCtrlThyme16enableMCDataStrmEjE11_os_log_fmt
+- __ZZN17CAvdWrapCtrlThyme16enableMCDataStrmEjE11_os_log_fmt_0
+- __ZZN17CAvdWrapCtrlThyme16enableMCDataStrmEjE11_os_log_fmt_1
+- __ZZN17CAvdWrapCtrlThyme16enableMCDataStrmEjE11_os_log_fmt_2
+- __ZZN17CAvdWrapCtrlThyme16enableMCDataStrmEjE11_os_log_fmt_3
+- __ZZN17CAvdWrapCtrlThyme16enableMCDataStrmEjE11_os_log_fmt_4
+- __ZZN17CAvdWrapCtrlThyme16enableMCDataStrmEjE11_os_log_fmt_5
+- __ZZN17CAvdWrapCtrlThyme17disableMCDataStrmEvE11_os_log_fmt
+- __ZZN17CAvdWrapCtrlThyme8PwmResetEvE11_os_log_fmt
+- __ZZN17CAvdWrapCtrlThyme9getPmuGTBEPjS0_E11_os_log_fmt
+- __ZZN17CAvdWrapCtrlThyme9getPmuRTCEPjS0_E11_os_log_fmt
+- __ZZN17CAvdWrapCtrlThymeC1EPjP9IOServiceP7AVDDartjyE11_os_log_fmt
+- __ZZN17CAvdWrapCtrlThymeC1EPjP9IOServiceP7AVDDartjyE11_os_log_fmt_0
+- __ZZN17CAvdWrapCtrlThymedlEPvmE20kalloc_type_view_948
+- __ZZN17CAvdWrapCtrlThymenwEmE20kalloc_type_view_948
+- __ZZN19CPriorityQueueThymedlEPvmE20kalloc_type_view_480
+- __ZZN19CPriorityQueueThymenwEmE20kalloc_type_view_480
+- __ZZN8AppleAVD13avdOutbox0ISREjE21kalloc_type_view_8197
+- __ZZN8AppleAVD5startEP9IOServiceE11_os_log_fmt__66_
+CStrings:
+- "CAvdApCommThyme"
+- "CAvdMcpuThyme"
+- "CAvdWrapCtrlThyme"
+- "site.CAvdApCommThyme"
+- "site.CAvdMcpuThyme"
+- "site.CPriorityQueueThyme"
+```

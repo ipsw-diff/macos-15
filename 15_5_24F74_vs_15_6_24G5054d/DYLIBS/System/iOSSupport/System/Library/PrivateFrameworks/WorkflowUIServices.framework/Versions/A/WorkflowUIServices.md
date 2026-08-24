@@ -1,0 +1,124 @@
+## WorkflowUIServices
+
+> `/System/iOSSupport/System/Library/PrivateFrameworks/WorkflowUIServices.framework/Versions/A/WorkflowUIServices`
+
+```diff
+
+-3607.0.2.0.0
+-  __TEXT.__text: 0x811d4
++3609.0.0.0.0
++  __TEXT.__text: 0x82940
+   __TEXT.__auth_stubs: 0x24e0
+   __TEXT.__objc_methlist: 0x2d7c
+-  __TEXT.__const: 0x5614
++  __TEXT.__const: 0x5734
+   __TEXT.__dlopen_cstrs: 0x23d
+-  __TEXT.__cstring: 0x2fa7
+-  __TEXT.__swift5_typeref: 0x52fc
+-  __TEXT.__swift5_reflstr: 0xe1e
+-  __TEXT.__swift5_assocty: 0x5d0
+-  __TEXT.__constg_swiftt: 0x1cc8
+-  __TEXT.__swift5_fieldmd: 0x16d4
++  __TEXT.__cstring: 0x2fd7
++  __TEXT.__swift5_typeref: 0x53bc
++  __TEXT.__swift5_reflstr: 0xe7e
++  __TEXT.__swift5_assocty: 0x5b8
++  __TEXT.__constg_swiftt: 0x1d14
++  __TEXT.__swift5_fieldmd: 0x1704
+   __TEXT.__swift5_builtin: 0x154
+-  __TEXT.__swift5_capture: 0x264
++  __TEXT.__swift5_capture: 0x270
+   __TEXT.__swift5_proto: 0x408
+   __TEXT.__swift5_types: 0x1e0
+-  __TEXT.__swift_as_entry: 0x44
+   __TEXT.__swift5_mpenum: 0x54
+   __TEXT.__oslogstring: 0x16d3
++  __TEXT.__swift_as_entry: 0x40
+   __TEXT.__swift5_protos: 0x10
+   __TEXT.__swift_as_ret: 0x28
+   __TEXT.__gcc_except_tab: 0x454
+-  __TEXT.__unwind_info: 0x2630
+-  __TEXT.__eh_frame: 0x1298
++  __TEXT.__unwind_info: 0x2678
++  __TEXT.__eh_frame: 0x1258
+   __TEXT.__objc_classname: 0xbd5
+-  __TEXT.__objc_methname: 0x94df
++  __TEXT.__objc_methname: 0x94ba
+   __TEXT.__objc_methtype: 0x1d93
+   __TEXT.__objc_stubs: 0x6a40
+-  __DATA_CONST.__got: 0xc28
+-  __DATA_CONST.__const: 0xa20
++  __DATA_CONST.__got: 0xc20
++  __DATA_CONST.__const: 0xa08
+   __DATA_CONST.__objc_classlist: 0x220
+   __DATA_CONST.__objc_catlist: 0x20
+   __DATA_CONST.__objc_protolist: 0x108
+   __DATA_CONST.__objc_imageinfo: 0x8
+-  __DATA_CONST.__objc_selrefs: 0x21f8
++  __DATA_CONST.__objc_selrefs: 0x21f0
+   __DATA_CONST.__objc_protorefs: 0x50
+   __DATA_CONST.__objc_superrefs: 0x180
+   __AUTH_CONST.__auth_got: 0x1280
+-  __AUTH_CONST.__const: 0x3a98
++  __AUTH_CONST.__const: 0x3ac0
+   __AUTH_CONST.__cfstring: 0xf20
+-  __AUTH_CONST.__objc_const: 0x6600
++  __AUTH_CONST.__objc_const: 0x6640
+   __AUTH_CONST.__objc_doubleobj: 0x30
+-  __AUTH.__objc_data: 0x15e0
+-  __AUTH.__data: 0xee8
++  __AUTH.__objc_data: 0x1638
++  __AUTH.__data: 0xef8
+   __DATA.__objc_ivar: 0x3c0
+-  __DATA.__data: 0x2bc8
++  __DATA.__data: 0x2b28
+   __DATA.__bss: 0x8298
+   __DATA.__common: 0x70
+   - /System/Library/Frameworks/AppIntents.framework/Versions/A/AppIntents
+   - /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+-  - /System/Library/Frameworks/Combine.framework/Versions/A/Combine
+   - /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+   - /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+   - /System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+
+   - /usr/lib/swift/libswiftsimd.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 3886
+-  Symbols:   4147
++  Functions: 3905
++  Symbols:   4148
+   CStrings:  2203
+ 
+Symbols:
++ _symbolic _____Sg 7SwiftUI11ColorSchemeO
++ _symbolic _____yAAy_____y_____G_____y_____GG_____y_____AFGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 18WorkflowUIServices014CardBackgroundF033_C05175F39C03079DE35453898668CF9FLLV AA015_ContainerShapeF0V AA16RoundedRectangleV AA011_InsettablejqF0V AA5ColorV
++ _symbolic _____yAAy_____y_____yAAyAAy_____y_____G_____y_____GG_____y_____AFGG______Qo__AMSgQo______yAMGGAQy_____SgGG 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AeAEAfgH_Qrqd___SbyyctSQRd__lFQO AA01_e9Modifier_D0V 18WorkflowUIServices014CardBackgroundJ033_C05175F39C03079DE35453898668CF9FLLV AA015_ContainerShapeJ0V AA16RoundedRectangleV AA011_InsettablenuJ0V AA5ColorV AA0Y6SchemeO AA022_EnvironmentKeyWritingJ0V AK05SolidY14ThemeTampolineC
++ _symbolic _____yAAy_____y_____y_____G_____y_____GGAEGAEG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 18WorkflowUIServices022SolidColorThemeListRowG033_C05175F39C03079DE35453898668CF9FLLV AA013_TraitWritingG0V AA0mn10BackgroundT3KeyV
++ _symbolic _____y_____SgG 7SwiftUI5StateV AA11ColorSchemeO
++ _symbolic _____y__________G 7SwiftUI34_InsettableBackgroundShapeModifierV AA5ColorV AA16RoundedRectangleV
++ _symbolic _____y_____yAAy_____y_____G_____y_____GG_____y_____AFGG______Qo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AA01_c9Modifier_I0V 18WorkflowUIServices014CardBackgroundJ033_C05175F39C03079DE35453898668CF9FLLV AA015_ContainerShapeJ0V AA16RoundedRectangleV AA011_InsettablenuJ0V AA5ColorV AA0Y6SchemeO
++ _symbolic _____y_____y_____yAAyAAy_____y_____G_____y_____GG_____y_____AFGG______Qo__AMSgQo______yAMGG 7SwiftUI15ModifiedContentV AA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AeAEAfgH_Qrqd___SbyyctSQRd__lFQO AA01_e9Modifier_D0V 18WorkflowUIServices014CardBackgroundJ033_C05175F39C03079DE35453898668CF9FLLV AA015_ContainerShapeJ0V AA16RoundedRectangleV AA011_InsettablenuJ0V AA5ColorV AA0Y6SchemeO AA022_EnvironmentKeyWritingJ0V
++ _symbolic _____y_____y_____yAAy_____y_____G_____y_____GG_____y_____AFGG______Qo__AMSgQo_ 7SwiftUI4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQO AcAEAdeF_Qrqd___SbyyctSQRd__lFQO AA15ModifiedContentV AA01_c9Modifier_I0V 18WorkflowUIServices014CardBackgroundJ033_C05175F39C03079DE35453898668CF9FLLV AA015_ContainerShapeJ0V AA16RoundedRectangleV AA011_InsettablenuJ0V AA5ColorV AA0Y6SchemeO
++ _symbolic _____y_____y_____y_____G_____y_____GGAEG 7SwiftUI19_ConditionalContentV AA08ModifiedD0V AA014_ViewModifier_D0V 18WorkflowUIServices022SolidColorThemeListRowG033_C05175F39C03079DE35453898668CF9FLLV AA013_TraitWritingG0V AA0mn10BackgroundT3KeyV
++ _symbolic _____y_____y_____y_____G_____y_____GGAE_G 7SwiftUI19_ConditionalContentV7StorageO AA08ModifiedD0V AA014_ViewModifier_D0V 18WorkflowUIServices022SolidColorThemeListRowH033_C05175F39C03079DE35453898668CF9FLLV AA013_TraitWritingH0V AA0no10BackgroundU3KeyV
++ _symbolic _____y_____y_____y_____y_____G_____y_____GGAFGAF_G 7SwiftUI19_ConditionalContentV7StorageO AC AA08ModifiedD0V AA014_ViewModifier_D0V 18WorkflowUIServices022SolidColorThemeListRowH033_C05175F39C03079DE35453898668CF9FLLV AA013_TraitWritingH0V AA0no10BackgroundU3KeyV
++ get_witness_table 7SwiftUI15ModifiedContentVyACyAA4ViewPAAE8onChange2of7initial_Qrqd___SbyyctSQRd__lFQOyAeAEAfgH_Qrqd___SbyyctSQRd__lFQOyACyACyAA01_e9Modifier_D0Vy18WorkflowUIServices014CardBackgroundJ033_C05175F39C03079DE35453898668CF9FLLVGAA015_ContainerShapeJ0VyAA16RoundedRectangleVGGAA011_InsettablenuJ0VyAA5ColorVASGG_AA0Y6SchemeOQo__A1_SgQo_AA022_EnvironmentKeyWritingJ0VyA1_GGA6_yAK05SolidY14ThemeTampolineCSgGGAaDHPA8_AaDHPqd0__AaDHD3_A4_HO_A7_AA0eJ0HPyHCHC_A12_AAA14_HPyHCHC
++ get_witness_table 7SwiftUI19_ConditionalContentVyACyAA08ModifiedD0VyAA014_ViewModifier_D0Vy18WorkflowUIServices022SolidColorThemeListRowG033_C05175F39C03079DE35453898668CF9FLLVGAA013_TraitWritingG0VyAA0mn10BackgroundT3KeyVGGALGALGAA0F0HPAsaUHPAraUHPAlaUHPyHC_AqA0fG0HPyHCHC_AlaUHPyHCHC_AlaUHPyHCHC
+- _associated conformance 18WorkflowUIServices24SolidColorThemeTampolineC7Combine16ObservableObjectAA0I19WillChangePublisherAdEP_AD0L0
+- _symbolic $s7Combine16ObservableObjectP
+- _symbolic _____ 7Combine25ObservableObjectPublisherC
+- _symbolic _____yAAyAAyAAyAAy_____y_____G_____y_____GG_____y_____AFGG_____y_____GG_____y_____GGAQy_____SgGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 18WorkflowUIServices014CardBackgroundF033_C05175F39C03079DE35453898668CF9FLLV AA015_ContainerShapeF0V AA16RoundedRectangleV AA011_InsettablejqF0V AA0J5StyleV AA012_EnvironmentjuF0V AA5ColorV AA01_v10KeyWritingF0V AA0W6SchemeO AF05SolidW14ThemeTampolineC
+- _symbolic _____yAAyAAyAAy_____y_____G_____y_____GG_____y_____AFGG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 18WorkflowUIServices014CardBackgroundF033_C05175F39C03079DE35453898668CF9FLLV AA015_ContainerShapeF0V AA16RoundedRectangleV AA011_InsettablejqF0V AA0J5StyleV AA012_EnvironmentjuF0V AA5ColorV AA01_v10KeyWritingF0V AA0W6SchemeO
+- _symbolic _____yAAyAAy_____y_____G_____y_____GG_____y_____AFGG_____y_____GG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 18WorkflowUIServices014CardBackgroundF033_C05175F39C03079DE35453898668CF9FLLV AA015_ContainerShapeF0V AA16RoundedRectangleV AA011_InsettablejqF0V AA0J5StyleV AA012_EnvironmentjuF0V AA5ColorV
+- _symbolic _____yAAy_____y_____G_____y_____GG_____y_____AFGG 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 18WorkflowUIServices014CardBackgroundF033_C05175F39C03079DE35453898668CF9FLLV AA015_ContainerShapeF0V AA16RoundedRectangleV AA011_InsettablejqF0V AA0J5StyleV
+- _symbolic _____y_____G 7SwiftUI35_EnvironmentBackgroundStyleModifierV AA5ColorV
+- _symbolic _____y__________G 7SwiftUI34_InsettableBackgroundShapeModifierV AA0D5StyleV AA16RoundedRectangleV
+- _symbolic _____y__________y_____GG 7SwiftUI15ModifiedContentV AA9RectangleV AA24_ForegroundStyleModifierV AA5ColorV
+- _symbolic _____y_____y_____G_____y_____GGSg 7SwiftUI15ModifiedContentV AA014_ViewModifier_D0V 18WorkflowUIServices022SolidColorThemeListRowF033_C05175F39C03079DE35453898668CF9FLLV AA013_TraitWritingF0V AA0lm10BackgroundS3KeyV
+- get_witness_table 7SwiftUI15ModifiedContentVyAA014_ViewModifier_D0Vy18WorkflowUIServices022SolidColorThemeListRowF033_C05175F39C03079DE35453898668CF9FLLVGAA013_TraitWritingF0VyAA0lm10BackgroundS3KeyVGGSgAA0E0HpApaRHPAjaRHPyHC_AoA0eF0HPyHCHC_HC
+- get_witness_table 7SwiftUI15ModifiedContentVyACyACyACyACyAA014_ViewModifier_D0Vy18WorkflowUIServices014CardBackgroundF033_C05175F39C03079DE35453898668CF9FLLVGAA015_ContainerShapeF0VyAA16RoundedRectangleVGGAA011_InsettablejqF0VyAA0J5StyleVANGGAA012_EnvironmentjuF0VyAA5ColorVGGAA01_v10KeyWritingF0VyAA0W6SchemeOGGA2_yAF05SolidW14ThemeTampolineCSgGGAA0E0HPA6_AAA12_HPA0_AAA12_HPAvAA12_HPApAA12_HPAjAA12_HPyHC_AoA0eF0HPyHCHC_AuAA13_HPyHCHC_A_AAA13_HPyHCHC_A5_AAA13_HPyHCHC_A10_AAA13_HPyHCHC
+CStrings:
++ "_backgroundColor"
+- "tertiarySystemGroupedBackgroundColor"
+```

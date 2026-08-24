@@ -1,0 +1,104 @@
+## com.apple.iokit.IO80211Family
+
+> `com.apple.iokit.IO80211Family`
+
+```diff
+
+-1475.39.0.0.0
++1485.3.0.0.0
+   __TEXT.__const: 0x12ee0
+   __TEXT.__os_log: 0x9251
+-  __TEXT.__cstring: 0x8beb4
+-  __TEXT_EXEC.__text: 0x256160
++  __TEXT.__cstring: 0x8c072
++  __TEXT_EXEC.__text: 0x256540
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x5100
+   __DATA.__common: 0x23e0
+
+   __DATA_CONST.__auth_ptr: 0x20
+   __DATA_CONST.__mod_init_func: 0x530
+   __DATA_CONST.__mod_term_func: 0x530
+-  __DATA_CONST.__const: 0x37658
++  __DATA_CONST.__const: 0x37690
+   __DATA_CONST.__kalloc_type: 0x9c00
+   __DATA_CONST.__kalloc_var: 0x7d0
+-  Functions: 12193
+-  Symbols:   16047
+-  CStrings:  13747
++  Functions: 12199
++  Symbols:   16054
++  CStrings:  13752
+ 
+Symbols:
++ __FUNCTION__._ZN25IO80211NANDataPathManager24clearNANPreferredChannelEv
++ __Z37apple80211getNAN_COUNTRY_CODE_SYNCINGP23IO80211SkywalkInterfaceP32apple80211_nan_country_code_sync
++ __Z37apple80211setNAN_COUNTRY_CODE_SYNCINGP23IO80211SkywalkInterfaceP32apple80211_nan_country_code_sync
++ __ZL27setNAN_COUNTRY_CODE_SYNCINGP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211req
++ __ZN20IO80211P2PSupervisor28notifyPreferredChannelChangeEP47apple80211_nan_preferred_channels_changed_eventb
++ __ZN21IO80211NANPeerManager20isCountryCodeSyncingEv
++ __ZN21IO80211NANPeerManager21setNANCountryCodeSyncEP32apple80211_nan_country_code_sync
++ __ZN22IO80211AWDLPeerManager28notifyPreferredChannelChangeEP47apple80211_nan_preferred_channels_changed_eventb
++ __ZN25IO80211NANDataPathManager24clearNANPreferredChannelEv
++ __ZZN21IO80211NANPeerManager17initWithInterfaceEP23IO80211VirtualInterfaceP10ether_addrE20kalloc_type_view_161
++ __ZZN21IO80211NANPeerManager4freeEvE20kalloc_type_view_304
++ __ZZN22IO80211AWDLPeerManager10growAFRingEvE22kalloc_type_view_18756
++ __ZZN22IO80211AWDLPeerManager10growAFRingEvE22kalloc_type_view_18768
++ __ZZN22IO80211AWDLPeerManager12shrinkAFRingEvE22kalloc_type_view_18792
++ __ZZN22IO80211AWDLPeerManager12shrinkAFRingEvE22kalloc_type_view_18804
++ __ZZN22IO80211AWDLPeerManager22initAWDLStateTrackInfoEvE22kalloc_type_view_24164
++ __ZZN22IO80211AWDLPeerManager28freeAwdlPacketDescriptorPoolEvE22kalloc_type_view_38236
++ __ZZN22IO80211AWDLPeerManager28initAwdlPacketDescriptorPoolEjE22kalloc_type_view_38220
++ __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29641
++ __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29664
++ __ZZN25IO80211NANDataPathManager17deleteNanInfoListEPP13ndp_info_nodeE21kalloc_type_view_4172
++ __ZZN25IO80211NANDataPathManager19addEntryNanInfoListEPP13ndp_info_nodePhtjjE21kalloc_type_view_4121
+- __ZN20IO80211P2PSupervisor28notifyPreferredChannelChangeEP47apple80211_nan_preferred_channels_changed_event
+- __ZN22IO80211AWDLPeerManager28notifyPreferredChannelChangeEP47apple80211_nan_preferred_channels_changed_event
+- __ZZN21IO80211NANPeerManager17initWithInterfaceEP23IO80211VirtualInterfaceP10ether_addrE20kalloc_type_view_160
+- __ZZN21IO80211NANPeerManager4freeEvE20kalloc_type_view_303
+- __ZZN22IO80211AWDLPeerManager10growAFRingEvE22kalloc_type_view_18737
+- __ZZN22IO80211AWDLPeerManager10growAFRingEvE22kalloc_type_view_18749
+- __ZZN22IO80211AWDLPeerManager12shrinkAFRingEvE22kalloc_type_view_18773
+- __ZZN22IO80211AWDLPeerManager12shrinkAFRingEvE22kalloc_type_view_18785
+- __ZZN22IO80211AWDLPeerManager22initAWDLStateTrackInfoEvE22kalloc_type_view_24145
+- __ZZN22IO80211AWDLPeerManager28freeAwdlPacketDescriptorPoolEvE22kalloc_type_view_38204
+- __ZZN22IO80211AWDLPeerManager28initAwdlPacketDescriptorPoolEjE22kalloc_type_view_38188
+- __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29622
+- __ZZN22IO80211AWDLPeerManager33realTimeStatsGetSkywalkStatisticsEvE22kalloc_type_view_29645
+- __ZZN25IO80211NANDataPathManager17deleteNanInfoListEPP13ndp_info_nodeE21kalloc_type_view_4158
+- __ZZN25IO80211NANDataPathManager19addEntryNanInfoListEPP13ndp_info_nodePhtjjE21kalloc_type_view_4107
+Functions:
+~ __ZN13WCLNetManager12leaveNetworkEPv : 508 -> 524
+~ __Z27IO80211_io80211isDebuggablev : 232 -> 224
+~ __ZN22IO80211AWDLPeerManager19setAwdlRTGTxMinRateEb : 756 -> 856
+~ __ZN22IO80211AWDLPeerManager20clearAirPlayingStateEv : 248 -> 260
+~ __ZN22IO80211AWDLPeerManager24handleEnsembleTrafficRegEP15IO80211AWDLPeerP41apple80211_awdl_peer_traffic_registration11rtgPeerTypeb : 4680 -> 4852
+~ __ZN22IO80211AWDLPeerManager30setAwdlPeerTrafficRegistrationEP41apple80211_awdl_peer_traffic_registration : 10652 -> 10740
++ __Z37apple80211getNAN_COUNTRY_CODE_SYNCINGP23IO80211SkywalkInterfaceP32apple80211_nan_country_code_sync
++ __Z37apple80211setNAN_COUNTRY_CODE_SYNCINGP23IO80211SkywalkInterfaceP32apple80211_nan_country_code_sync
+~ __ZN14WCLJoinManager23handleJoinAssocCompleteEPv : 320 -> 480
+~ __ZL12setASSOCIATEP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211req : 652 -> 664
++ __ZL27setNAN_COUNTRY_CODE_SYNCINGP17IO80211ControllerP23IO80211SkywalkInterfaceP13apple80211req
+~ __ZN17IO80211Controller19io80211isDebuggableEPb : 248 -> 236
+~ __ZN21IO80211NANPeerManager17initWithInterfaceEP23IO80211VirtualInterfaceP10ether_addr : 1836 -> 1844
++ __ZN21IO80211NANPeerManager21setNANCountryCodeSyncEP32apple80211_nan_country_code_sync
++ __ZN21IO80211NANPeerManager20isCountryCodeSyncingEv
+~ __ZN26IO80211DataPathInformAgent19getPacketFilterDataER29apple80211_packet_filter_data : 648 -> 640
+~ __ZN25IO80211NANDataPathManager7disableEv : 492 -> 500
++ __ZN25IO80211NANDataPathManager24clearNANPreferredChannelEv
+~ __ZN25IO80211NANDataPathManager26decrementDpEstSessionCountEv : 188 -> 196
+~ __ZN25IO80211NANDataPathManager31configureTier5AvailabilitySlotsEv : 4976 -> 4980
+CStrings:
++ "\"IO80211_kexts-1485.3\""
++ "%s:%d 1SS peer, fix awdl tx min rate."
++ "%s[%u] ERROR: Peer %02X:%02X:%02X:%02X:%02X:%02X was deleted\n"
++ "APPLE80211_IOC_NAN_COUNTRY_CODE_SYNCING"
++ "IO80211_kexts-1485.3"
++ "Jun 11 2025 21:16:18"
++ "[wcl] %s@%d:Extend join timeout for EAP user input by <%d>ms \n"
++ "clearNANPreferredChannel"
+- "\"IO80211_kexts-1475.39\""
+- "Apr 22 2025 19:47:10"
+- "IO80211_kexts-1475.39"
+```

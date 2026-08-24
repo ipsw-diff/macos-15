@@ -1,0 +1,63 @@
+## com.apple.driver.AppleT8103CLPCv3
+
+> `com.apple.driver.AppleT8103CLPCv3`
+
+```diff
+
+-1175.120.17.0.0
+-  __TEXT.__cstring: 0x3200
++1175.140.9.0.0
++  __TEXT.__cstring: 0x325e
+   __TEXT.__const: 0x9a0
+-  __TEXT_EXEC.__text: 0x5063c
++  __TEXT_EXEC.__text: 0x505fc
+   __TEXT_EXEC.__auth_stubs: 0x0
+-  __DATA.__data: 0x93b8
++  __DATA.__data: 0x93e0
+   __DATA.__common: 0x9100
+   __DATA.__bss: 0x278
+   __DATA_CONST.__auth_got: 0x460
+   __DATA_CONST.__got: 0xd8
+   __DATA_CONST.__mod_init_func: 0x118
+   __DATA_CONST.__mod_term_func: 0x18
+-  __DATA_CONST.__const: 0x52c0
++  __DATA_CONST.__const: 0x52d8
+   __DATA_CONST.__kalloc_type: 0x300
+   __DATA_CONST.__kalloc_var: 0x2d0
+-  Functions: 1130
+-  Symbols:   1643
++  Functions: 1128
++  Symbols:   1641
+   CStrings:  459
+ 
+Symbols:
++ __ZN4clpc12_GLOBAL__N_14$_118__invokeEP8OSObjectPvP25IOExternalMethodArguments
++ __ZN4clpc4CLPC16handleSetTrialIDEy
++ __ZN4clpc4CLPC27dropSoCPerfEventTracepointsERNS_19SystemThermalSampleEy
++ __ZN4clpc7control12PIControllerIfLNS_16ControlDirectionE0ELNS_12SeedBehaviorE1EE13resolveErrorsINS0_14PICurvedConfigIfLm3EEEEENS_5tupleIJfffEEEfRKT_yNS0_12ControlRangeIfEE
++ __ZN9AppleCLPC16handleSetTrialIDEy
++ __ZZN4clpc19CurvePropertyTraitsILb1ELb1EE23curveKnotPropertySetterILm1ELj3ELb0EEEDavENUlRjPvRNS_13PropertyFlagsEE_8__invokeES4_S5_S7_
++ __ZZN4clpc19CurvePropertyTraitsILb1ELb1EE23curveKnotPropertySetterILm2ELj3ELb0EEEDavENUlRjPvRNS_13PropertyFlagsEE_8__invokeES4_S5_S7_
++ __ZZN4clpc19CurvePropertyTraitsILb1ELb1EE30curveCoefficientPropertySetterILm0ELj3ELb0ELb1EEEDavENUlRjPvRNS_13PropertyFlagsEE_8__invokeES4_S5_S7_
++ __ZZN4clpc19CurvePropertyTraitsILb1ELb1EE30curveCoefficientPropertySetterILm1ELj3ELb0ELb1EEEDavENUlRjPvRNS_13PropertyFlagsEE_8__invokeES4_S5_S7_
++ __ZZN4clpc19CurvePropertyTraitsILb1ELb1EE30curveCoefficientPropertySetterILm2ELj3ELb0ELb1EEEDavENUlRjPvRNS_13PropertyFlagsEE_8__invokeES4_S5_S7_
++ __ZZN4clpc19CurvePropertyTraitsILb1ELb1EE30curveCoefficientPropertySetterILm3ELj3ELb0ELb1EEEDavENUlRjPvRNS_13PropertyFlagsEE_8__invokeES4_S5_S7_
+- __ZN4clpc4CLPC14sampleSystemUTERNS_16SystemPerfSampleEyRNS_12SamplerFlagsE
+- __ZZN4clpc15PropertyFactory30thread_group_cpu_property_defsEvENUlRjPvRNS_13PropertyFlagsEE10_8__invokeES1_S2_S4_
+- __ZZN4clpc15PropertyFactory30thread_group_cpu_property_defsEvENUlRjPvRNS_13PropertyFlagsEE11_8__invokeES1_S2_S4_
+- __ZZN4clpc15PropertyFactory30thread_group_cpu_property_defsEvENUlRjPvRNS_13PropertyFlagsEE12_8__invokeES1_S2_S4_
+- __ZZN4clpc15PropertyFactory30thread_group_cpu_property_defsEvENUlRjPvRNS_13PropertyFlagsEE13_8__invokeES1_S2_S4_
+- __ZZN4clpc15PropertyFactory30thread_group_cpu_property_defsEvENUlRjPvRNS_13PropertyFlagsEE14_8__invokeES1_S2_S4_
+- __ZZN4clpc15PropertyFactory30thread_group_cpu_property_defsEvENUlRjPvRNS_13PropertyFlagsEE15_8__invokeES1_S2_S4_
+- __ZZN4clpc15PropertyFactory30thread_group_cpu_property_defsEvENUlRjPvRNS_13PropertyFlagsEE16_8__invokeES1_S2_S4_
+- __ZZN4clpc15PropertyFactory30thread_group_cpu_property_defsEvENUlRjPvRNS_13PropertyFlagsEE17_8__invokeES1_S2_S4_
+- __ZZN4clpc15PropertyFactory30thread_group_cpu_property_defsEvENUlRjPvRNS_13PropertyFlagsEE6_8__invokeES1_S2_S4_
+- __ZZN4clpc15PropertyFactory30thread_group_cpu_property_defsEvENUlRjPvRNS_13PropertyFlagsEE7_8__invokeES1_S2_S4_
+- __ZZN4clpc15PropertyFactory30thread_group_cpu_property_defsEvENUlRjPvRNS_13PropertyFlagsEE8_8__invokeES1_S2_S4_
+- __ZZN4clpc15PropertyFactory30thread_group_cpu_property_defsEvENUlRjPvRNS_13PropertyFlagsEE9_8__invokeES1_S2_S4_
+CStrings:
++ "2025-06-11T21:20:39-07:00"
++ "AppleCLPC-1175.140.9"
+- "2025-04-22T20:02:20-07:00"
+- "AppleCLPC-1175.120.17"
+```

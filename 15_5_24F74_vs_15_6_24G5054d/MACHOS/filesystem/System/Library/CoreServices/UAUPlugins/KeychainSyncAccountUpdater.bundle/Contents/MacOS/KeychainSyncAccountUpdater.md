@@ -1,0 +1,16 @@
+## KeychainSyncAccountUpdater
+
+> `/System/Library/CoreServices/UAUPlugins/KeychainSyncAccountUpdater.bundle/Contents/MacOS/KeychainSyncAccountUpdater`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-61439.120.27.0.0
++61439.140.8.0.0
+   __TEXT.__text: 0xec
+   __TEXT.__auth_stubs: 0x50
+   __TEXT.__objc_methlist: 0x184
+```

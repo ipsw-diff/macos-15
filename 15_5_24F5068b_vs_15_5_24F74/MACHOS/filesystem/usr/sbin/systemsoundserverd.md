@@ -1,0 +1,34 @@
+## systemsoundserverd
+
+> `/usr/sbin/systemsoundserverd`
+
+### Sections with Same Size but Changed Content
+
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA.__objc_selrefs`
+
+```diff
+
+   __TEXT.__objc_stubs: 0x20
+   __TEXT.__const: 0x188
+   __TEXT.__gcc_except_tab: 0x1010
+-  __TEXT.__oslogstring: 0x3062
++  __TEXT.__oslogstring: 0x314f
+   __TEXT.__cstring: 0xb65
+   __TEXT.__objc_methname: 0xe
+   __TEXT.__unwind_info: 0x508
+
+   - /usr/lib/libobjc.A.dylib
+   Functions: 174
+   Symbols:   201
+-  CStrings:  322
++  CStrings:  325
+ 
+CStrings:
++ "%25s:%-5d ASSERTION FAILURE [(__null != gUserList) != 0 is false]: "
++ "%25s:%-5d ASSERTION FAILURE [(activeSoundInfo != nullptr) != 0 is false]: "
++ "%25s:%-5d ASSERTION FAILURE [(false) != 0 is false]: "
++ "%25s:%-5d ASSERTION FAILURE [(mClientInfo != __null) != 0 is false]: "
+- "%25s:%-5d ASSERTION FAILURE: "
+```

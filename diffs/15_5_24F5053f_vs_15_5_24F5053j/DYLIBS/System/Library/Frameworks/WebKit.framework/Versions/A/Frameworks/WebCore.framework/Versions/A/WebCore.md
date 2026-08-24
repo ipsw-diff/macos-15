@@ -1,0 +1,98 @@
+## WebCore
+
+> `/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/WebCore`
+
+```diff
+
+-621.2.3.11.1
+-  __TEXT.__text: 0x2f64f80
++621.2.4.11.2
++  __TEXT.__text: 0x2f668a4
+   __TEXT.__auth_stubs: 0xd750
+   __TEXT.__objc_methlist: 0x3fd0
+-  __TEXT.__const: 0x1b1b80
+-  __TEXT.__gcc_except_tab: 0x28894
++  __TEXT.__const: 0x1b1be0
++  __TEXT.__gcc_except_tab: 0x288c4
+   __TEXT.__swift5_typeref: 0xea
+-  __TEXT.__cstring: 0x2b650d
++  __TEXT.__cstring: 0x2b653a
+   __TEXT.__constg_swiftt: 0x3e8
+   __TEXT.__swift5_fieldmd: 0x2a0
+   __TEXT.__swift5_reflstr: 0xa4
+
+   __TEXT.__swift5_builtin: 0x14
+   __TEXT.__oslogstring: 0x10860
+   __TEXT.__ustring: 0x2aa
+-  __TEXT.__unwind_info: 0x15da0
++  __TEXT.__unwind_info: 0x15db0
+   __TEXT.__eh_frame: 0xe08
+   __TEXT.__objc_classname: 0xe0d
+   __TEXT.__objc_methname: 0x106b5
+
+   __DATA_CONST.__jsc_ops: 0x260
+   __DATA_CONST.__objc_arraydata: 0xa8
+   __AUTH_CONST.__auth_got: 0x6bc8
+-  __AUTH_CONST.__const: 0x25fe90
++  __AUTH_CONST.__const: 0x25fea0
+   __AUTH_CONST.__cfstring: 0x9ea0
+   __AUTH_CONST.__objc_const: 0x7a98
+   __AUTH_CONST.__objc_intobj: 0x330
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 122031
+-  Symbols:   153836
+-  CStrings:  33206
++  Functions: 122022
++  Symbols:   153826
++  CStrings:  33208
+ 
+Symbols:
++ GCC_except_table321
++ GCC_except_table335
++ GCC_except_table340
++ __ZN3WTF11WeakHashSetIN7WebCore12WebAnimationENS1_30WeakPtrImplWithEventTargetDataELNS_32EnableWeakPtrThreadingAssertionsE1EE3addIS2_EENS_18HashTableAddResultINS_17HashTableIteratorINS_9HashTableINS_3RefIS3_NS_12RawPtrTraitsIS3_EENS_21DefaultRefDerefTraitsIS3_EEEESF_NS_17IdentityExtractorENS_11DefaultHashISF_EENS_10HashTraitsISF_EESK_LNS_17ShouldValidateKeyE1EEESF_SF_SG_SI_SK_SK_EEEERKT_
++ __ZN3WTF14NeverDestroyedIN7WebCore16CSSParserContextENS_22MainThreadAccessTraitsEEC2IJNS1_13CSSParserModeEEEEDpOT_
++ __ZN3WTF9HashTableINS_3RefIN7WebCore30WeakPtrImplWithEventTargetDataENS_12RawPtrTraitsIS3_EENS_21DefaultRefDerefTraitsIS3_EEEES8_NS_17IdentityExtractorENS_11DefaultHashIS8_EENS_10HashTraitsIS8_EESD_LNS_17ShouldValidateKeyE1EE8removeIfIZNS_11WeakHashSetINS2_12WebAnimationES3_LNS_32EnableWeakPtrThreadingAssertionsE1EE20removeNullReferencesEvEUlRT_E_EEbRKSL_
++ __ZN7WebCore13AXObjectCache30buildAccessibilityTreeIfNeededEv
++ __ZN7WebCore13CSSStyleSheetC2EON3WTF3RefINS_18StyleSheetContentsENS1_12RawPtrTraitsIS3_EENS1_21DefaultRefDerefTraitsIS3_EEEEPNS_13CSSImportRuleENSt3__18optionalIbEE
++ __ZN7WebCore23InspectorAnimationAgent13requestEffectERKN3WTF6StringE
++ __ZN7WebCore26SourceBufferPrivateAVFObjC18stageVideoRendererEPNS_24VideoMediaSampleRendererE
++ __ZN7WebCoreL15handleNHLQuirksERNS_10QuirksDataERKN3WTF3URLERKNS2_6StringES5_
++ __ZN9Inspector27AnimationFrontendDispatcher13effectChangedERKN3WTF6StringE
++ __ZThn32_N7WebCore23InspectorAnimationAgent13requestEffectERKN3WTF6StringE
+- GCC_except_table311
+- GCC_except_table331
+- GCC_except_table336
+- __PRETTY_FUNCTION__._ZN7WebCore16audioElementSpanENS_17AudioSampleFormatENSt3__14spanIhLm18446744073709551615EEE
+- __ZN3WTF11FixedVectorINS_10AtomStringENS_10FastMallocEEC2ESt16initializer_listIS1_E
+- __ZN3WTF14NeverDestroyedIN7WebCore16CSSParserContextENS_22MainThreadAccessTraitsEEC1IJNS1_13CSSParserModeEEEEDpOT_
+- __ZN3WTF6VectorIN7WebCore24PossiblyQuotedIdentifierELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14appendSlowCaseILNS_13FailureActionE0ES2_EEbOT0_
+- __ZN3WTF6VectorINS_10AtomStringELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14appendSlowCaseILNS_13FailureActionE0ERKS1_EEbOT0_
+- __ZN3WTF6VectorINS_10AtomStringELm0ENS_15CrashOnOverflowELm16ENS_10FastMallocEE14appendSlowCaseILNS_13FailureActionE0ES1_EEbOT0_
+- __ZN7WebCore11CSSSelector11setArgumentERKN3WTF10AtomStringE
+- __ZN7WebCore11HistoryItem12setChildItemEON3WTF3RefIS0_NS1_12RawPtrTraitsIS0_EENS1_21DefaultRefDerefTraitsIS0_EEEE
+- __ZN7WebCore11HistoryItem19clearScrollPositionEv
+- __ZN7WebCore11HistoryItem27setNavigationAPIStateObjectEON3WTF6RefPtrINS_21SerializedScriptValueENS1_12RawPtrTraitsIS3_EENS1_21DefaultRefDerefTraitsIS3_EEEE
+- __ZN7WebCore12MessageEventnwEm
+- __ZN7WebCore13CSSStyleSheetC2EON3WTF3RefINS_18StyleSheetContentsENS1_12RawPtrTraitsIS3_EENS1_21DefaultRefDerefTraitsIS3_EEEEPNS_13CSSImportRuleE
+- __ZN7WebCore17CSSSelectorParser27consumeCompoundSelectorListERNS_19CSSParserTokenRangeE
+- __ZN7WebCore21BackForwardController12setChildItemENS_16ProcessQualifiedIN3WTF23ObjectIdentifierGenericINS_34BackForwardFrameItemIdentifierTypeENS2_38ObjectIdentifierMainThreadAccessTraitsIyEEyEEEEONS2_3RefINS_11HistoryItemENS2_12RawPtrTraitsISA_EENS2_21DefaultRefDerefTraitsISA_EEEE
+- __ZN7WebCoreL14addVisitedLinkERNS_4PageERKN3WTF3URLE
+- __ZN7WebCoreL20buildObjectForEffectERNS_15AnimationEffectE
+- __ZN7WebCoreL36consumeCommaSeparatedCustomIdentListERNS_19CSSParserTokenRangeE
+- __ZN9Inspector27AnimationFrontendDispatcher13effectChangedERKN3WTF6StringEONS1_6RefPtrINS_8Protocol9Animation6EffectENS1_12RawPtrTraitsIS8_EENS1_21DefaultRefDerefTraitsIS8_EEEE
+- __ZNK7WebCore14CSSParserToken11numericSignEv
+- __ZNSt3__18optionalIN3WTF11FixedVectorINS1_10AtomStringENS1_10FastMallocEEEED1Ev
+CStrings:
++ "Not allowed to delete rule from cross-origin stylesheet"
++ "Not allowed to insert rule into cross-origin stylesheet"
++ "nhl"
++ "nhl.com"
++ "stageVideoRenderer"
+- "AudioSampleFormatSpan WebCore::audioElementSpan(AudioSampleFormat, std::span<uint8_t>)"
+- "even"
+- "odd"
+```

@@ -1,0 +1,45 @@
+## APConfigurationSystem
+
+> `/System/Library/PrivateFrameworks/APConfigurationSystem.framework/Versions/A/APConfigurationSystem`
+
+```diff
+
+-555.48.1.8.0
++555.48.15.0.0
+   __TEXT.__text: 0x7d58
+   __TEXT.__auth_stubs: 0x430
+   __TEXT.__objc_methlist: 0xcac
+
+   __TEXT.__swift5_protos: 0x4
+   __TEXT.__unwind_info: 0x268
+   __TEXT.__objc_classname: 0x486
+-  __TEXT.__objc_methname: 0x1e47
++  __TEXT.__objc_methname: 0x1e15
+   __TEXT.__objc_methtype: 0x398
+   __TEXT.__objc_stubs: 0x17c0
+   __DATA_CONST.__got: 0x1b0
+
+   __AUTH_CONST.__auth_got: 0x228
+   __AUTH_CONST.__const: 0xd0
+   __AUTH_CONST.__cfstring: 0xb40
+-  __AUTH_CONST.__objc_const: 0x2fc8
++  __AUTH_CONST.__objc_const: 0x2f98
+   __AUTH_CONST.__objc_intobj: 0x90
+   __AUTH.__objc_data: 0xdc0
+   __AUTH.__data: 0x140
+
+   - /usr/lib/swift/libswiftunistd.dylib
+   Functions: 214
+   Symbols:   239
+-  CStrings:  637
++  CStrings:  634
+ 
+CStrings:
++ "experimentationReportEnabledPercentage2024G"
++ "modernDataCollectionEnabledPercentage2024G"
+- "experimentationReportEnabledPercentage"
+- "isPersistenceEnabled"
+- "modernDataCollectionEnabledPercentage"
+- "sendTimeSpentMetric"
+- "timeSpentMetricTTL"
+```

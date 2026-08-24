@@ -1,0 +1,107 @@
+## ShelfKitCollectionViews
+
+> `/System/Applications/Podcasts.app/Contents/Frameworks/ShelfKitCollectionViews.framework/Versions/A/ShelfKitCollectionViews`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__objc_methlist`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_builtin`
+- `__TEXT.__swift5_fieldmd`
+- `__TEXT.__swift5_assocty`
+- `__TEXT.__swift5_capture`
+- `__TEXT.__swift5_proto`
+- `__TEXT.__swift5_types`
+- `__TEXT.__swift_as_entry`
+- `__TEXT.__swift_as_ret`
+- `__TEXT.__swift5_protos`
+- `__TEXT.__swift5_mpenum`
+- `__TEXT.__unwind_info`
+- `__TEXT.__eh_frame`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__cfstring`
+- `__DATA_CONST.__objc_classlist`
+- `__DATA_CONST.__objc_protolist`
+- `__DATA_CONST.__objc_protorefs`
+- `__DATA.__objc_const`
+- `__DATA.__objc_selrefs`
+- `__DATA.__objc_data`
+- `__DATA.__objc_stublist`
+
+```diff
+
+-4024.600.7.0.0
+-  __TEXT.__text: 0x36fbd8
++4024.700.3.0.0
++  __TEXT.__text: 0x36fc68
+   __TEXT.__auth_stubs: 0xcb20
+   __TEXT.__objc_stubs: 0x1320
+   __TEXT.__init_offsets: 0x4
+   __TEXT.__objc_methlist: 0x63fc
+-  __TEXT.__const: 0x1b474
+-  __TEXT.__cstring: 0x13537
++  __TEXT.__const: 0x1b564
++  __TEXT.__cstring: 0x13507
+   __TEXT.__objc_methname: 0xaf66
+   __TEXT.__objc_classname: 0x3c2
+   __TEXT.__objc_methtype: 0x2cd1
+   __TEXT.__constg_swiftt: 0xcd10
+-  __TEXT.__swift5_typeref: 0x1b358
++  __TEXT.__swift5_typeref: 0x1b3b8
+   __TEXT.__swift5_builtin: 0x3d4
+   __TEXT.__swift5_reflstr: 0xb3d0
+   __TEXT.__swift5_fieldmd: 0xa028
+
+   __TEXT.__unwind_info: 0x9bf0
+   __TEXT.__eh_frame: 0x1c8c
+   __DATA_CONST.__auth_got: 0x6598
+-  __DATA_CONST.__got: 0x29a8
+-  __DATA_CONST.__auth_ptr: 0x3ff8
++  __DATA_CONST.__got: 0x29b8
++  __DATA_CONST.__auth_ptr: 0x3f70
+   __DATA_CONST.__const: 0x12970
+   __DATA_CONST.__cfstring: 0x1c0
+   __DATA_CONST.__objc_classlist: 0x8f0
+
+   __DATA.__objc_selrefs: 0x3390
+   __DATA.__objc_ivar: 0x60
+   __DATA.__objc_data: 0x137a8
+-  __DATA.__data: 0x15288
++  __DATA.__data: 0x151b8
+   __DATA.__objc_stublist: 0x28
+   __DATA.__bss: 0x1ac00
+   __DATA.__common: 0x3160
+
+   - /usr/lib/swift/libswiftunistd.dylib
+   - @rpath/PodcastsTranscripts.framework/Versions/A/PodcastsTranscripts
+   - @rpath/ShelfKit.framework/Versions/A/ShelfKit
+-  Functions: 15251
+-  Symbols:   6710
+-  CStrings:  4049
++  Functions: 15252
++  Symbols:   6711
++  CStrings:  4048
+ 
+Symbols:
++ _symbolic _____yAAyAAyAAyAAyAAyAAy__________G_____G_____y_____GGAGy_____SgGG_____y_____GG_____y_____GGAGy_____SgGG 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA14_OpacityEffectV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA5ColorV AA011_BackgroundfQ0V AA08AnyShapeF0V AA05_ClipJ0V AA16RoundedRectangleV AA4FontV
++ _symbolic _____yAAyAAyAAyAAyAAy__________G_____G_____y_____GGAGy_____SgGG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA14_OpacityEffectV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA5ColorV AA011_BackgroundfQ0V AA08AnyShapeF0V AA05_ClipJ0V AA16RoundedRectangleV
++ _symbolic _____yAAyAAyAAyAAy__________G_____G_____y_____GGAGy_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA14_OpacityEffectV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA5ColorV AA011_BackgroundfQ0V AA08AnyShapeF0V
++ _symbolic _____yAAyAAyAAy__________G_____G_____y_____GGAGy_____SgGG 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA14_OpacityEffectV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA5ColorV
++ _symbolic _____yAAyAAy__________G_____G_____y_____GG 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA14_OpacityEffectV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO
++ _symbolic _____yAAy__________G_____G 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA14_OpacityEffectV AA16_FlexFrameLayoutV
++ _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA14_OpacityEffectV
++ _symbolic _____y_____yAAyAAyAAyAAyAAyAAy__________G_____G_____y_____GGAGy_____SgGG_____y_____GG_____y_____GGAGy_____SgGG_Qo_ 7SwiftUI4ViewPAAE4boldyQrSbFQO AA15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA14_OpacityEffectV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA5ColorV AA011_BackgroundhS0V AA08AnyShapeH0V AA05_ClipL0V AA16RoundedRectangleV AA4FontV
++ _symbolic _____y_____y_____yAByAByAByAByAByABy__________G_____G_____y_____GGAHy_____SgGG_____y_____GG_____y_____GGAHy_____SgGG_Qo_G 8ShelfKit15SizeClassReaderV 7SwiftUI4ViewPADE4boldyQrSbFQO AD15ModifiedContentV AD24ButtonStyleConfigurationV5LabelV AD14_OpacityEffectV AD16_FlexFrameLayoutV AD30_EnvironmentKeyWritingModifierV AD13TextAlignmentO AD5ColorV AD011_BackgroundmX0V AD08AnyShapeM0V AD05_ClipQ0V AD16RoundedRectangleV AD4FontV
++ get_witness_table 8ShelfKit15SizeClassReaderVy7SwiftUI4ViewPADE4boldyQrSbFQOyAD15ModifiedContentVyAIyAIyAIyAIyAIyAIyAD24ButtonStyleConfigurationV5LabelVAD14_OpacityEffectVGAD16_FlexFrameLayoutVGAD30_EnvironmentKeyWritingModifierVyAD13TextAlignmentOGGAUyAD5ColorVSgGGAD011_BackgroundmX0VyAD08AnyShapeM0VGGAD05_ClipQ0VyAD16RoundedRectangleVGGAUyAD4FontVSgGG_Qo_GAdEHPyHC
+- _symbolic _____yAAyAAyAAyAAyAAy__________G_____y_____GGAEy_____SgGG_____y_____GG_____y_____GGAEy_____SgGG 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA5ColorV AA011_BackgroundfO0V AA08AnyShapeF0V AA11_ClipEffectV AA16RoundedRectangleV AA4FontV
+- _symbolic _____yAAyAAyAAyAAy__________G_____y_____GGAEy_____SgGG_____y_____GG_____y_____GG 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA5ColorV AA011_BackgroundfO0V AA08AnyShapeF0V AA11_ClipEffectV AA16RoundedRectangleV
+- _symbolic _____yAAyAAyAAy__________G_____y_____GGAEy_____SgGG_____y_____GG 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA5ColorV AA011_BackgroundfO0V AA08AnyShapeF0V
+- _symbolic _____yAAyAAy__________G_____y_____GGAEy_____SgGG 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA5ColorV
+- _symbolic _____yAAy__________G_____y_____GG 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO
+- _symbolic _____y__________G 7SwiftUI15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA16_FlexFrameLayoutV
+- _symbolic _____y_____yAAyAAyAAyAAyAAy__________G_____y_____GGAEy_____SgGG_____y_____GG_____y_____GGAEy_____SgGG_Qo_ 7SwiftUI4ViewPAAE4boldyQrSbFQO AA15ModifiedContentV AA24ButtonStyleConfigurationV5LabelV AA16_FlexFrameLayoutV AA30_EnvironmentKeyWritingModifierV AA13TextAlignmentO AA5ColorV AA011_BackgroundhQ0V AA08AnyShapeH0V AA11_ClipEffectV AA16RoundedRectangleV AA4FontV
+- _symbolic _____y_____y_____yAByAByAByAByABy__________G_____y_____GGAFy_____SgGG_____y_____GG_____y_____GGAFy_____SgGG_Qo_G 8ShelfKit15SizeClassReaderV 7SwiftUI4ViewPADE4boldyQrSbFQO AD15ModifiedContentV AD24ButtonStyleConfigurationV5LabelV AD16_FlexFrameLayoutV AD30_EnvironmentKeyWritingModifierV AD13TextAlignmentO AD5ColorV AD011_BackgroundmV0V AD08AnyShapeM0V AD11_ClipEffectV AD16RoundedRectangleV AD4FontV
+- get_witness_table 8ShelfKit15SizeClassReaderVy7SwiftUI4ViewPADE4boldyQrSbFQOyAD15ModifiedContentVyAIyAIyAIyAIyAIyAD24ButtonStyleConfigurationV5LabelVAD16_FlexFrameLayoutVGAD30_EnvironmentKeyWritingModifierVyAD13TextAlignmentOGGARyAD5ColorVSgGGAD011_BackgroundmV0VyAD08AnyShapeM0VGGAD11_ClipEffectVyAD16RoundedRectangleVGGARyAD4FontVSgGG_Qo_GAdEHPyHC
+CStrings:
+- "SUBSCRIPTION_CONFIRMATION_DISMISS_TITLE"
+```

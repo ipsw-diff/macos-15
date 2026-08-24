@@ -1,0 +1,105 @@
+## AOSAccounts
+
+> `/System/Library/PrivateFrameworks/AOSAccounts.framework/Versions/A/AOSAccounts`
+
+```diff
+
+ 197.450.0.0.0
+-  __TEXT.__text: 0x3bf0c
++  __TEXT.__text: 0x3c40c
+   __TEXT.__auth_stubs: 0xff0
+   __TEXT.__objc_methlist: 0xb94
+   __TEXT.__const: 0x350
+
+   __DATA_CONST.__objc_superrefs: 0x28
+   __DATA_CONST.__objc_arraydata: 0x50
+   __AUTH_CONST.__auth_got: 0x810
+-  __AUTH_CONST.__const: 0x22e8
++  __AUTH_CONST.__const: 0x2568
+   __AUTH_CONST.__cfstring: 0x8ee0
+   __AUTH_CONST.__objc_const: 0x12e8
+   __AUTH_CONST.__objc_arrayobj: 0x90
+   __AUTH.__data: 0x8
+   __DATA.__objc_ivar: 0x88
+   __DATA.__data: 0xc88
+-  __DATA.__bss: 0x1a0
++  __DATA.__bss: 0x240
+   __DATA.__common: 0x20
+   __DATA_DIRTY.__objc_data: 0x230
+   __DATA_DIRTY.__data: 0xb0
+
+   - /usr/lib/libSystem.B.dylib
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+-  Functions: 1012
+-  Symbols:   2754
++  Functions: 1052
++  Symbols:   2816
+   CStrings:  2027
+ 
+Symbols:
++ GCC_except_table201
++ GCC_except_table205
++ GCC_except_table221
++ __ZL36softLinkOncekSecureBackupMetadataKey
++ __ZL37softLinkOncekSecureBackupIsEnabledKey
++ __ZL38softLinkOncekSecureBackupPassphraseKey
++ __ZL39softLinkOncekSecureBackupCountryCodeKey
++ __ZL40softLinkOncekSecureBackupRecordStatusKey
++ __ZL41softLinkOncekSecureBackupSMSTargetInfoKey
++ __ZL43softLinkOncekSecureBackupCountryDialCodeKey
++ __ZL44softLinkOncekSecureBackupRecordStatusInvalid
++ __ZL45softLinkOncekSecureBackupEscrowTrustStatusKey
++ __ZL45softLinkOncekSecureBackupVerificationTokenKey
++ __ZL46softLinkOncekSecureBackupAuthenticationAppleID
++ __ZL47softLinkOncekSecureBackupAuthenticationPassword
++ __ZL48softLinkOncekSecureBackupSMSTargetPhoneNumberKey
++ __ZL48softLinkOncekSecureBackupUsesRandomPassphraseKey
++ __ZL49softLinkOncekSecureBackupAccountIsHighSecurityKey
++ __ZL49softLinkOncekSecureBackupUsesComplexPassphraseKey
++ __ZL49softLinkOncekSecureBackupUsesNumericPassphraseKey
++ __ZL51softLinkOncekSecureBackupNumericPassphraseLengthKey
++ __ZL59softLinkOncekSecureBackupRecoveryVerificationTokenLengthKey
++ __ZL61softLinkOncekSecureBackupRecoveryRequiresVerificationTokenKey
++ ___ZL31initValkSecureBackupMetadataKeyv_block_invoke
++ ___ZL32initValkSecureBackupIsEnabledKeyv_block_invoke
++ ___ZL33initValkSecureBackupPassphraseKeyv_block_invoke
++ ___ZL34initValkSecureBackupCountryCodeKeyv_block_invoke
++ ___ZL35initValkSecureBackupRecordStatusKeyv_block_invoke
++ ___ZL36initValkSecureBackupSMSTargetInfoKeyv_block_invoke
++ ___ZL38initValkSecureBackupCountryDialCodeKeyv_block_invoke
++ ___ZL39initValkSecureBackupRecordStatusInvalidv_block_invoke
++ ___ZL40initValkSecureBackupEscrowTrustStatusKeyv_block_invoke
++ ___ZL40initValkSecureBackupVerificationTokenKeyv_block_invoke
++ ___ZL41initValkSecureBackupAuthenticationAppleIDv_block_invoke
++ ___ZL42initValkSecureBackupAuthenticationPasswordv_block_invoke
++ ___ZL43initValkSecureBackupSMSTargetPhoneNumberKeyv_block_invoke
++ ___ZL43initValkSecureBackupUsesRandomPassphraseKeyv_block_invoke
++ ___ZL44initValkSecureBackupAccountIsHighSecurityKeyv_block_invoke
++ ___ZL44initValkSecureBackupUsesComplexPassphraseKeyv_block_invoke
++ ___ZL44initValkSecureBackupUsesNumericPassphraseKeyv_block_invoke
++ ___ZL46initValkSecureBackupNumericPassphraseLengthKeyv_block_invoke
++ ___ZL54initValkSecureBackupRecoveryVerificationTokenLengthKeyv_block_invoke
++ ___ZL56initValkSecureBackupRecoveryRequiresVerificationTokenKeyv_block_invoke
++ ____ZL31initValkSecureBackupMetadataKeyv_block_invoke
++ ____ZL32initValkSecureBackupIsEnabledKeyv_block_invoke
++ ____ZL33initValkSecureBackupPassphraseKeyv_block_invoke
++ ____ZL34initValkSecureBackupCountryCodeKeyv_block_invoke
++ ____ZL35initValkSecureBackupRecordStatusKeyv_block_invoke
++ ____ZL36initValkSecureBackupSMSTargetInfoKeyv_block_invoke
++ ____ZL38initValkSecureBackupCountryDialCodeKeyv_block_invoke
++ ____ZL39initValkSecureBackupRecordStatusInvalidv_block_invoke
++ ____ZL40initValkSecureBackupEscrowTrustStatusKeyv_block_invoke
++ ____ZL40initValkSecureBackupVerificationTokenKeyv_block_invoke
++ ____ZL41initValkSecureBackupAuthenticationAppleIDv_block_invoke
++ ____ZL42initValkSecureBackupAuthenticationPasswordv_block_invoke
++ ____ZL43initValkSecureBackupSMSTargetPhoneNumberKeyv_block_invoke
++ ____ZL43initValkSecureBackupUsesRandomPassphraseKeyv_block_invoke
++ ____ZL44initValkSecureBackupAccountIsHighSecurityKeyv_block_invoke
++ ____ZL44initValkSecureBackupUsesComplexPassphraseKeyv_block_invoke
++ ____ZL44initValkSecureBackupUsesNumericPassphraseKeyv_block_invoke
++ ____ZL46initValkSecureBackupNumericPassphraseLengthKeyv_block_invoke
++ ____ZL54initValkSecureBackupRecoveryVerificationTokenLengthKeyv_block_invoke
++ ____ZL56initValkSecureBackupRecoveryRequiresVerificationTokenKeyv_block_invoke
+- GCC_except_table183
+```

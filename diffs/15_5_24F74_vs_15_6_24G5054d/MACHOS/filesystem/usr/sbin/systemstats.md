@@ -1,0 +1,16 @@
+## systemstats
+
+> `/usr/sbin/systemstats`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+
+```diff
+
+-498.120.2.0.0
++498.140.3.0.0
+   __TEXT.__text: 0xbed08
+   __TEXT.__auth_stubs: 0x16e0
+   __TEXT.__objc_stubs: 0xc440
+```

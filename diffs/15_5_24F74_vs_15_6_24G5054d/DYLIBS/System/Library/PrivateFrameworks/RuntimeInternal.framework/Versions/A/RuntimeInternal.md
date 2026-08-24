@@ -1,0 +1,79 @@
+## RuntimeInternal
+
+> `/System/Library/PrivateFrameworks/RuntimeInternal.framework/Versions/A/RuntimeInternal`
+
+```diff
+
+-103.2.0.0.0
+-  __TEXT.__text: 0xc940
++103.5.0.0.0
++  __TEXT.__text: 0xc4bc
+   __TEXT.__auth_stubs: 0x4a0
+   __TEXT.__const: 0x2f70
+   __TEXT.__cstring: 0x232
+
+   __TEXT.__swift5_proto: 0x28c
+   __TEXT.__swift5_types: 0x168
+   __TEXT.__swift5_protos: 0x10
+-  __TEXT.__unwind_info: 0x660
++  __TEXT.__unwind_info: 0x658
+   __TEXT.__eh_frame: 0x100
+   __DATA_CONST.__got: 0x128
+   __DATA_CONST.__const: 0x68
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 1302
+-  Symbols:   3633
++  Functions: 1257
++  Symbols:   3588
+   CStrings:  18
+ 
+Symbols:
+- _$s15RuntimeInternal17ValueWitnessTableV026initializeBufferWithCopyOfG0yS2v_SVtFTm
+- _$s15RuntimeInternal7PtrAuthO11authObjcISAyAA8MetadataVSVFZ
+- _$s15RuntimeInternal7PtrAuthO12signArgument_2asS2V_s6UInt64VtFZ
+- _$s15RuntimeInternal7PtrAuthO14authDescriptoryxSVAA12PublicLayoutRzlFZ
+- _$s15RuntimeInternal7PtrAuthO14authSuperclassyAA8MetadataVSgSVFZ
+- _$s15RuntimeInternal7PtrAuthO15relativeContextyxSVAA12PublicLayoutRzlFZ
+- _$s15RuntimeInternal7PtrAuthO15relativeContextyxSVAA12PublicLayoutRzlFZAA0F10DescriptorV_Tt1gq5
+- _$s15RuntimeInternal7PtrAuthO15relativeContextyxSVAA12PublicLayoutRzlFZAA18ProtocolDescriptorV_Tt1gq5Tm
+- _$s15RuntimeInternal7PtrAuthO19relativeConformanceyAA0F10DescriptorVSVFZ
+- _$s15RuntimeInternal7PtrAuthO22relativeContextIntPair_2asxSV_q_mtAA12PublicLayoutRzs17FixedWidthIntegerR_r0_lFZ
+- _$s15RuntimeInternal7PtrAuthO22signDescriptorArgumentyAA04TypeF0VAFFZ
+- _$s15RuntimeInternal7PtrAuthO25authConformanceDescriptoryAA0fG0VSVFZ
+- _$s15RuntimeInternal7PtrAuthO37authNonUniqueExtendedExistentialShapeyAA0hiJ0VSVFZ
+- _$s15RuntimeInternal7PtrAuthO4auth_2asSVSgSV_s6UInt64VtFZ
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestVF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_A2CtF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_A3CtF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_ACtF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SRySVSgGtF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SVSgA2ItF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SVSgAItF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SVSgtF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SayACGtF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SaySVSgGtF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_SayypXpGtF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_ypXptF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_ypXpypXptF
+- _$s15RuntimeInternal8MetadataV14AccessFunctionV06callAsE0yA2C7RequestV_ypXpypXpypXptF
+- _$sSV15RuntimeInternalE035signedVWTInitializeBufferWithCopyOfE0yS2v_S2VtXCvg
+- _$sSV15RuntimeInternalE13signedVWTFuncySVs6UInt64V_Bi64_tF
+- _$sSV15RuntimeInternalE15signedAccessFn0yAA8MetadataV8ResponseVAD7RequestVXfvg
+- _$sSV15RuntimeInternalE15signedAccessFn1yAA8MetadataV8ResponseVAD7RequestV_SVSgtXfvg
+- _$sSV15RuntimeInternalE15signedAccessFn2yAA8MetadataV8ResponseVAD7RequestV_SVSgAItXfvg
+- _$sSV15RuntimeInternalE15signedAccessFn3yAA8MetadataV8ResponseVAD7RequestV_SVSgA2ItXfvg
+- _$sSV15RuntimeInternalE16signedVWTDestroyyySv_SVtXCvg
+- _$sSV15RuntimeInternalE18signedAccessFnManyyAA8MetadataV8ResponseVAD7RequestV_SPySVSgGtXfvg
+- _$sSV15RuntimeInternalE19signedVWTGetEnumTagys6UInt32VSV_SVtXCvg
+- _$sSV15RuntimeInternalE23signedVWTAssignWithCopyyS2v_S2VtXCvg
+- _$sSV15RuntimeInternalE23signedVWTAssignWithTakeyS2v_SvSVtXCvg
+- _$sSV15RuntimeInternalE27signedVWTInitializeWithCopyyS2v_S2VtXCvg
+- _$sSV15RuntimeInternalE27signedVWTInitializeWithTakeyS2v_SvSVtXCvg
+- _$sSV15RuntimeInternalE32signedVWTGetEnumTagSinglePayloadys6UInt32VSV_ADSVtXCvg
+- _$sSV15RuntimeInternalE33signedVWTDestructiveInjectEnumTagyySv_s6UInt32VSVtXCvg
+- _$sSV15RuntimeInternalE34signedVWTStoreEnumTagSinglePayloadyySv_s6UInt32VADSVtXCvg
+- _$sSV15RuntimeInternalE35signedVWTDestructiveProjectEnumDatayySv_SVtXCvg
+```

@@ -1,0 +1,99 @@
+## libIPTelephony.dylib
+
+> `/System/Library/PrivateFrameworks/IPTelephony.framework/Support/libIPTelephony.dylib`
+
+```diff
+
+-2380.0.0.0.0
+-  __TEXT.__text: 0x434c94
++2382.0.0.0.0
++  __TEXT.__text: 0x4355dc
+   __TEXT.__auth_stubs: 0x20c0
+   __TEXT.__init_offsets: 0x10c
+   __TEXT.__objc_methlist: 0x6a8
+-  __TEXT.__const: 0x1771a
+-  __TEXT.__cstring: 0x370d8
+-  __TEXT.__gcc_except_tab: 0x41ef8
++  __TEXT.__const: 0x178ea
++  __TEXT.__cstring: 0x37136
++  __TEXT.__gcc_except_tab: 0x41f58
+   __TEXT.__oslogstring: 0xa4
+-  __TEXT.__unwind_info: 0x15c30
++  __TEXT.__unwind_info: 0x15c78
+   __TEXT.__objc_classname: 0x110
+   __TEXT.__objc_methname: 0x1897
+   __TEXT.__objc_methtype: 0x10c7
+
+   __DATA_CONST.__objc_selrefs: 0x830
+   __DATA_CONST.__objc_superrefs: 0x30
+   __AUTH_CONST.__auth_got: 0x1070
+-  __AUTH_CONST.__const: 0x31900
++  __AUTH_CONST.__const: 0x31a10
+   __AUTH_CONST.__cfstring: 0x23e0
+   __AUTH_CONST.__objc_const: 0xb08
+   __AUTH.__objc_data: 0x1e0
+
+   - /usr/lib/libc++.1.dylib
+   - /usr/lib/libobjc.A.dylib
+   - /usr/lib/libxml2.2.dylib
+-  Functions: 14040
+-  Symbols:   22161
+-  CStrings:  8326
++  Functions: 14060
++  Symbols:   22193
++  CStrings:  8329
+ 
+Symbols:
++ __ZN15SipTcpTransport27updateCrlfKeepAliveIntervalEj
++ __ZN16SipTcpConnection11checkTimersEv
++ __ZN16SipTcpConnection27updateCrlfKeepAliveIntervalEj
++ __ZN20SipTlsTransportGroup27updateCrlfKeepAliveIntervalEj
++ __ZN22SipIPSecTransportGroup27updateCrlfKeepAliveIntervalEj
++ __ZN25SipInsecureTransportGroup27updateCrlfKeepAliveIntervalEj
++ __ZNKSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_0NS_9allocatorIS3_EEFvRKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_0NS_9allocatorIS3_EEFvRKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_0NS_9allocatorIS3_EEFvRKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEE7__cloneEPNS0_6__baseISD_EE
++ __ZNKSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_0NS_9allocatorIS3_EEFvRKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEE7__cloneEv
++ __ZNKSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_1NS_9allocatorIS3_EEFvRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEE11target_typeEv
++ __ZNKSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_1NS_9allocatorIS3_EEFvRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEE6targetERKSt9type_info
++ __ZNKSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_1NS_9allocatorIS3_EEFvRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEE7__cloneEPNS0_6__baseISC_EE
++ __ZNKSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_1NS_9allocatorIS3_EEFvRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEE7__cloneEv
++ __ZNSt3__110__function12__value_funcIFvRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEED2B8ne190102Ev
++ __ZNSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_0NS_9allocatorIS3_EEFvRKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_0NS_9allocatorIS3_EEFvRKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_0NS_9allocatorIS3_EEFvRKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEED0Ev
++ __ZNSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_0NS_9allocatorIS3_EEFvRKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEED1Ev
++ __ZNSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_0NS_9allocatorIS3_EEFvRKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEEclESC_
++ __ZNSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_1NS_9allocatorIS3_EEFvRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEE18destroy_deallocateEv
++ __ZNSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_1NS_9allocatorIS3_EEFvRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEE7destroyEv
++ __ZNSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_1NS_9allocatorIS3_EEFvRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEED0Ev
++ __ZNSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_1NS_9allocatorIS3_EEFvRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEED1Ev
++ __ZNSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_1NS_9allocatorIS3_EEFvRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEEclESB_
++ __ZTINSt3__110__function6__baseIFvRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEE
++ __ZTINSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_0NS_9allocatorIS3_EEFvRKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEEE
++ __ZTINSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_1NS_9allocatorIS3_EEFvRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEEE
++ __ZTIZN16SipTcpConnection11checkTimersEvE3$_0
++ __ZTIZN16SipTcpConnection11checkTimersEvE3$_1
++ __ZTSNSt3__110__function6__baseIFvRKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEE
++ __ZTSNSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_0NS_9allocatorIS3_EEFvRKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEEE
++ __ZTSNSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_1NS_9allocatorIS3_EEFvRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEEE
++ __ZTSZN16SipTcpConnection11checkTimersEvE3$_0
++ __ZTSZN16SipTcpConnection11checkTimersEvE3$_1
++ __ZTVNSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_0NS_9allocatorIS3_EEFvRKNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEEE
++ __ZTVNSt3__110__function6__funcIZN16SipTcpConnection11checkTimersEvE3$_1NS_9allocatorIS3_EEFvRNS_12basic_stringIcNS_11char_traitsIcEENS4_IcEEEEEEE
+- __ZN15SipTcpTransport27updateCrlfKeepAliveIntervalEjj
+- __ZN16SipTcpConnection27updateCrlfKeepAliveIntervalEjj
+- __ZN20SipTlsTransportGroup27updateCrlfKeepAliveIntervalEjj
+- __ZN22SipIPSecTransportGroup27updateCrlfKeepAliveIntervalEjj
+- __ZN25SipInsecureTransportGroup27updateCrlfKeepAliveIntervalEjj
+CStrings:
++ "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.6.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
++ "CRLF-KeepAlive interval already at "
++ "Keepalive ping is due at "
++ "Keepalive ping is past due at "
++ "Past due timer detected for "
++ "Updating CRLF-KeepAlive interval to "
+- "/AppleInternal/Library/BuildRoots/<BUILDROOT>/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.Internal.sdk/usr/local/include/google/protobuf/repeated_field.h"
+- "CRLF-KeepAlive interval already at ["
+- "Updating CRLF-KeepAlive interval to ["
+```

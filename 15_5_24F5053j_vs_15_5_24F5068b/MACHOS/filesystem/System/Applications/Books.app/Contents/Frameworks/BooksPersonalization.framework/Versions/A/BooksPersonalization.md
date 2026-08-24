@@ -1,0 +1,22 @@
+## BooksPersonalization
+
+> `/System/Applications/Books.app/Contents/Frameworks/BooksPersonalization.framework/Versions/A/BooksPersonalization`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__constg_swiftt`
+- `__TEXT.__swift5_typeref`
+- `__DATA_CONST.__const`
+
+```diff
+
+   __TEXT.__eh_frame: 0xf52c
+   __DATA_CONST.__auth_got: 0x12d0
+   __DATA_CONST.__got: 0x5b0
+-  __DATA_CONST.__auth_ptr: 0xfe8
++  __DATA_CONST.__auth_ptr: 0xfd8
+   __DATA_CONST.__const: 0x13030
+   __DATA_CONST.__objc_classlist: 0x228
+   __DATA_CONST.__objc_imageinfo: 0x8
+```

@@ -1,0 +1,167 @@
+{
+  "catalog_commit": "7c796028220ff850bf08d253b6b9084f6ff60a96",
+  "discovery": {
+    "anchor": {
+      "appledb_path": "osFiles/macOS/24x - 15.x/24F5042g.json",
+      "beta": true,
+      "build": "24F5042g",
+      "rc": false,
+      "released": "2025-04-02T00:00:00Z",
+      "source": {
+        "input": "UniversalMac_15.5_24F5042g_Restore.ipsw",
+        "sha256": "c503ce60592bff930f9d2945bc008f81eef107704cbd55d00dfd66984c8798f9",
+        "size": 16875810487,
+        "url": "https://updates.cdn-apple.com/2025SpringSeed/fullrestores/072-94893/B85463BB-3ED6-4A5A-BE78-92AD86B531D7/UniversalMac_15.5_24F5042g_Restore.ipsw"
+      },
+      "version": "15.5 beta"
+    },
+    "appledb": {
+      "commit": "6eb860df35cea11f8135864a23e59a58f349481a",
+      "repository": "https://github.com/littlebyteorg/appledb"
+    },
+    "appledb_platform": "macOS",
+    "device": "Mac16,1",
+    "edges": [
+      {
+        "from": {
+          "appledb_path": "osFiles/macOS/24x - 15.x/24G5065c.json",
+          "beta": true,
+          "build": "24G5065c",
+          "rc": false,
+          "released": "2025-06-30T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_15.6_24G5065c_Restore.ipsw",
+            "sha256": "eab55b81eb42faefe8fe433d9d09e3e89ae8709b1da97e2b953fba51c14dfbb3",
+            "size": 16877786738,
+            "url": "https://updates.cdn-apple.com/2025SpringSeed/fullrestores/082-62583/9DB8F3CA-FCE0-45B5-8C17-6A4BF5E5A706/UniversalMac_15.6_24G5065c_Restore.ipsw"
+          },
+          "version": "15.6 beta 2"
+        },
+        "to": {
+          "appledb_path": "osFiles/macOS/24x - 15.x/24G5074c.json",
+          "beta": true,
+          "build": "24G5074c",
+          "rc": false,
+          "released": "2025-07-14T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_15.6_24G5074c_Restore.ipsw",
+            "sha256": "efdee25e8b11963eeba2fa2f211dc19e5e79a3c57d9febf2ef4a9c70a75ad9ce",
+            "size": 16877900839,
+            "url": "https://updates.cdn-apple.com/2025SpringSeed/fullrestores/082-70173/CA418AAE-B538-4B79-AA99-303369C6A512/UniversalMac_15.6_24G5074c_Restore.ipsw"
+          },
+          "version": "15.6 beta 3"
+        }
+      },
+      {
+        "from": {
+          "appledb_path": "osFiles/macOS/24x - 15.x/24G5074c.json",
+          "beta": true,
+          "build": "24G5074c",
+          "rc": false,
+          "released": "2025-07-14T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_15.6_24G5074c_Restore.ipsw",
+            "sha256": "efdee25e8b11963eeba2fa2f211dc19e5e79a3c57d9febf2ef4a9c70a75ad9ce",
+            "size": 16877900839,
+            "url": "https://updates.cdn-apple.com/2025SpringSeed/fullrestores/082-70173/CA418AAE-B538-4B79-AA99-303369C6A512/UniversalMac_15.6_24G5074c_Restore.ipsw"
+          },
+          "version": "15.6 beta 3"
+        },
+        "to": {
+          "appledb_path": "osFiles/macOS/24x - 15.x/24G84.json",
+          "beta": false,
+          "build": "24G84",
+          "rc": false,
+          "released": "2025-07-29T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_15.6_24G84_Restore.ipsw",
+            "sha256": "8fbeaca047b66bcbc8ea557f2b3f95bcb84cd0f60cbfdadb52fc23ecfe671317",
+            "size": 16814076831,
+            "url": "https://updates.cdn-apple.com/2025SummerFCS/fullrestores/082-08674/51294E4D-A273-44BE-A280-A69FC347FB87/UniversalMac_15.6_24G84_Restore.ipsw"
+          },
+          "version": "15.6"
+        }
+      },
+      {
+        "from": {
+          "appledb_path": "osFiles/macOS/24x - 15.x/24G84.json",
+          "beta": false,
+          "build": "24G84",
+          "rc": false,
+          "released": "2025-07-29T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_15.6_24G84_Restore.ipsw",
+            "sha256": "8fbeaca047b66bcbc8ea557f2b3f95bcb84cd0f60cbfdadb52fc23ecfe671317",
+            "size": 16814076831,
+            "url": "https://updates.cdn-apple.com/2025SummerFCS/fullrestores/082-08674/51294E4D-A273-44BE-A280-A69FC347FB87/UniversalMac_15.6_24G84_Restore.ipsw"
+          },
+          "version": "15.6"
+        },
+        "to": {
+          "appledb_path": "osFiles/macOS/24x - 15.x/24G90.json",
+          "beta": false,
+          "build": "24G90",
+          "rc": false,
+          "released": "2025-08-20T00:00:00Z",
+          "source": {
+            "input": "UniversalMac_15.6.1_24G90_Restore.ipsw",
+            "sha256": "3d87686b691ac765eb6a6b3082b2334e2af9710096a00432dd519af89ff2ea78",
+            "size": 16814137790,
+            "url": "https://updates.cdn-apple.com/2025SummerFCS/fullrestores/093-10809/CFD6DD38-DAF0-40DA-854F-31AAD1294C6F/UniversalMac_15.6.1_24G90_Restore.ipsw"
+          },
+          "version": "15.6.1"
+        }
+      }
+    ],
+    "latest": {
+      "appledb_path": "osFiles/macOS/24x - 15.x/24G90.json",
+      "beta": false,
+      "build": "24G90",
+      "rc": false,
+      "released": "2025-08-20T00:00:00Z",
+      "source": {
+        "input": "UniversalMac_15.6.1_24G90_Restore.ipsw",
+        "sha256": "3d87686b691ac765eb6a6b3082b2334e2af9710096a00432dd519af89ff2ea78",
+        "size": 16814137790,
+        "url": "https://updates.cdn-apple.com/2025SummerFCS/fullrestores/093-10809/CFD6DD38-DAF0-40DA-854F-31AAD1294C6F/UniversalMac_15.6.1_24G90_Restore.ipsw"
+      },
+      "version": "15.6.1"
+    },
+    "major_version": 15,
+    "platform": "macOS",
+    "schema_version": 2,
+    "source_inventory": {
+      "observed": 32,
+      "selected": 5
+    },
+    "status": "candidate",
+    "track_id": "macos-15"
+  },
+  "generator": {
+    "name": "ipsw",
+    "version": "Version: 3.1.708, BuildCommit: 84f5d9aef45149840bdd00b7b8e661088c1d6881"
+  },
+  "inputs": [
+    {
+      "role": "previous",
+      "sha256": "eab55b81eb42faefe8fe433d9d09e3e89ae8709b1da97e2b953fba51c14dfbb3",
+      "size": 16877786738,
+      "url": "https://updates.cdn-apple.com/2025SpringSeed/fullrestores/082-62583/9DB8F3CA-FCE0-45B5-8C17-6A4BF5E5A706/UniversalMac_15.6_24G5065c_Restore.ipsw"
+    },
+    {
+      "role": "next",
+      "sha256": "efdee25e8b11963eeba2fa2f211dc19e5e79a3c57d9febf2ef4a9c70a75ad9ce",
+      "size": 16877900839,
+      "url": "https://updates.cdn-apple.com/2025SpringSeed/fullrestores/082-70173/CA418AAE-B538-4B79-AA99-303369C6A512/UniversalMac_15.6_24G5074c_Restore.ipsw"
+    }
+  ],
+  "schema_version": 1,
+  "signatures": {
+    "commit": "81178cfe6c8869612ef092f6471fce3e17d95b20",
+    "repository": "https://github.com/blacktop/symbolicator"
+  },
+  "source_commit": "198b01f67a670c73fb32b43a0f6df2fdf30ae270",
+  "source_tag": "payload/15_6_24G5065c_vs_15_6_24G5074c",
+  "workflow_commit": "2894af0ad7041d3d23549307debe02ea5eefeef8",
+  "workflow_run": "https://github.com/ipsw-diff/macos-15/actions/runs/32798996866"
+}

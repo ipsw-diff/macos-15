@@ -1,0 +1,55 @@
+## com.apple.driver.AppleMobileFileIntegrity
+
+> `com.apple.driver.AppleMobileFileIntegrity`
+
+```diff
+
+-938.140.13.0.0
+-  __TEXT.__cstring: 0x1aba2
++938.140.16.0.0
++  __TEXT.__cstring: 0x1ac25
+   __TEXT.__const: 0x1b90
+   __TEXT.__os_log: 0x47a
+-  __TEXT_EXEC.__text: 0x335ec
++  __TEXT_EXEC.__text: 0x33684
+   __TEXT_EXEC.__auth_stubs: 0x0
+   __DATA.__data: 0x83a
+   __DATA.__common: 0xb0
+
+   __DATA_CONST.__assert: 0xdc
+   Functions: 971
+   Symbols:   2001
+-  CStrings:  3266
++  CStrings:  3269
+ 
+Symbols:
++ _ZN22LaunchConstraintPolicy15handleViolationER23LaunchConstraintError_tPPcPm
++ __ZN22LaunchConstraintPolicy15handleViolationER23LaunchConstraintError_tPPcPm
++ __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5164
++ __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5187
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2932
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3166
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2932
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3166
+- _ZN22LaunchConstraintPolicy13handleFailureER23LaunchConstraintError_tPPcPm
+- __ZN22LaunchConstraintPolicy13handleFailureER23LaunchConstraintError_tPPcPm
+- __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5156
+- __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5179
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2924
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3158
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2924
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3158
+Functions:
+~ __ZN22LaunchConstraintPolicy5applyEPvmPPcPm : 1344 -> 1396
+~ __Z19lwcrHasARequirementRN3TLE4LWCRE -> __ZN22LaunchConstraintPolicy15handleViolationER23LaunchConstraintError_tPPcPm : 88 -> 596
+~ __ZN22LaunchConstraintPolicy13handleFailureER23LaunchConstraintError_tPPcPm -> __Z19lwcrHasARequirementRN3TLE4LWCRE : 596 -> 88
+~ __ZL14postValidationP8LazyPathP7cs_blobjP12OSDictionaryhbjPKcPPcPm : 4624 -> 4724
+CStrings:
++ "%s: %s disallowed with com.apple.private.xpc.role-account"
++ "22:06:46"
++ "Jun 17 2025"
++ "com.apple.dt.Xcode.TCPRelayXPCService"
++ "com.apple.private.xpc.role-account"
+- "21:12:53"
+- "Jun 11 2025"
+```

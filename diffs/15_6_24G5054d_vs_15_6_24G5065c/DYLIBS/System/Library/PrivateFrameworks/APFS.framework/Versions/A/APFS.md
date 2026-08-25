@@ -1,0 +1,20 @@
+## APFS
+
+> `/System/Library/PrivateFrameworks/APFS.framework/Versions/A/APFS`
+
+```diff
+
+-2332.140.8.0.1
++2332.140.11.0.0
+   __TEXT.__text: 0x571f8
+   __TEXT.__auth_stubs: 0xcf0
+   __TEXT.__const: 0x84b0
+-  __TEXT.__cstring: 0xef0e
++  __TEXT.__cstring: 0xef0b
+   __TEXT.__oslogstring: 0x1087
+   __TEXT.__gcc_except_tab: 0x18
+   __TEXT.__unwind_info: 0xa20
+CStrings:
++ "2332.140.11"
+- "2332.140.8.0.1"
+```

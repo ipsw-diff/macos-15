@@ -1,0 +1,26 @@
+## USDRendererExtension
+
+> `/System/Applications/Freeform.app/Contents/Extensions/USDRendererExtension.appex/Contents/MacOS/USDRendererExtension`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.__swift5_typeref`
+- `__TEXT.__constg_swiftt`
+- `__DATA_CONST.__const`
+- `__DATA_CONST.__objc_arraydata`
+- `__DATA_CONST.__objc_dictobj`
+- `__DATA_CONST.__objc_arrayobj`
+- `__DATA.__data`
+
+```diff
+
+   __TEXT.__eh_frame: 0x3130
+   __DATA_CONST.__auth_got: 0xf10
+   __DATA_CONST.__got: 0x4b8
+-  __DATA_CONST.__auth_ptr: 0x5c0
++  __DATA_CONST.__auth_ptr: 0x5a8
+   __DATA_CONST.__const: 0x36f0
+   __DATA_CONST.__cfstring: 0x10c0
+   __DATA_CONST.__objc_classlist: 0xe0
+```

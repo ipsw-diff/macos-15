@@ -1,0 +1,49 @@
+## com.apple.driver.AppleMobileFileIntegrity
+
+> `com.apple.driver.AppleMobileFileIntegrity`
+
+```diff
+
+-938.140.17.0.0
+-  __TEXT.__cstring: 0x1ac3e
++938.140.20.0.1
++  __TEXT.__cstring: 0x1ac99
+   __TEXT.__const: 0x1b90
+   __TEXT.__os_log: 0x47a
+   __TEXT_EXEC.__text: 0x33684
+
+   __DATA_CONST.__auth_ptr: 0x28
+   __DATA_CONST.__mod_init_func: 0x20
+   __DATA_CONST.__mod_term_func: 0x18
+-  __DATA_CONST.__const: 0xbbd0
++  __DATA_CONST.__const: 0xbc00
+   __DATA_CONST.__kalloc_type: 0x1240
+   __DATA_CONST.__kalloc_var: 0x1270
+   __DATA_CONST.__assert: 0xdc
+   Functions: 971
+   Symbols:   2001
+-  CStrings:  3270
++  CStrings:  3273
+ 
+Symbols:
++ __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5168
++ __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5191
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2936
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3170
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2936
++ __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3170
+- __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5165
+- __ZZL27_process_matches_constraintP4procyE21kalloc_type_view_5188
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2933
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELb1ELb0ELb1ELb0ELb0ELb1ELb0ELj2ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3167
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_2933
+- __ZZN20StaticPlatformPolicyILb1ELb1ELb1ELb1ELb1ELb1ELb1ELb0ELb1ELb0ELb1ELb0ELb1ELb1ELb0ELb0ELj1ELb1ELb0EE15check_signatureEP13VnodeLazyPathiP7cs_blobPjS5_ibbbjPPcPmE21kalloc_type_view_3167
+CStrings:
++ "23:35:15"
++ "Jul 14 2025"
++ "com.apple.NetAuthAgent"
++ "com.apple.NetAuthSysAgent"
++ "com.apple.spotlight.CSExattrCryptoService"
+- "22:57:07"
+- "Jul  2 2025"
+```

@@ -1,0 +1,97 @@
+## DiskImages2
+
+> `/System/Library/PrivateFrameworks/DiskImages2.framework/Versions/A/DiskImages2`
+
+```diff
+
+-385.140.3.0.0
+-  __TEXT.__text: 0x18ccb8
++385.140.4.0.0
++  __TEXT.__text: 0x18cd78
+   __TEXT.__auth_stubs: 0x1f90
+   __TEXT.__objc_methlist: 0x3034
+-  __TEXT.__const: 0xe3d4
++  __TEXT.__const: 0xe3c4
+   __TEXT.__gcc_except_tab: 0x1534c
+   __TEXT.__cstring: 0x10138
+   __TEXT.__oslogstring: 0x1ae8
+
+   __TEXT.__swift5_typeref: 0x4f
+   __TEXT.__swift5_fieldmd: 0x10
+   __TEXT.__swift5_types: 0x4
+-  __TEXT.__unwind_info: 0xaf10
++  __TEXT.__unwind_info: 0xaf18
+   __TEXT.__eh_frame: 0x158
+   __TEXT.__objc_classname: 0x5a6
+   __TEXT.__objc_methname: 0x63ce
+
+   - /usr/lib/swift/libswiftos.dylib
+   - /usr/lib/swift/libswiftsys_time.dylib
+   - /usr/lib/swift/libswiftunistd.dylib
+-  Functions: 9075
+-  Symbols:   15460
++  Functions: 9076
++  Symbols:   15461
+   CStrings:  3358
+ 
+Symbols:
++ __ZL16offset_is_mappedRKNSt3__120__map_const_iteratorINS_21__tree_const_iteratorINS_12__value_typeIN5boost3icl17discrete_intervalIyNS_4lessEEEN4udif7details8run_infoEEEPNS_11__tree_nodeISB_PvEElEEEESJ_y
++ __ZN13DiskImageUDIF31udif_extents_iterator_interface9_make_valEv
++ __ZN18DiskImageStackable36stackable_extents_iterator_interface9_make_valEv
++ __ZN38transformed_extents_iterator_interface9_make_valEv
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEE4syncEv
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEE5_syncEv
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEE6xsputnEPKcl
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEE8overflowEi
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEEC2ERKS2_
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEED0Ev
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEED1Ev
++ __ZN6di_log10logger_bufINS_11log_printerILm339EEEED2Ev
++ __ZN6di_log6loggerINS_11log_printerILm339EEEEC1ERKS2_
++ __ZN6di_log6loggerINS_11log_printerILm339EEEED0Ev
++ __ZN6di_log6loggerINS_11log_printerILm339EEEED1Ev
++ __ZN7di_asif7details31asif_extents_iterator_interface9_make_valEv
++ __ZN9DiskImage34default_extents_iterator_interface9_make_valEv
++ __ZNK6di_log11log_printerILm339EE3logERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
++ __ZTCN6di_log6loggerINS_11log_printerILm339EEEEE360_NSt3__113basic_ostreamIcNS3_11char_traitsIcEEEE
++ __ZTIN6di_log10logger_bufINS_11log_printerILm339EEEEE
++ __ZTIN6di_log6loggerINS_11log_printerILm339EEEEE
++ __ZTSN6di_log10logger_bufINS_11log_printerILm339EEEEE
++ __ZTSN6di_log6loggerINS_11log_printerILm339EEEEE
++ __ZTTN6di_log6loggerINS_11log_printerILm339EEEEE
++ __ZTVN6di_log10logger_bufINS_11log_printerILm339EEEEE
++ __ZTVN6di_log6loggerINS_11log_printerILm339EEEEE
++ __ZThn360_N6di_log6loggerINS_11log_printerILm339EEEED0Ev
++ __ZThn360_N6di_log6loggerINS_11log_printerILm339EEEED1Ev
++ __ZTv0_n24_N6di_log6loggerINS_11log_printerILm339EEEED0Ev
++ __ZTv0_n24_N6di_log6loggerINS_11log_printerILm339EEEED1Ev
+- __ZN13DiskImageUDIF31udif_extents_iterator_interface8make_valEv
+- __ZN18DiskImageStackable36stackable_extents_iterator_interface8make_valEv
+- __ZN38transformed_extents_iterator_interface8make_valEv
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEE4syncEv
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEE5_syncEv
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEE6xsputnEPKcl
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEE8overflowEi
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEEC2ERKS2_
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEED0Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEED1Ev
+- __ZN6di_log10logger_bufINS_11log_printerILm337EEEED2Ev
+- __ZN6di_log6loggerINS_11log_printerILm337EEEEC1ERKS2_
+- __ZN6di_log6loggerINS_11log_printerILm337EEEED0Ev
+- __ZN6di_log6loggerINS_11log_printerILm337EEEED1Ev
+- __ZN7di_asif7details31asif_extents_iterator_interface8make_valEv
+- __ZN9DiskImage34default_extents_iterator_interface8make_valEv
+- __ZNK6di_log11log_printerILm337EE3logERKNSt3__112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEE
+- __ZTCN6di_log6loggerINS_11log_printerILm337EEEEE360_NSt3__113basic_ostreamIcNS3_11char_traitsIcEEEE
+- __ZTIN6di_log10logger_bufINS_11log_printerILm337EEEEE
+- __ZTIN6di_log6loggerINS_11log_printerILm337EEEEE
+- __ZTSN6di_log10logger_bufINS_11log_printerILm337EEEEE
+- __ZTSN6di_log6loggerINS_11log_printerILm337EEEEE
+- __ZTTN6di_log6loggerINS_11log_printerILm337EEEEE
+- __ZTVN6di_log10logger_bufINS_11log_printerILm337EEEEE
+- __ZTVN6di_log6loggerINS_11log_printerILm337EEEEE
+- __ZThn360_N6di_log6loggerINS_11log_printerILm337EEEED0Ev
+- __ZThn360_N6di_log6loggerINS_11log_printerILm337EEEED1Ev
+- __ZTv0_n24_N6di_log6loggerINS_11log_printerILm337EEEED0Ev
+- __ZTv0_n24_N6di_log6loggerINS_11log_printerILm337EEEED1Ev
+```

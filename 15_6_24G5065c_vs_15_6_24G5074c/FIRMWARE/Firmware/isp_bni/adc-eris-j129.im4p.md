@@ -1,0 +1,38 @@
+## adc-eris-j129.im4p
+
+> `Firmware/isp_bni/adc-eris-j129.im4p`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__const`
+- `__TEXT.text_env`
+- `__TEXT._rtk_mtab`
+- `__TEXT.__data_copy`
+- `__DATA.__const`
+- `__DATA.__data`
+- `__DATA.__mod_init_func`
+
+```diff
+
+-  __TEXT.__text: 0x7b7fe8
++  __TEXT.__text: 0x7b8070
+   __TEXT.__const: 0x1f0644
+   __TEXT.text_env: 0x5dba8
+   __TEXT._rtk_mtab: 0x2b8
+-  __TEXT.__cstring: 0xf0ba8
++  __TEXT.__cstring: 0xf0c2c
+   __TEXT.__data_copy: 0x190000
+   __TEXT.__constructor: 0x0
+   __TEXT.__chain_starts: 0x0
+
+   __DATA.__zerofill: 0x337f20
+   Functions: 0
+   Symbols:   0
+-  CStrings:  26677
++  CStrings:  26678
+ 
+CStrings:
++ "(clockCtrl.scratchRegisterAddr >= PMS_PTD_UPDATE_SPACE_START_ADDR && clockCtrl.scratchRegisterAddr < PMS_PTD_UPDATE_SPACE_END_ADDR)"
++ "18:57:56"
+- "22:41:15"
+```

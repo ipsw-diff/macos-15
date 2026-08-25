@@ -1,0 +1,19 @@
+## AMPDeviceDiscoveryAgent
+
+> `/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDeviceDiscoveryAgent`
+
+### Sections with Same Size but Changed Content
+
+- `__TEXT.__cstring`
+
+```diff
+
+-1.5.6.10.0
++1.5.6.11.0
+   __TEXT.__text: 0x594e4
+   __TEXT.__auth_stubs: 0x1d70
+   __TEXT.__objc_stubs: 0x2a40
+CStrings:
++ "13.5.6.11"
+- "13.5.6.10"
+```
